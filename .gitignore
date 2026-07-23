@@ -1,0 +1,23 @@
+# Never commit or share these — they contain your API keys and client data
+config/.env
+clients/*/credentials.env
+clients/*
+!clients/_template/
+!clients/_template/**
+
+# Belt-and-suspenders: ignore ANY real env file anywhere in the tree,
+# but always keep the .example templates that ship with the system.
+*.env
+!*.env.example
+
+# Personal data — the person running this generates their own; never ship it.
+# (agency-profile.md is created by onboarding; self-campaign/ is your own book.)
+agency-profile.md
+self-campaign/
+
+# Build artifacts
+.claude.zip
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
