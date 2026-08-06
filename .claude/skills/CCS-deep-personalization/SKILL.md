@@ -64,12 +64,20 @@ On a recent 744-lead list this was 476 / 214. The 214 collapsed to **86 unique d
 
 ### 3. Scrape only what you must
 
-Default to plain `fetch()` — free and fast. Strip scripts, styles, nav, footer. Keep the meta description, `og:description`, title, and first ~2,000 chars of body.
+**Read `references/crawling.md` before any run over ~100 domains.** It has the working
+configuration, the reliability requirements, and the Windows gotchas.
 
-**Use context.dev via the `monid` skill when:**
-- The plain fetch fails (JS-rendered, bot-walled) — typically 10-15% of domains
-- The list is large enough that a 15% miss rate is real money in lost leads
-- Cost is ~$0.0009/page; 1,000 domains ≈ $0.90
+Two options:
+
+**Plain `fetch()`** — free, fine for small lists, misses 10-15% of sites (JS-rendered,
+bot-walled).
+
+**context.dev via `monid`** — ~$0.0009 per page, 98% success, and returns clean markdown
+rather than stripped HTML. At 1,800 domains × 3 pages that's under $5, so on any real list
+the reliability is worth more than the cost. This is the default now.
+
+Either way: **deduplicate domains first.** A 7,200-lead list is usually 1,800 domains, and
+crawling per lead costs 4x for identical data.
 
 Never fire a paid `monid run` without explicit written approval each time.
 
