@@ -19,6 +19,72 @@ Every client gets all three. Always build them together unless told otherwise.
 
 ---
 
+## The Build Order — Write, Approve, Then Templatize
+
+**Never hand over an email copy prompt written from a blank page.** A prompt
+written in the abstract produces generic copy, because the model has been given
+a rule set but no target to hit. Rules tell it what not to do. Only an example
+shows it what good looks like.
+
+The sequence is always:
+
+1. **Write 10 to 15 emails by hand**, against real rows pulled from the actual
+   lead list. Not invented companies — real leads with their real enrichment
+   fields, so the copy has to survive real data.
+2. **Get them approved.** The user reads them and says which land and which
+   don't. Rewrite until they do. This step is where the copy actually gets
+   decided, and it is much cheaper to argue about six hand-written emails than
+   about six thousand generated ones.
+3. **Write the prompt to reproduce what was approved**, and paste 3 to 4 of the
+   approved emails into the prompt as worked examples, each shown alongside the
+   input fields that produced it.
+
+Step 3 is not optional. A prompt carrying approved examples holds a voice across
+thousands of leads; the same prompt without them drifts within a few hundred.
+
+### How to format the examples inside the prompt
+
+Show input then output, so the model can see the mapping rather than just the
+result:
+
+```
+EXAMPLES OF GOOD OUTPUT
+
+Example 1
+INPUT — Products: [the actual field value]
+INPUT — Description: [the actual field value, trimmed]
+OUTPUT:
+[the exact approved copy]
+
+Example 2
+INPUT — Products: ...
+INPUT — Description: ...
+OUTPUT:
+...
+```
+
+Place the examples **after** the instructions and hard rules, immediately before
+the final output instruction. The model reads the rules, sees them satisfied,
+then writes.
+
+### Rules for the examples
+
+- **Real approved outputs only.** Never write an example specifically to sit in
+  the prompt, and never include one the user has not signed off on. An unapproved
+  example silently becomes the standard for the whole campaign.
+- **Make them differ from each other.** Three near-identical examples teach the
+  model to produce one thing. Pick rows that span the range of the list, including
+  the awkward edges, not three variations of the easiest case.
+- **Always show the input fields**, not just the output. The model needs to see
+  which part of the description drove which part of the copy.
+- **Keep it to 3 or 4.** Past that the model starts lifting phrasing verbatim
+  instead of learning the pattern.
+- **Update them when the copy changes.** A prompt carrying stale examples will
+  keep producing the old version no matter what the instructions above it say.
+  This is the most common failure mode when a client revises their offer.
+
+---
+
 ## What to Collect Before Building
 
 Work with what you're given. If the user gives you a client name and description, start building. Only ask for what's missing.
@@ -302,9 +368,14 @@ When building prompts for a new client, output all three in order with clear hea
 
 --- PROMPT 3: EMAIL COPY ---
 [full prompt text, ready to paste]
+[EXAMPLES OF GOOD OUTPUT — 3 to 4 approved emails with their input fields]
 ```
 
 Each prompt should be complete and ready to paste directly into Lead Formatter with no further editing needed. All `{{ }}` variables map directly to Lead Formatter column names.
+
+**Prompt 3 is not finished until the approved examples are in it.** If the hand-written
+round has not happened yet, say so and do that first rather than shipping a prompt with
+an empty examples block.
 
 ---
 
@@ -323,6 +394,11 @@ All prompts use **Lead Formatter syntax** by default: `{{ Variable Name }}` — 
 
 ## Rules
 
+- **Never ship an email copy prompt without approved examples inside it.** Hand-write
+  10 to 15 emails against real rows first, get them approved, then paste 3 to 4 into
+  the prompt. See "The Build Order" above. A prompt with no examples is a draft.
+- **Re-paste the examples whenever the copy changes.** Stale examples override fresh
+  instructions every time.
 - Always build all three prompts together unless told otherwise
 - Prompt 2 output should NEVER mention the client company — only describe the prospect
 - Email ideas must be constrained to what the client actually offers — never suggest services outside their scope
