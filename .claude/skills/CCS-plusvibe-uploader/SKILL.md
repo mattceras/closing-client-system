@@ -149,7 +149,9 @@ async function main() {
 
   const updateData = await updateRes.json();
 
-  if (updateData.id) {
+  // The PATCH returns {"status":"success"} with no id. Checking only for an id
+  // reports a false failure on a patch that actually landed.
+  if (updateData.status === "success" || updateData.id) {
     console.log("Done! Variations uploaded successfully.");
   } else {
     console.error("Failed:", JSON.stringify(updateData, null, 2));
@@ -171,6 +173,7 @@ main().catch(console.error);
    - Single line breaks → `<br>`
    - Spintax stays as-is (`{{random|...|...}}` and `{{first_name}}` go in unchanged)
    - Sign-off: `{{random|Thanks|Best|All the best}},<br>{{sender_signature}}`
+   - **Custom columns take a `custom_` prefix.** PlusVibe prepends `custom_` to whatever the CSV column is named, so a column called `opener` is referenced as `{{custom_opener}}`. Tell the user to name the CSV column *without* the prefix — a column named `custom_opener` resolves to `{{custom_custom_opener}}` and renders blank. Standard fields (`first_name`, `email`, `company`) are not prefixed.
 4. Wrap entire body in `<div>...</div>`
 5. Do NOT include script labels (e.g. "SCRIPT 1 — Direct Question Opener") — those are internal reference only
 

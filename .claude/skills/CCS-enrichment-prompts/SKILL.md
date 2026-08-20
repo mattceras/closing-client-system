@@ -21,47 +21,61 @@ Every client gets all three. Always build them together unless told otherwise.
 
 ## The Build Order — Write, Approve, Then Templatize
 
-**Never hand over an email copy prompt written from a blank page.** A prompt
-written in the abstract produces generic copy, because the model has been given
-a rule set but no target to hit. Rules tell it what not to do. Only an example
-shows it what good looks like.
+**This applies to EVERY prompt type — qualification, enrichment variables, and
+email copy.** A prompt written in the abstract produces generic output, because
+the model has been given a rule set but no target to hit. Rules tell it what not
+to do. Only an example shows it what good looks like.
 
 The sequence is always:
 
-1. **Write 10 to 15 emails by hand**, against real rows pulled from the actual
-   lead list. Not invented companies — real leads with their real enrichment
-   fields, so the copy has to survive real data.
+1. **Write 10 to 15 outputs by hand**, against real rows pulled from the actual
+   lead list. Not invented companies — real leads with their real data, so the
+   output has to survive real inputs. For email copy, write full emails. For
+   enrichment variables (like a personalization line or category label), write
+   the variable output. For qualification, score the leads and note why.
 2. **Get them approved.** The user reads them and says which land and which
-   don't. Rewrite until they do. This step is where the copy actually gets
-   decided, and it is much cheaper to argue about six hand-written emails than
-   about six thousand generated ones.
+   don't. Rewrite until they do. This step is where the output actually gets
+   decided, and it is much cheaper to argue about ten hand-written outputs than
+   about four thousand generated ones.
 3. **Write the prompt to reproduce what was approved**, and paste 3 to 4 of the
-   approved emails into the prompt as worked examples, each shown alongside the
+   approved outputs into the prompt as worked examples, each shown alongside the
    input fields that produced it.
 
-Step 3 is not optional. A prompt carrying approved examples holds a voice across
-thousands of leads; the same prompt without them drifts within a few hundred.
+Step 3 is not optional. A prompt carrying approved examples holds consistency
+across thousands of leads; the same prompt without them drifts within a few
+hundred.
 
 ### How to format the examples inside the prompt
 
-Show input then output, so the model can see the mapping rather than just the
-result:
+Show input, reasoning, then output — so the model can see both the mapping AND
+how the decision was made:
 
 ```
 EXAMPLES OF GOOD OUTPUT
 
 Example 1
+INPUT — Company: [the actual company name]
 INPUT — Products: [the actual field value]
 INPUT — Description: [the actual field value, trimmed]
+REASONING: [1-2 sentences explaining what data drove the output — which field
+contained the key signal, why it led to this specific output, and any judgment
+calls made]
 OUTPUT:
-[the exact approved copy]
+[the exact approved output]
 
 Example 2
+INPUT — Company: ...
 INPUT — Products: ...
 INPUT — Description: ...
+REASONING: ...
 OUTPUT:
 ...
 ```
+
+The REASONING line teaches the model HOW to think about the data, not just what
+to produce. Without it, the model pattern-matches on surface similarity to the
+examples rather than learning the logic. This is especially important for
+enrichment variables where the output is short but the judgment behind it matters.
 
 Place the examples **after** the instructions and hard rules, immediately before
 the final output instruction. The model reads the rules, sees them satisfied,
@@ -77,6 +91,9 @@ then writes.
   the awkward edges, not three variations of the easiest case.
 - **Always show the input fields**, not just the output. The model needs to see
   which part of the description drove which part of the copy.
+- **Always include the reasoning.** Show which field contained the signal and
+  what judgment was applied. This is what separates a prompt that works on 50
+  leads from one that works on 5,000.
 - **Keep it to 3 or 4.** Past that the model starts lifting phrasing verbatim
   instead of learning the pattern.
 - **Update them when the copy changes.** A prompt carrying stale examples will
