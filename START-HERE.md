@@ -4,16 +4,14 @@ You do not need GitHub Desktop and you do not need to type terminal commands.
 
 ## If you use ChatGPT Work, Claude Code, or Codex locally
 
-1. Accept the private GitHub invitation sent by Closing Client System.
-2. Open Claude Code, Codex, or the ChatGPT desktop app in **Work** mode with a **Local** project.
-3. Paste this message:
-
-> Set up the Closing Client System for me from https://github.com/mattceras/closing-client-system. Handle the technical setup yourself. If GitHub needs me to sign in, pause and show me exactly what to click. Put the system in an easy-to-find folder, run its setup check, read its instructions, and then onboard me conversationally. Do not ask me to type terminal commands, and do not ask for API keys until you have explained why they are optional.
+1. Open the public repository: [github.com/mattceras/closing-client-system](https://github.com/mattceras/closing-client-system).
+2. In ChatGPT Work Local, Codex, or Claude Code, give the assistant that link and ask it to open or set it up. There is no required wording and no GitHub invitation to accept.
+3. If the assistant cannot download it directly, use GitHub's **Code → Download ZIP**, unzip it, and select the exact `closing-client-system` folder as the Local project.
+4. Send any first message—even **Hi**. The repository automatically recognizes a first-time user and begins onboarding.
 
 The AI assistant should:
 
-- connect to GitHub;
-- download the private repository;
+- download or open the public repository;
 - create the local workspace;
 - check that the required software is available;
 - load the CCS instructions and skills;
@@ -22,17 +20,15 @@ The AI assistant should:
 
 The onboarding also creates a private coaching-progress file. CCS uses evidence from real completed work to give you the right amount of explanation and gradually move from step-by-step coaching to independent operation.
 
-If the assistant cannot connect to the private repository, it should help you complete GitHub's browser sign-in. Downloading a ZIP is the fallback, not the default.
+The GitHub page cannot install software by itself; giving the link to the assistant or opening the downloaded folder is the only required setup action. Once the folder is selected, no special onboarding command is required.
 
 ## If you use ChatGPT Work in the cloud or on a phone
 
-Cloud Work cannot directly install or run a folder on your computer. Use the GitHub connector to read the private repository inside a ChatGPT Project.
+Cloud Work cannot directly install or run a folder on your computer. Use the GitHub connector to read the public repository inside a ChatGPT Project.
 
 This is suitable for research, planning, writing, and using the CCS knowledge. Local scripts and direct computer-file operations require ChatGPT Work Local, Codex, or Claude Code. Always-on webhooks, scheduled tasks, and integrations use the optional CCS cloud setup.
 
-After connecting the repository, say:
-
-> Read the Closing Client System repository, onboard my business, and tell me which parts I can use in ChatGPT and which parts require a local or cloud setup.
+After selecting the repository through the connector, ask ChatGPT to read it. Cloud chats do not automatically load an entire GitHub repository merely because the connector is enabled; this limitation does not apply after the local folder is opened as the project.
 
 ChatGPT should create a private agency profile after the interview. Add that file to the ChatGPT Project's private sources so new chats retain the business context. Do not add it to the shared GitHub repository.
 

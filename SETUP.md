@@ -8,17 +8,15 @@ Start locally. Railway and the always-on cloud features are optional and can be 
 
 GitHub Desktop is not required.
 
-1. Accept the private GitHub invitation supplied by Closing Client System.
-2. Open Claude Code, Codex, or the ChatGPT desktop app in **Work** mode with a **Local** project.
-3. Paste:
+1. Open [github.com/mattceras/closing-client-system](https://github.com/mattceras/closing-client-system). It is public, so no invitation is required.
+2. Give that link to Claude Code, Codex, or ChatGPT Work Local and ask it to open or set it up. There is no exact command to remember; ordinary wording is enough.
+3. Once the installed folder is selected as the Local project, send any message. CCS detects the first run and begins onboarding automatically.
 
-> Set up the Closing Client System for me from https://github.com/mattceras/closing-client-system. Handle the technical setup yourself. If GitHub needs me to sign in, pause and show me exactly what to click. Put the system in an easy-to-find folder, run its setup check, read its instructions, and then onboard me conversationally. Do not ask me to type terminal commands.
-
-The assistant should download the repository, run the setup checker, read the CCS instructions, and begin onboarding. If GitHub authentication is required, it should stop only long enough for you to complete the browser sign-in.
+The assistant should download the repository, run the setup checker, read the CCS instructions, and begin onboarding. A GitHub account is not required to download the public repository.
 
 ### Manual alternatives
 
-- **GitHub Desktop:** accept the invitation, choose **File**, **Clone repository**, select `closing-client-system`, and click **Clone**.
+- **GitHub Desktop:** choose **File**, **Clone repository**, enter `https://github.com/mattceras/closing-client-system`, and click **Clone**.
 - **ZIP download:** choose **Code**, then **Download ZIP** on GitHub and unzip it. This works, but it is not connected to automatic Git updates.
 
 Read [START-HERE.md](START-HERE.md) for ChatGPT Work cloud, phone, and ordinary Chat alternatives.
@@ -52,7 +50,7 @@ Claude reads `CLAUDE.md` and the skills under `.claude/skills/`.
 
 ChatGPT Work Local and Codex read `AGENTS.md` and the skills under `.agents/skills/`.
 
-If you are using ChatGPT Work in the cloud or on a phone, connect the private GitHub repository with the GitHub plugin. Cloud Work cannot directly use files stored only on your computer.
+If you are using ChatGPT Work in the cloud or on a phone, connect the public GitHub repository with the GitHub plugin. Cloud Work cannot directly use files stored only on your computer, and it must be asked to read the connected repository in a new cloud chat.
 
 ## Step 4: Run the local setup checker
 
@@ -76,13 +74,9 @@ bash scripts/setup.sh
 
 The checker reports whether the optional utilities are available and creates the private credential file. It does not require API keys.
 
-## Step 5: Start onboarding
+## Step 5: Automatic onboarding
 
-In ChatGPT Work Local, Claude, or Codex, say:
-
-> Help me set up my Closing Client System
-
-The onboarding agent will ask about:
+In ChatGPT Work Local, Claude, or Codex, send any first message after opening the folder. The onboarding agent starts automatically and asks about:
 
 - your agency and offers;
 - whether you have clients;

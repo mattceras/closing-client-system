@@ -4,7 +4,7 @@ This folder is a self-contained Codex setup for running cold email outreach end-
 
 ## First thing to check, every session
 
-If `agency-profile.md` does not exist yet in this folder's root, this is a new install. Run the `CCS-onboarding` skill before personalized or operational work — it asks a short set of questions about the user's business and deal terms, and writes `agency-profile.md`. A capability, setup, or troubleshooting question may be answered first, but then offer onboarding. Every other skill in this system reads the profile for context, so don't guess at answers on the user's behalf.
+If `agency-profile.md` does not exist yet in this folder's root, this is a new install. On the user's first interaction—even a greeting or vague message—begin the `CCS-onboarding` skill automatically. Do not wait for them to know or type a setup command. If they first ask a capability, setup, or troubleshooting question, answer it and then transition into onboarding. The skill asks about the user's business and deal terms and writes `agency-profile.md`. Every other skill reads that profile for context, so don't guess at answers on the user's behalf.
 
 If `agency-profile.md` already exists, read it at the start of the session and use it as background context — the user shouldn't have to re-explain who they are or what they charge every time. Also read `coaching-progress.md` when it exists so the amount of explanation matches the student's demonstrated experience.
 

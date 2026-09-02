@@ -1,8 +1,8 @@
 ---
 name: CCS-onboarding
-description: First-run setup for the Closing Client System. Collects the student's agency, offers, clients, sequencer, data providers, operating mode, deal terms, and optional credentials. Writes the private agency profile and creates any requested client folders. Use when agency-profile.md does not exist, when the user says set up, get started, onboard me, or when they want to update their business, tools, clients, or credentials.
+description: First-run setup for the Closing Client System. Automatically begins on the first interaction when agency-profile.md does not exist, without requiring the student to know a setup phrase. Collects the student's agency, offers, clients, sequencer, data providers, operating mode, deal terms, and optional credentials, then writes the private profile and any requested client folders. Also use when they want to update their business, tools, clients, or credentials.
 metadata:
-  version: 1.3.0
+  version: 1.3.1
 ---
 
 # Closing Client System Onboarding
@@ -11,7 +11,7 @@ metadata:
 
 Give a nontechnical student a working, personalized CCS installation through conversation. They should not need to understand repository structure, environment variables, or manually edit files.
 
-Run this before other CCS work when `agency-profile.md` does not exist.
+Run this before other CCS work when `agency-profile.md` does not exist. Begin automatically after the user's first message; do not make a new student ask for onboarding by name. Welcome them briefly, explain that CCS will personalize itself through a short conversation, and start with the first relevant question.
 
 ## Conversation rules
 

@@ -2,6 +2,14 @@
 
 Your AI workspace for building and operating cold-email campaigns from start to finish.
 
+## New student: you only need this page
+
+You do not need a special setup prompt. Give this public repository link to ChatGPT Work Local, Codex, or Claude Code and ask it to open or set it up. Ordinary wording is fine. If you prefer, download the repository and select the exact folder as a Local project.
+
+Once the folder is open, send any first message—even **Hi**. CCS detects that no agency profile exists and starts its onboarding conversation automatically.
+
+A GitHub webpage cannot install itself on a computer, so the student must still give the link to their AI assistant or download and open the folder. After that one action, the repository handles the onboarding instructions.
+
 It can help you:
 
 - understand and improve an offer before sending;
@@ -20,7 +28,7 @@ It can help you:
 - design new intent-signal campaigns using an included 368-source public directory bank (JSON and CSV) and source-scoring methodology;
 - use the same operating system with ChatGPT Work, Claude, or Codex.
 
-**New here? Open [START-HERE.md](START-HERE.md).** If you have ChatGPT Work Local, Claude Code, or Codex, you can paste one instruction and let the AI handle the technical setup. GitHub Desktop is optional. You do not need Railway, Slack, OAuth, or API keys to begin.
+**New here? Open [START-HERE.md](START-HERE.md).** GitHub Desktop is optional. You do not need a GitHub invitation, Railway, Slack, OAuth, or API keys to begin.
 
 **Need guidance? Read [COACHING.md](COACHING.md), or simply ask “What should I do next?”**
 
@@ -50,11 +58,7 @@ The cloud layer is an extension of the same workspace, not a different product. 
 
 ## First conversation
 
-After selecting this folder in ChatGPT Work Local, Claude, or Codex, say:
-
-> Help me set up my Closing Client System
-
-The onboarding agent will ask about your agency, offers, clients, sequencer, data providers, credentials, and whether you want local or cloud mode. It saves your answers so future sessions start with the right context.
+After selecting this folder in ChatGPT Work Local, Claude, or Codex, send any message. The onboarding agent starts automatically and asks about your agency, offers, clients, sequencer, data providers, credentials, and whether you want local or cloud mode. It saves your answers so future sessions start with the right context.
 
 ## Commands you can say at any time
 

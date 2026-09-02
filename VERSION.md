@@ -1,5 +1,9 @@
 # Version History
 
+## 1.4.1 — Automatic first-run onboarding
+
+New local installations now begin onboarding automatically after the student's first message whenever `agency-profile.md` is missing. Students no longer need to memorize or paste a setup prompt after the folder is opened. Updated the landing and setup instructions for the public repository and clarified that the only unavoidable human action is giving the repository link to the local AI assistant or downloading and opening the folder.
+
 ## 1.4.0 — Built-in adaptive coach
 
 Added the CCS Coach for broad questions such as “What can you do?”, “What should I do next?”, “Based on all my data, what do you recommend?”, and “Am I ready to do this myself?”. The coach uses the student's accessible business and campaign evidence, identifies the current bottleneck, routes execution to specialist CCS agents, and records demonstrated proficiency in a private ignored progress file. Coaching now moves from guided to collaborative, on-demand, and graduated peer-review modes without pretending unavailable data was inspected.
