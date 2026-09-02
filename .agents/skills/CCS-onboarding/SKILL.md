@@ -2,7 +2,7 @@
 name: CCS-onboarding
 description: First-run setup for the Closing Client System. Collects the student's agency, offers, clients, sequencer, data providers, operating mode, deal terms, and optional credentials. Writes the private agency profile and creates any requested client folders. Use when agency-profile.md does not exist, when the user says set up, get started, onboard me, or when they want to update their business, tools, clients, or credentials.
 metadata:
-  version: 1.1.0
+  version: 1.2.0
 ---
 
 # Closing Client System Onboarding
@@ -113,7 +113,7 @@ Create `config/.env` from `config/.env.example` when needed.
 
 Ask only for credentials relevant to tools they selected:
 
-- PlusVibe: API key and workspace ID;
+- PlusVibe: API key and optional workspace ID list (an account-level key can discover all accessible workspaces);
 - SmartLead: API key;
 - Instantly: API key;
 - Email Bison: API token;
@@ -188,6 +188,15 @@ Recommend one of these as the first task:
 - create or review the first client profile;
 - plan a lead list with `CCS-ai-ark-list-builder`;
 - begin a campaign brief.
+
+Then teach the student the permanent on-demand command menu:
+
+- `Run the domain health check`
+- `Run the campaign monitor`
+- `Review this interested reply`
+- `Check intent signals`
+
+Explain in one sentence that these work on demand in local mode, while Railway is only needed for automatic webhooks, scheduled runs, Slack approvals, and live account access from a phone.
 
 Do not begin cloud deployment, paid enrichment, campaign upload, or external sending without a separate explicit request.
 

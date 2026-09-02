@@ -45,3 +45,14 @@ Inside the installed CCS workspace, say:
 > Update my Closing Client System without changing my agency profile, clients, campaigns, or credentials.
 
 The assistant will run the safe updater. It stops rather than overwriting a managed file that was changed locally. Cloud-only projects read the current repository through the GitHub connector instead.
+
+## Your first on-demand commands
+
+After onboarding, you can say any of these without remembering technical commands:
+
+- **Run the domain health check** — checks PlusVibe sending domains against URIBL/SURBL and shows 7, 14, and 30-day reply performance.
+- **Run the campaign monitor** — shows active PlusVibe campaigns that are low on untouched leads.
+- **Review this interested reply** — evaluates the conversation and prospect, then drafts a reply without sending it.
+- **Check intent signals** — researches timely public events that may create a reason to contact a company.
+
+The AI runs the local tool for you when live account data is needed. From a phone or Cloud Work project, live PlusVibe commands require the optional CCS cloud connector; pasted-reply review and public intent research can still be done conversationally.

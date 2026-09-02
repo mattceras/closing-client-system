@@ -6,6 +6,8 @@ Local mode is the recommended starting point.
 
 Choose it if you want to build lists, research markets, write campaigns, manage clients, and prepare uploads while working from your computer.
 
+Local mode also includes four on-demand operational agents: domain health, campaign monitoring, interested-reply review, and intent-signal research. They run when you ask; they are not scheduled.
+
 You need:
 
 - this folder;
@@ -37,4 +39,4 @@ Cloud mode requires additional accounts, credentials, and setup. It should be ad
 - GitHub remains the stable knowledge layer.
 - Railway/PostgreSQL stores changing operational records.
 
-The complete one-click Railway and reply-agent installer is being packaged as a later CCS module. Until that module is included in a numbered release, do not assume the cloud features are installed.
+The on-demand agents are included in the local product. The complete one-click Railway installer for automatic reply webhooks, Slack approvals, schedules, and phone access to live account data is a separate cloud module. Until that module is included in a numbered release, do not assume those always-on cloud features are installed.

@@ -7,7 +7,7 @@ metadata:
 
 # PlusVibe Campaign Uploader
 
-Build Node.js scripts that upload cold email sequences into PlusVibe campaigns via API. Run locally with `node upload_campaign.js` in PowerShell.
+Build Node.js scripts that upload cold email sequences into PlusVibe campaigns via API. Run locally with `node upload_campaign.mjs` from the CCS repository root.
 
 ---
 
@@ -19,7 +19,7 @@ This system supports one PlusVibe login with multiple client workspaces, or enti
 2. Fall back to `config/.env` for the account-level defaults.
 3. Only ask the user if neither has it — then tell them where it got saved (client override vs. account default) so it's there next time.
 
-Use whatever's resolved directly in the generated script (see Script Template) instead of leaving placeholder text for the user to hand-edit.
+Generated scripts must load credentials at runtime from the private ignored credential files. Never paste a resolved key into generated source code.
 
 ## What to Collect Before Building
 
@@ -88,14 +88,18 @@ PATCH /campaign/update/campaign
 
 ## Script Template
 
-Generate a Node.js script the user runs with `node upload_campaign.js` in PowerShell. Fill `API_KEY` / `WORKSPACE_ID` in with the values resolved from `clients/<name>/credentials.env` or `config/.env` (see Credential Resolution above) — don't leave placeholder text for the user to hand-edit if the value is already known.
+Generate an `.mjs` script in the repository root. It must load `API_KEY` / `WORKSPACE_ID` at runtime from `clients/<name>/credentials.env` or `config/.env` through the included credential helper. Never hardcode a secret in the script.
 
 ```javascript
 // [CLIENT NAME] - [CAMPAIGN NAME] - PlusVibe Uploader
-// Usage: node upload_campaign.js
+// Usage: node upload_campaign.mjs
 
-const API_KEY = "actual-key-here";
-const WORKSPACE_ID = "actual-workspace-id-here";
+import { loadCredentials, requirePlusVibe } from "./scripts/lib/plusvibe.mjs";
+
+const CLIENT_FOLDER = ""; // Set only when a client-specific credentials.env is used.
+const credentials = await loadCredentials(CLIENT_FOLDER);
+const { apiKey: API_KEY, workspaceIds } = requirePlusVibe(credentials);
+const WORKSPACE_ID = credentials.PLUSVIBE_WORKSPACE_ID || workspaceIds.split(",")[0];
 const CAMPAIGN_ID = "actual-campaign-id-here"; // omit if creating new
 
 const BASE_URL = "https://api.plusvibe.ai/api/v1";
@@ -247,5 +251,5 @@ The AI assistant writes the script that generates the combinations — not 500 e
 - Always set `name: ""` on each variation object
 - Remind the user to rotate their API key after sharing it in chat — it's visible in the conversation
 - The user needs Node.js installed to run the script (`nodejs.org`)
-- Run in PowerShell: `cd Downloads` then `node upload_campaign.js`
+- Run from the CCS repository root: `node upload_campaign.mjs`
 - If PlusVibe has a variation limit per step and it's exceeded, split across multiple campaigns

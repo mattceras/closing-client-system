@@ -92,6 +92,8 @@ The onboarding agent will ask about:
 - any API keys you already have;
 - whether you want local mode or the optional cloud setup.
 
+At the end, it should also show you these four commands: **Run the domain health check**, **Run the campaign monitor**, **Review this interested reply**, and **Check intent signals**.
+
 You can skip anything. Missing information is recorded as **Not set yet** rather than blocking you.
 
 ## Step 6: Confirm it worked
@@ -130,7 +132,7 @@ Tell the assistant which integration you want to connect. It should help save th
 
 ### You are unsure whether to use Railway
 
-Stay local. Railway is only necessary for webhooks, scheduled tasks, Slack, and agents that must continue running while your computer is off.
+Stay local. All four operational agents can be called on demand. Railway is only necessary for webhooks, scheduled tasks, Slack, phone access to live account data, and agents that must continue running while your computer is off.
 
 ### You are still stuck
 

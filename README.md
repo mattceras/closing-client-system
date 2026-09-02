@@ -11,6 +11,10 @@ It can help you:
 - prepare campaigns for PlusVibe, SmartLead, Instantly, or Email Bison;
 - organize client context so you do not have to explain the business every session;
 - prepare for sales calls, proposals, and agreements;
+- run a sending-domain blacklist and 7/14/30-day reply-performance check on demand;
+- monitor active PlusVibe campaigns that are running low on untouched leads;
+- review interested replies, score prospect fit, summarize the company, and draft the next response;
+- research and score timely public intent signals;
 - use the same operating system with ChatGPT Work, Claude, or Codex.
 
 **New here? Open [START-HERE.md](START-HERE.md).** If you have ChatGPT Work Local, Claude Code, or Codex, you can paste one instruction and let the AI handle the technical setup. GitHub Desktop is optional. You do not need Railway, Slack, OAuth, or API keys to begin.
@@ -45,6 +49,17 @@ After selecting this folder in ChatGPT Work Local, Claude, or Codex, say:
 > Help me set up my Closing Client System
 
 The onboarding agent will ask about your agency, offers, clients, sequencer, data providers, credentials, and whether you want local or cloud mode. It saves your answers so future sessions start with the right context.
+
+## Commands you can say at any time
+
+- **Run the domain health check**
+- **Run the campaign monitor**
+- **Review this interested reply**
+- **Check intent signals**
+
+The first two use live PlusVibe data when the API key is connected. The reply and intent workflows can also be used manually by pasting a conversation or describing the market. Local mode runs when you ask; Railway is only needed when you want webhooks, schedules, or work that continues while your computer is off.
+
+See [OPERATIONS.md](OPERATIONS.md) for what each command needs and what changes when the optional cloud module is connected.
 
 ## Updating
 

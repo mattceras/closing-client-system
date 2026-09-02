@@ -30,7 +30,18 @@ Don't jump straight to step 6 or 7 if earlier steps haven't happened for this cl
 
 Whenever the user has a call scheduled, just had one, or needs a proposal or agreement drafted, use `CCS-sales-process`. It auto-detects which of its four modes applies (pre-call prep, proposal generation, pre-call-2 prep, agreement drafting) from context. It uses the deal terms in `agency-profile.md` (or a client-specific override in `clients/<name>/profile.md`) — never assume a specific pricing model.
 
-## On-demand utilities (no required sequence)
+## Operational commands (plain-English, on demand)
+
+Students do not need to remember script names. Route these phrases to the matching skill:
+
+- **Run the domain health check** → `CCS-domain-health`. For PlusVibe, checks URIBL/SURBL and 7/14/30-day reply performance. Local execution requires the local folder and PlusVibe credentials; scheduling is optional.
+- **Run the campaign monitor** → `CCS-campaign-monitor`. For PlusVibe, reports active campaigns that are running low on untouched leads. It is read-only.
+- **Review this interested reply** → `CCS-reply-agent`. Reviews a pasted or retrieved conversation, summarizes the company, scores fit, and drafts a response. Local mode never sends.
+- **Check intent signals** → `CCS-intent-signals`. Runs sourced public research for timely company events. Paid data-provider runs and outreach require separate approval.
+
+When a command can run locally, execute it for the student and display the result in chat. Do not make them memorize or type the underlying terminal command. ChatGPT Work cloud/phone cannot execute the local scripts; it needs the optional cloud connector for live PlusVibe data.
+
+## Other on-demand utilities (no required sequence)
 
 Available whenever they're relevant, not gated to a workflow step: `CCS-research`, `CCS-market-research`, `CCS-competitive-landscape`, `CCS-competitor-alternatives`, `CCS-sales-enablement`, `CCS-slides`, `CCS-ui-ux-pro-max`, `CCS-email-sequence`, `CCS-lead-magnets`.
 

@@ -7,7 +7,7 @@ metadata:
 
 # Email Bison Campaign Uploader
 
-Build Node.js scripts that upload cold email sequences into Email Bison campaigns via API. Run locally with `node upload_campaign.js`.
+Build Node.js scripts that upload cold email sequences into Email Bison campaigns via API. Run locally with `node upload_campaign.mjs` from the CCS repository root. Generated scripts must load credentials from private ignored files at runtime; never hardcode a resolved token.
 
 Verified against Email Bison's published docs (docs.emailbison.com) as of this skill's writing — endpoints can change over time, trust an actual error response from the API over what's written here if they ever conflict.
 
@@ -92,9 +92,14 @@ Out of scope for this skill by default (matches how PlusVibe upload works), but 
 
 ```javascript
 // [CLIENT NAME] - [CAMPAIGN NAME] - Email Bison Uploader
-// Usage: node upload_campaign.js
+// Usage: node upload_campaign.mjs
 
-const API_TOKEN = "actual-token-here";
+import { loadCredentials } from "./scripts/lib/plusvibe.mjs";
+
+const CLIENT_FOLDER = ""; // Set only when a client-specific credentials.env is used.
+const credentials = await loadCredentials(CLIENT_FOLDER);
+const API_TOKEN = credentials.EMAILBISON_API_KEY;
+if (!API_TOKEN) throw new Error("Email Bison is not connected. Save EMAILBISON_API_KEY in config/.env.");
 const CAMPAIGN_ID = "actual-campaign-id-here"; // omit if creating new
 
 const BASE_URL = "https://dedi.emailbison.com/api";

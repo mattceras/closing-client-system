@@ -1,5 +1,9 @@
 # Version History
 
+## 1.2.0 — On-demand operations agents
+
+Added four plain-English operational commands for local use: domain health, campaign monitoring, interested-reply review, and intent-signal research. The PlusVibe domain report now combines URIBL/SURBL results with 7, 14, and 30-day human and total reply rates; the campaign monitor flags low untouched-lead inventory without changing campaigns. Onboarding now teaches every student the command menu and clearly separates on-demand local use from optional Railway webhooks and schedules. Removed legacy embedded research credentials and standardized private runtime credential loading.
+
 ## 1.1.2 — ChatGPT Work clarification
 
 Added ChatGPT Work Local as a full local operating path alongside Claude Code and Codex. Distinguished ordinary Chat, Work Local, and Work cloud/phone so students choose the correct setup without assuming the ChatGPT product is limited to ordinary chat.

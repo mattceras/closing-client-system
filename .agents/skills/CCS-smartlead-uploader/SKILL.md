@@ -7,7 +7,7 @@ metadata:
 
 # SmartLead Campaign Uploader
 
-Build Node.js scripts that upload cold email sequences into SmartLead campaigns via API. Run locally with `node upload_campaign.js`.
+Build Node.js scripts that upload cold email sequences into SmartLead campaigns via API. Run locally with `node upload_campaign.mjs` from the CCS repository root. Generated scripts must load credentials from private ignored files at runtime; never hardcode a resolved key.
 
 Verified against SmartLead's published API documentation (helpcenter.smartlead.ai and api.smartlead.ai) as of this skill's writing — endpoints can change over time, trust an actual error response from the API over what's written here if they ever conflict.
 
@@ -88,9 +88,14 @@ Out of scope for this skill by default (matches how PlusVibe upload works — le
 
 ```javascript
 // [CLIENT NAME] - [CAMPAIGN NAME] - SmartLead Uploader
-// Usage: node upload_campaign.js
+// Usage: node upload_campaign.mjs
 
-const API_KEY = "actual-key-here";
+import { loadCredentials } from "./scripts/lib/plusvibe.mjs";
+
+const CLIENT_FOLDER = ""; // Set only when a client-specific credentials.env is used.
+const credentials = await loadCredentials(CLIENT_FOLDER);
+const API_KEY = credentials.SMARTLEAD_API_KEY;
+if (!API_KEY) throw new Error("SmartLead is not connected. Save SMARTLEAD_API_KEY in config/.env.");
 const CAMPAIGN_ID = "actual-campaign-id-here"; // omit if creating new
 
 const BASE_URL = "https://server.smartlead.ai/api/v1";
