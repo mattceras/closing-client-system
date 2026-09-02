@@ -13,6 +13,7 @@ clients/*
 # Personal data — the person running this generates their own; never ship it.
 # (agency-profile.md is created by onboarding; self-campaign/ is your own book.)
 agency-profile.md
+coaching-progress.md
 self-campaign/
 campaign-intelligence/
 

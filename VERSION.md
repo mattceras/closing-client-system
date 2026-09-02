@@ -1,5 +1,9 @@
 # Version History
 
+## 1.4.0 — Built-in adaptive coach
+
+Added the CCS Coach for broad questions such as “What can you do?”, “What should I do next?”, “Based on all my data, what do you recommend?”, and “Am I ready to do this myself?”. The coach uses the student's accessible business and campaign evidence, identifies the current bottleneck, routes execution to specialist CCS agents, and records demonstrated proficiency in a private ignored progress file. Coaching now moves from guided to collaborative, on-demand, and graduated peer-review modes without pretending unavailable data was inspected.
+
 ## 1.3.0 — Campaign learning loop
 
 Added the on-demand campaign optimizer. It retrieves PlusVibe variation statistics, compares positive-reply performance within the same campaign step, separates confirmed winners from directional or inconclusive results, preserves the winner as the control, drafts one focused challenger, and records reusable learnings in private campaign memory. No variation is edited, uploaded, disabled, or activated automatically.

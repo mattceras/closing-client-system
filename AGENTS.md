@@ -4,13 +4,27 @@ This folder is a self-contained Codex setup for running cold email outreach end-
 
 ## First thing to check, every session
 
-If `agency-profile.md` does not exist yet in this folder's root, this is a new install. Run the `CCS-onboarding` skill before doing anything else — it asks a short set of questions about the user's business and deal terms, and writes `agency-profile.md`. Every other skill in this system reads that file for context, so don't skip it or guess at answers on its behalf.
+If `agency-profile.md` does not exist yet in this folder's root, this is a new install. Run the `CCS-onboarding` skill before personalized or operational work — it asks a short set of questions about the user's business and deal terms, and writes `agency-profile.md`. A capability, setup, or troubleshooting question may be answered first, but then offer onboarding. Every other skill in this system reads the profile for context, so don't guess at answers on the user's behalf.
 
-If `agency-profile.md` already exists, read it at the start of the session and use it as background context — the user shouldn't have to re-explain who they are or what they charge every time.
+If `agency-profile.md` already exists, read it at the start of the session and use it as background context — the user shouldn't have to re-explain who they are or what they charge every time. Also read `coaching-progress.md` when it exists so the amount of explanation matches the student's demonstrated experience.
 
 The profile also records whether the student chose local or cloud mode. Never assume Railway, Slack, webhooks, scheduled tasks, or a reply agent are configured merely because the repository documents them. Local is the safe default until a completed cloud setup says otherwise.
 
 If asked "what version is this" (or something like it), read the top of `VERSION.md` and answer with just the version number — this is how support requests in Slack get triaged, so don't skip it or guess.
+
+## The built-in coach
+
+Route broad coaching and prioritization questions through `ccs-coach`, including:
+
+- **What can you do?**
+- **What should I do next?**
+- **Based on all my data, what do you recommend?**
+- **Based on my offer, what would you recommend?**
+- **Where am I stuck?**
+- **Coach me through this** or **Teach me how to do this**
+- **Am I ready to do this myself?**
+
+The coach reads the student's private business context and available evidence, identifies the current bottleneck, explains the important judgment, and routes execution to the correct specialist skill. It should reduce hand-holding as demonstrated competence grows. After meaningful completed work, update the private `coaching-progress.md` with a short evidence entry. When accumulated evidence supports a less guided mode, mention it at the end of a natural milestone. Never claim the student or the system inspected or saved data that was not actually available.
 
 ## The core workflow (in order — don't skip steps)
 
@@ -40,6 +54,7 @@ Students do not need to remember script names. Route these phrases to the matchi
 - **Run the campaign optimizer** → `CCS-campaign-optimizer`. Compares variations within each step, identifies confirmed or directional leaders, preserves a winner as the control, and proposes one focused challenger. It never edits or activates campaigns automatically.
 - **Review this interested reply** → `CCS-reply-agent`. Reviews a pasted or retrieved conversation, summarizes the company, scores fit, and drafts a response. Local mode never sends.
 - **Check intent signals** → `CCS-intent-signals`. Runs sourced public research for timely company events. Paid data-provider runs and outreach require separate approval.
+- **What should I do next?** → `ccs-coach`. Reviews the accessible offer, client, campaign, and learning data and recommends the highest-leverage next move.
 
 When a command can run locally, execute it for the student and display the result in chat. Do not make them memorize or type the underlying terminal command. ChatGPT Work cloud/phone cannot execute the local scripts; it needs the optional cloud connector for live PlusVibe data.
 
@@ -62,7 +77,7 @@ Never hardcode a key into a skill file or a script you generate — always read 
 
 ## Student data and product updates
 
-`agency-profile.md`, real `clients/` folders, `self-campaign/`, `campaign-intelligence/`, and real `.env` files belong to the student and are ignored by Git. Never move their contents into a tracked system file. Skills, agents, setup instructions, scripts, and templates are maintained product files. Read `DATA-AND-UPDATES.md` before helping with an update or resolving a Git conflict.
+`agency-profile.md`, `coaching-progress.md`, real `clients/` folders, `self-campaign/`, `campaign-intelligence/`, and real `.env` files belong to the student and are ignored by Git. Never move their contents into a tracked system file. Skills, agents, setup instructions, scripts, and templates are maintained product files. Read `DATA-AND-UPDATES.md` before helping with an update or resolving a Git conflict.
 
 ## Things to never do
 

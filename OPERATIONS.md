@@ -2,6 +2,21 @@
 
 These are permanent phrases students can use. The AI assistant should handle the technical command and return the result in chat.
 
+## Coaching and decision support
+
+| Say this | What it does |
+|---|---|
+| **What can you do?** | Gives a personalized menu of capabilities that are ready, need setup, or require the optional cloud module |
+| **What should I do next?** | Inspects the accessible funnel context, identifies the narrowest bottleneck, and recommends the next one to three moves |
+| **Based on all my data, what do you recommend?** | Uses the agency profile, client files, campaign learning, reports, and connected read-only data that are actually available |
+| **Based on my offer, what would you recommend?** | Evaluates the offer for cold traffic and connects it to targeting, signals, positioning, and a minimum viable campaign test |
+| **Coach me through this** | Completes the workflow collaboratively while teaching the decision rules that matter |
+| **Am I ready to do this myself?** | Assesses demonstrated independence and changes future coaching depth for the student's normal scope |
+
+The coach routes actual execution to the specialized CCS agents below. See [COACHING.md](COACHING.md) for the progress and graduation model.
+
+## Operational agents
+
 | Say this | What it does | Local requirement | Automatic cloud version |
 |---|---|---|---|
 | **Run the domain health check** | Checks PlusVibe sending domains against URIBL/SURBL and compares 7, 14, and 30-day reply rates | Local CCS folder, Node.js, PlusVibe API key | Optional schedule and stored history |
@@ -24,6 +39,7 @@ In ChatGPT Work Local, Claude Code/Desktop, or Codex, the assistant can run the 
 - Reply review drafts but does not send.
 - Intent research does not buy data, enrich contacts, upload leads, or start outreach without separate approval.
 - Schedules, webhooks, Slack actions, and unattended processing are not active merely because these commands exist.
+- Personalized recommendations use only data that was actually accessible; missing evidence is labeled `UNKNOWN`.
 
 ## PlusVibe setup
 

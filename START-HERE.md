@@ -20,6 +20,8 @@ The AI assistant should:
 - ask about your agency, clients, offers, tools, and preferred operating mode;
 - save your private business context outside the files that receive product updates.
 
+The onboarding also creates a private coaching-progress file. CCS uses evidence from real completed work to give you the right amount of explanation and gradually move from step-by-step coaching to independent operation.
+
 If the assistant cannot connect to the private repository, it should help you complete GitHub's browser sign-in. Downloading a ZIP is the fallback, not the default.
 
 ## If you use ChatGPT Work in the cloud or on a phone
@@ -50,6 +52,12 @@ The assistant will run the safe updater. It stops rather than overwriting a mana
 
 After onboarding, you can say any of these without remembering technical commands:
 
+- **What can you do?** — shows a personalized menu of what is ready now and what still needs setup.
+- **What should I do next?** — reviews your current context and identifies the highest-leverage next action.
+- **Based on all my data, what do you recommend?** — audits the accessible offer, client, campaign, and result information before recommending a move.
+- **Based on my offer, what would you recommend?** — connects the offer to a wedge, ICP, signal, angle, and minimum test.
+- **Coach me through this** — works with you step by step and teaches the important decision rules.
+- **Am I ready to do this myself?** — assesses independence from completed real work, not a quiz.
 - **Run the domain health check** — checks PlusVibe sending domains against URIBL/SURBL and shows 7, 14, and 30-day reply performance.
 - **Run the campaign monitor** — shows active PlusVibe campaigns that are low on untouched leads.
 - **Run the campaign optimizer** — compares variations, identifies defensible winners, and proposes the next focused challenger without changing the campaign.

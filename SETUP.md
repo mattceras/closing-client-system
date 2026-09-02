@@ -91,8 +91,9 @@ The onboarding agent will ask about:
 - your list-building and enrichment tools;
 - any API keys you already have;
 - whether you want local mode or the optional cloud setup.
+- how much explanation you want while CCS teaches you the system.
 
-At the end, it should also show you these five commands: **Run the domain health check**, **Run the campaign monitor**, **Run the campaign optimizer**, **Review this interested reply**, and **Check intent signals**.
+At the end, it should show you the built-in coaching questions—especially **What can you do?**, **What should I do next?**, and **Coach me through this**—plus the operational commands **Run the domain health check**, **Run the campaign monitor**, **Run the campaign optimizer**, **Review this interested reply**, and **Check intent signals**.
 
 You can skip anything. Missing information is recorded as **Not set yet** rather than blocking you.
 
@@ -102,7 +103,7 @@ Ask:
 
 > What do you know about my agency, what CCS skills can you use, and what should we do first?
 
-A correct installation should mention your saved agency profile and recommend the appropriate CCS workflow. A generic answer usually means the wrong folder was selected.
+A correct installation should mention your saved agency profile, distinguish what is ready from what still needs setup, and recommend the appropriate CCS workflow. A generic answer usually means the wrong folder was selected.
 
 ## Updating later
 
@@ -136,7 +137,13 @@ Stay local. All five operational agents can be called on demand. Railway is only
 
 ### You are still stuck
 
-Post in the CCS support channel with:
+First say:
+
+> Help me troubleshoot this. If CCS cannot resolve it, prepare a support summary for me.
+
+The built-in coach should try the repository instructions before escalating. If human support is genuinely needed, it will prepare the useful context without including credentials.
+
+Then post in the CCS support channel with:
 
 - Windows or Mac;
 - ChatGPT Work, Claude, or Codex;

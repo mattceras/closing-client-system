@@ -2,7 +2,7 @@
 name: CCS-onboarding
 description: First-run setup for the Closing Client System. Collects the student's agency, offers, clients, sequencer, data providers, operating mode, deal terms, and optional credentials. Writes the private agency profile and creates any requested client folders. Use when agency-profile.md does not exist, when the user says set up, get started, onboard me, or when they want to update their business, tools, clients, or credentials.
 metadata:
-  version: 1.2.0
+  version: 1.3.0
 ---
 
 # Closing Client System Onboarding
@@ -171,6 +171,12 @@ operating_mode: [local | cloud-later | cloud-requested]
 
 The agency profile is private and ignored by Git. System updates must never overwrite it.
 
+Create `coaching-progress.md` from `config/coaching-progress.template.md` if it does not exist. Ask one preference question:
+
+> When we work together, do you want step-by-step coaching, a collaborative recommendation with the AI doing the mechanical work, or concise answers unless you ask for teaching?
+
+Save the answer under Coaching Preferences. Start the coaching level as `guided` unless the student provides real prior-work evidence that supports another level. Explain that CCS will record short evidence from completed work and reduce hand-holding as they become independent. The file is private and ignored by Git.
+
 ## Step 7: Run a readiness summary
 
 Give the student a concise summary:
@@ -191,6 +197,12 @@ Recommend one of these as the first task:
 
 Then teach the student the permanent on-demand command menu:
 
+- `What can you do?`
+- `What should I do next?`
+- `Based on all my data, what do you recommend?`
+- `Based on my offer, what would you recommend?`
+- `Coach me through this`
+- `Am I ready to do this myself?`
 - `Run the domain health check`
 - `Run the campaign monitor`
 - `Run the campaign optimizer`

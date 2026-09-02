@@ -24,6 +24,7 @@ Do not customize these files directly. If you need a personal rule, put it in yo
 These paths belong to the student and are excluded by `.gitignore`:
 
 - `agency-profile.md`
+- `coaching-progress.md`
 - `config/.env`
 - every real folder under `clients/`
 - `self-campaign/`
@@ -62,6 +63,8 @@ Run `bash scripts/update.sh`. It applies the same safety check.
 The local version deliberately does not upload private client data anywhere. To move a local workspace to another computer, copy the private files yourself using an encrypted location you control.
 
 The optional cloud version stores changing operational information in the student's own Railway/PostgreSQL environment. Credentials remain in the student's own Railway variables and never enter the CCS repository.
+
+If the student wants coaching continuity in a ChatGPT cloud Project, add their private `agency-profile.md` and `coaching-progress.md` as private Project sources. When Project sources cannot be edited in place, the assistant should provide a refreshed progress file at meaningful milestones for the student to replace manually. Do not commit either file to the shared repository.
 
 ## If an update reports local changes
 

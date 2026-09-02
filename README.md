@@ -10,6 +10,7 @@ It can help you:
 - write cold-email campaigns and follow-ups;
 - prepare campaigns for PlusVibe, SmartLead, Instantly, or Email Bison;
 - organize client context so you do not have to explain the business every session;
+- coach you through the system, recommend the next best move from your actual data, and reduce hand-holding as you become independent;
 - prepare for sales calls, proposals, and agreements;
 - run a sending-domain blacklist and 7/14/30-day reply-performance check on demand;
 - monitor active PlusVibe campaigns that are running low on untouched leads;
@@ -21,6 +22,8 @@ It can help you:
 
 **New here? Open [START-HERE.md](START-HERE.md).** If you have ChatGPT Work Local, Claude Code, or Codex, you can paste one instruction and let the AI handle the technical setup. GitHub Desktop is optional. You do not need Railway, Slack, OAuth, or API keys to begin.
 
+**Need guidance? Read [COACHING.md](COACHING.md), or simply ask “What should I do next?”**
+
 ## How this repository works
 
 You use the maintained Closing Client System repository, but your business information stays private on your computer.
@@ -31,6 +34,7 @@ You use the maintained Closing Client System repository, but your business infor
 | Setup instructions | Your real `clients/` folders |
 | Scripts and templates | `self-campaign/` and `campaign-intelligence/` |
 | Research methodologies | API keys in `config/.env` |
+| Coaching framework | Your private `coaching-progress.md` |
 | Product improvements | Client-specific credential files |
 
 When you update the system, Git retrieves improvements to the left-hand column and leaves the right-hand column alone. Read [DATA-AND-UPDATES.md](DATA-AND-UPDATES.md) for the exact rules.
@@ -54,6 +58,12 @@ The onboarding agent will ask about your agency, offers, clients, sequencer, dat
 
 ## Commands you can say at any time
 
+- **What can you do?**
+- **What should I do next?**
+- **Based on all my data, what do you recommend?**
+- **Based on my offer, what would you recommend?**
+- **Coach me through this**
+- **Am I ready to do this myself?**
 - **Run the domain health check**
 - **Run the campaign monitor**
 - **Run the campaign optimizer**
