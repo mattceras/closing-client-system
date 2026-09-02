@@ -59,5 +59,6 @@ After onboarding, you can say any of these without remembering technical command
 - **Run the campaign optimizer** — compares variations, identifies defensible winners, and proposes the next focused challenger without changing the campaign.
 - **Review this interested reply** — evaluates the conversation and prospect, then drafts a reply without sending it.
 - **Check intent signals** — researches timely public events that may create a reason to contact a company.
+- **Check commercial finance signals** — finds evidence-based potential borrower opportunities and recent funded-deal or lender activity using public sources.
 
 The AI runs the local tool for you when live account data is needed. From a phone or Cloud Work project, live PlusVibe commands require the optional CCS cloud connector; pasted-reply review and public intent research can still be done conversationally.

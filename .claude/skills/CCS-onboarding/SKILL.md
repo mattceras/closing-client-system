@@ -2,7 +2,7 @@
 name: CCS-onboarding
 description: First-run setup for the Closing Client System. Automatically begins on the first interaction when agency-profile.md does not exist, without requiring the student to know a setup phrase. Collects the student's agency, offers, clients, sequencer, data providers, operating mode, deal terms, and optional credentials, then writes the private profile and any requested client folders. Also use when they want to update their business, tools, clients, or credentials.
 metadata:
-  version: 1.3.1
+  version: 1.4.0
 ---
 
 # Closing Client System Onboarding
@@ -208,6 +208,7 @@ Then teach the student the permanent on-demand command menu:
 - `Run the campaign optimizer`
 - `Review this interested reply`
 - `Check intent signals`
+- `Check commercial finance signals`
 
 Explain in one sentence that these work on demand in local mode, while Railway is only needed for automatic webhooks, scheduled runs, Slack approvals, and live account access from a phone.
 

@@ -16,6 +16,8 @@ Before designing a signal or choosing a public source, read:
 
 Use neutral CCS terminology such as **signal-led list building**, **public source bank**, or **directory-led sourcing**.
 
+For the permanent command **Check commercial finance signals**, use the specialized `ccs-commercial-finance-signals` skill and `knowledge/list-building/commercial-finance-signals.md` instead of treating it as an unspecified generic scan.
+
 ## Designing a new intent signal
 
 When the user wants ideas rather than a scan, build the signal backward from the offer:

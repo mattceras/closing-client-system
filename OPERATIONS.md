@@ -24,6 +24,7 @@ The coach routes actual execution to the specialized CCS agents below. See [COAC
 | **Run the campaign optimizer** | Compares variation-level positive reply performance, identifies defensible winners, and designs the next control-versus-challenger test | Local CCS folder, Node.js, PlusVibe API key; manual exports also work | Optional recurring analysis and experiment log |
 | **Review this interested reply** | Classifies the reply, gives a two-sentence company synopsis, scores fit, and drafts the next response | Paste the conversation; website link recommended | Optional PlusVibe webhook, Slack approval, and audit history |
 | **Check intent signals** | Finds and scores sourced public events that may create a timely reason to contact a company | Target market, offer, and signal definition | Optional recurring source monitors |
+| **Check commercial finance signals** | Finds public borrower-opportunity signals and recent funded-deal or lender activity, with evidence and separate component scores | Financing products, geography, credit box, and web-enabled AI; no paid provider required | Optional recurring public-source monitor |
 
 Students can also say **Give me intent-signal ideas for this offer**. The assistant will work backward from the offer, search the included public source bank, propose several observable events and sources, explain what each signal proves, identify likely false positives, and recommend a small pilot before any paid or large-scale collection.
 

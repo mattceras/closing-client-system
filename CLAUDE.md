@@ -54,6 +54,7 @@ Students do not need to remember script names. Route these phrases to the matchi
 - **Run the campaign optimizer** → `CCS-campaign-optimizer`. Compares variations within each step, identifies confirmed or directional leaders, preserves a winner as the control, and proposes one focused challenger. It never edits or activates campaigns automatically.
 - **Review this interested reply** → `CCS-reply-agent`. Reviews a pasted or retrieved conversation, summarizes the company, scores fit, and drafts a response. Local mode never sends.
 - **Check intent signals** → `CCS-intent-signals`. Runs sourced public research for timely company events. Paid data-provider runs and outreach require separate approval.
+- **Check commercial finance signals** → `ccs-commercial-finance-signals`. Scans public sources for evidence-based borrower opportunities and recent funded-deal or lender activity. It is read-only and does not call paid data providers.
 - **What should I do next?** → `ccs-coach`. Reviews the accessible offer, client, campaign, and learning data and recommends the highest-leverage next move.
 
 When a command can run locally, execute it for the student and display the result in chat. Do not make them memorize or type the underlying terminal command. ChatGPT Work cloud/phone cannot execute the local scripts; it needs the optional cloud connector for live PlusVibe data.

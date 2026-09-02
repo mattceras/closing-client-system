@@ -1,5 +1,9 @@
 # Version History
 
+## 1.5.0 — Commercial finance signal monitor
+
+Added the permanent command “Check commercial finance signals.” The new read-only agent scans public sources for evidence-based potential borrower opportunities and separately reports recent funded-deal or lender activity. It includes a reusable commercial-finance signal taxonomy, credit-box-aware scoring, source hierarchy, 24-hour-to-7-day lookback, false-positive rules, truthful messaging boundaries, and a controlled handoff into company enrichment and campaign development. No paid provider, enrichment, upload, or outreach action runs without separate approval.
+
 ## 1.4.1 — Automatic first-run onboarding
 
 New local installations now begin onboarding automatically after the student's first message whenever `agency-profile.md` is missing. Students no longer need to memorize or paste a setup prompt after the folder is opened. Updated the landing and setup instructions for the public repository and clarified that the only unavoidable human action is giving the repository link to the local AI assistant or downloading and opening the folder.

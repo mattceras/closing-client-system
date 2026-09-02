@@ -87,7 +87,7 @@ In ChatGPT Work Local, Claude, or Codex, send any first message after opening th
 - whether you want local mode or the optional cloud setup.
 - how much explanation you want while CCS teaches you the system.
 
-At the end, it should show you the built-in coaching questions—especially **What can you do?**, **What should I do next?**, and **Coach me through this**—plus the operational commands **Run the domain health check**, **Run the campaign monitor**, **Run the campaign optimizer**, **Review this interested reply**, and **Check intent signals**.
+At the end, it should show you the built-in coaching questions—especially **What can you do?**, **What should I do next?**, and **Coach me through this**—plus the operational commands **Run the domain health check**, **Run the campaign monitor**, **Run the campaign optimizer**, **Review this interested reply**, **Check intent signals**, and **Check commercial finance signals**.
 
 You can skip anything. Missing information is recorded as **Not set yet** rather than blocking you.
 
@@ -127,7 +127,7 @@ Tell the assistant which integration you want to connect. It should help save th
 
 ### You are unsure whether to use Railway
 
-Stay local. All five operational agents can be called on demand. Railway is only necessary for webhooks, scheduled tasks, Slack, phone access to live account data, and agents that must continue running while your computer is off.
+Stay local. All six operational agents can be called on demand. Railway is only necessary for webhooks, scheduled tasks, Slack, phone access to live account data, and agents that must continue running while your computer is off.
 
 ### You are still stuck
 

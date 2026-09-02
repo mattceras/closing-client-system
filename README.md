@@ -25,6 +25,7 @@ It can help you:
 - compare campaign variations and turn credible winners into the next controlled copy test;
 - review interested replies, score prospect fit, summarize the company, and draft the next response;
 - research and score timely public intent signals;
+- scan public commercial-finance signals for potential borrower opportunities and recent funded-deal or lender activity;
 - design new intent-signal campaigns using an included 368-source public directory bank (JSON and CSV) and source-scoring methodology;
 - use the same operating system with ChatGPT Work, Claude, or Codex.
 
@@ -73,9 +74,10 @@ After selecting this folder in ChatGPT Work Local, Claude, or Codex, send any me
 - **Run the campaign optimizer**
 - **Review this interested reply**
 - **Check intent signals**
+- **Check commercial finance signals**
 - **Give me intent-signal ideas for this offer**
 
-The first two use live PlusVibe data when the API key is connected. The reply and intent workflows can also be used manually by pasting a conversation or describing the market. Local mode runs when you ask; Railway is only needed when you want webhooks, schedules, or work that continues while your computer is off.
+The domain-health, campaign-monitor, and campaign-optimizer commands use live PlusVibe data when the API key is connected. Reply review can work from a pasted conversation, and the intent-signal commands use public research when web access is available. Local mode runs when you ask; Railway is only needed when you want webhooks, schedules, or work that continues while your computer is off.
 
 See [OPERATIONS.md](OPERATIONS.md) for what each command needs and what changes when the optional cloud module is connected.
 
