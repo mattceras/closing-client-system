@@ -18,6 +18,7 @@ This is the main loop for taking a client (or the user's own business) from "I w
 
 1. **Offer check** — `CCS-cold-traffic-offer`. Run this before writing any copy, for every new client/campaign. Most bad campaigns trace back to a warm offer forced into a cold channel, not bad copy.
 2. **List building** — `CCS-ai-ark-list-builder` turns an ICP description into a ready-to-click AI Ark search URL.
+   - If the campaign starts from a public event, filing, permit, award, licence, exhibitor list, or other intent signal, use `CCS-intent-signals` first. It designs the signal and selects a source from the included public directory bank; AI Ark then handles company/contact matching and enrichment.
 3. **Export & clean** — the user opens that URL in AI Ark, tweaks filters if needed, exports the CSV themselves, and hands it back. `CCS-ai-ark-csv-cleaner` removes blank-email rows and normalizes the email column.
 4. **Optional enrichment scrape** — `CCS-lead-enrichment-scraper` (Jina AI). Off by default; only run it if the user asks for it.
 5. **Enrichment prompts** — `CCS-enrichment-prompts` builds the qualification / lead-info / email-copy prompt set for Lead Formatter (or Clay/AirScale) from the cleaned CSV.

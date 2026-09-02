@@ -1,0 +1,2210 @@
+[
+  {
+    "directory": "Canada Business Registries",
+    "category": "Company Registry",
+    "region": "Canada",
+    "bestUseCase": "Seed list for any B2B offer targeting Canadian companies"
+  },
+  {
+    "directory": "Federal Corporation Search Canada",
+    "category": "Company Registry",
+    "region": "Canada",
+    "bestUseCase": "Target federally incorporated Canadian entities by industry"
+  },
+  {
+    "directory": "Canadian Importers Database",
+    "category": "Company Registry",
+    "region": "Canada",
+    "bestUseCase": "Equipment financing, freight, customs brokerage, compliance"
+  },
+  {
+    "directory": "BC OrgBook",
+    "category": "Company Registry",
+    "region": "Canada",
+    "bestUseCase": "BC-based B2B services, financing, software, recruiting"
+  },
+  {
+    "directory": "OpenCorporates Canada",
+    "category": "Company Registry",
+    "region": "Canada",
+    "bestUseCase": "Cross-province company research and seed list building"
+  },
+  {
+    "directory": "SEC EDGAR Company Search",
+    "category": "Company Registry",
+    "region": "United States",
+    "bestUseCase": "Targeting public companies and their subsidiaries"
+  },
+  {
+    "directory": "GLEIF LEI Search",
+    "category": "Company Registry",
+    "region": "Global",
+    "bestUseCase": "Cross-border company identification and enrichment"
+  },
+  {
+    "directory": "USA State Secretary of State Searches",
+    "category": "Company Registry",
+    "region": "United States",
+    "bestUseCase": "State-level B2B seed lists by industry or entity type"
+  },
+  {
+    "directory": "SAM.gov Entity Search",
+    "category": "Company Registry",
+    "region": "United States",
+    "bestUseCase": "Procurement-aware companies - compliance, bonding, insurance, ERP"
+  },
+  {
+    "directory": "SBA Small Business Search",
+    "category": "Company Registry",
+    "region": "United States",
+    "bestUseCase": "Government contracting support, financing, recruiting"
+  },
+  {
+    "directory": "USAspending Recipient Profiles",
+    "category": "Company Registry",
+    "region": "United States",
+    "bestUseCase": "Companies that already receive federal money - financing, growth services"
+  },
+  {
+    "directory": "UK Companies House",
+    "category": "Company Registry",
+    "region": "UK",
+    "bestUseCase": "UK B2B seed lists; filter by SIC code and geography"
+  },
+  {
+    "directory": "Companies House Advanced Search",
+    "category": "Company Registry",
+    "region": "UK",
+    "bestUseCase": "Niche UK targeting by industry and company age"
+  },
+  {
+    "directory": "OpenCorporates",
+    "category": "Company Registry",
+    "region": "Global",
+    "bestUseCase": "Multi-country company research and seed lists across 140+ jurisdictions"
+  },
+  {
+    "directory": "EU BRIS Find a Company",
+    "category": "Company Registry",
+    "region": "Europe",
+    "bestUseCase": "EU company targeting across member states"
+  },
+  {
+    "directory": "Netherlands KVK Business Register",
+    "category": "Company Registry",
+    "region": "Europe",
+    "bestUseCase": "Netherlands B2B targeting - finance, software, services"
+  },
+  {
+    "directory": "Germany Unternehmensregister",
+    "category": "Company Registry",
+    "region": "Europe",
+    "bestUseCase": "German B2B - manufacturing, engineering, finance"
+  },
+  {
+    "directory": "France SIRENE / INSEE",
+    "category": "Company Registry",
+    "region": "Europe",
+    "bestUseCase": "French B2B targeting by sector and geography"
+  },
+  {
+    "directory": "Ireland CRO Search",
+    "category": "Company Registry",
+    "region": "Europe",
+    "bestUseCase": "Irish B2B seed lists"
+  },
+  {
+    "directory": "Belgium Crossroads Bank",
+    "category": "Company Registry",
+    "region": "Europe",
+    "bestUseCase": "Belgian B2B targeting"
+  },
+  {
+    "directory": "Denmark CVR",
+    "category": "Company Registry",
+    "region": "Europe",
+    "bestUseCase": "Danish company seed lists"
+  },
+  {
+    "directory": "Sweden Bolagsverket",
+    "category": "Company Registry",
+    "region": "Europe",
+    "bestUseCase": "Swedish B2B targeting"
+  },
+  {
+    "directory": "Norway Bronnøysund Register",
+    "category": "Company Registry",
+    "region": "Europe",
+    "bestUseCase": "Norwegian B2B seed lists"
+  },
+  {
+    "directory": "Spain Registro Mercantil",
+    "category": "Company Registry",
+    "region": "Europe",
+    "bestUseCase": "Spanish company targeting"
+  },
+  {
+    "directory": "Italy Registro Imprese",
+    "category": "Company Registry",
+    "region": "Europe",
+    "bestUseCase": "Italian B2B - manufacturing, food, fashion supply chain"
+  },
+  {
+    "directory": "ABN Lookup",
+    "category": "Company Registry",
+    "region": "Asia-Pac",
+    "bestUseCase": "Australian B2B seed lists; filter by state and business type"
+  },
+  {
+    "directory": "ASIC Connect",
+    "category": "Company Registry",
+    "region": "Asia-Pac",
+    "bestUseCase": "Australian company research and verification"
+  },
+  {
+    "directory": "New Zealand Companies Register",
+    "category": "Company Registry",
+    "region": "Asia-Pac",
+    "bestUseCase": "NZ B2B targeting"
+  },
+  {
+    "directory": "Singapore ACRA Bizfile",
+    "category": "Company Registry",
+    "region": "Asia-Pac",
+    "bestUseCase": "Singapore B2B - finance, tech, manufacturing"
+  },
+  {
+    "directory": "Hong Kong Companies Registry",
+    "category": "Company Registry",
+    "region": "Asia-Pac",
+    "bestUseCase": "HK B2B targeting - finance, logistics, trade"
+  },
+  {
+    "directory": "Japan NTA Corporate Number",
+    "category": "Company Registry",
+    "region": "Asia-Pac",
+    "bestUseCase": "Japan B2B seed lists"
+  },
+  {
+    "directory": "India MCA Company Master Data",
+    "category": "Company Registry",
+    "region": "Asia-Pac",
+    "bestUseCase": "India B2B - manufacturing, IT, services"
+  },
+  {
+    "directory": "Malaysia SSM e-Search",
+    "category": "Company Registry",
+    "region": "Asia-Pac",
+    "bestUseCase": "Malaysia B2B targeting"
+  },
+  {
+    "directory": "Philippines SEC Company Search",
+    "category": "Company Registry",
+    "region": "Asia-Pac",
+    "bestUseCase": "Philippines B2B seed lists"
+  },
+  {
+    "directory": "New York Active Corporations",
+    "category": "Company Registry",
+    "region": "United States",
+    "bestUseCase": "New York company seed lists, new-entity campaigns, local B2B services"
+  },
+  {
+    "directory": "New York Corporations and Other Entities - All Filings",
+    "category": "Company Registry",
+    "region": "United States",
+    "bestUseCase": "Trigger-based outreach around new filings, amendments, entity changes"
+  },
+  {
+    "directory": "SAM.gov Entity Registration",
+    "category": "Gov Procurement",
+    "region": "United States",
+    "bestUseCase": "Compliance, bonding, insurance, ERP, staffing, proposal writing, fractional CFO"
+  },
+  {
+    "directory": "SAM.gov Disaster Response Registry",
+    "category": "Gov Procurement",
+    "region": "United States",
+    "bestUseCase": "Insurance, compliance, emergency services vendors"
+  },
+  {
+    "directory": "GSA eLibrary Contractor Directory",
+    "category": "Gov Procurement",
+    "region": "United States",
+    "bestUseCase": "IT, professional services, products sold to the US government"
+  },
+  {
+    "directory": "USAspending Recipient Search",
+    "category": "Gov Procurement",
+    "region": "United States",
+    "bestUseCase": "Companies receiving federal money - growth services, financing, ERP"
+  },
+  {
+    "directory": "CanadaBuys Tender Awards / Contract History",
+    "category": "Gov Procurement",
+    "region": "Canada",
+    "bestUseCase": "Canadian government awardee and contractor-history targeting"
+  },
+  {
+    "directory": "MERX Supplier/Award Data",
+    "category": "Gov Procurement",
+    "region": "Canada",
+    "bestUseCase": "Canadian procurement-aware companies"
+  },
+  {
+    "directory": "EU TED eTendering",
+    "category": "Gov Procurement",
+    "region": "Europe",
+    "bestUseCase": "EU procurement-focused companies"
+  },
+  {
+    "directory": "UK Contracts Finder",
+    "category": "Gov Procurement",
+    "region": "UK",
+    "bestUseCase": "UK government vendors - compliance, proposal writing, finance"
+  },
+  {
+    "directory": "Find a Tender UK",
+    "category": "Gov Procurement",
+    "region": "UK",
+    "bestUseCase": "UK tender-active companies"
+  },
+  {
+    "directory": "Australian AusTender",
+    "category": "Gov Procurement",
+    "region": "Asia-Pac",
+    "bestUseCase": "Australian procurement vendors"
+  },
+  {
+    "directory": "New Zealand GETS",
+    "category": "Gov Procurement",
+    "region": "Asia-Pac",
+    "bestUseCase": "NZ procurement-active companies"
+  },
+  {
+    "directory": "Thomasnet Supplier Directory",
+    "category": "Manufacturing",
+    "region": "N. America",
+    "bestUseCase": "Equipment financing, ERP, automation, industrial AI, recruiting, factoring"
+  },
+  {
+    "directory": "IndustryNet",
+    "category": "Manufacturing",
+    "region": "United States",
+    "bestUseCase": "B2B services for manufacturers - insurance, ERP, outbound sales"
+  },
+  {
+    "directory": "IQS Directory",
+    "category": "Manufacturing",
+    "region": "United States",
+    "bestUseCase": "Industrial B2B targeting by product category"
+  },
+  {
+    "directory": "MFG.com",
+    "category": "Manufacturing",
+    "region": "Global",
+    "bestUseCase": "Manufacturing services - recruiting, ERP, financing, AI implementation"
+  },
+  {
+    "directory": "Europages",
+    "category": "Manufacturing",
+    "region": "Europe",
+    "bestUseCase": "European manufacturer targeting - ERP, compliance, logistics"
+  },
+  {
+    "directory": "Kompass",
+    "category": "Manufacturing",
+    "region": "Global",
+    "bestUseCase": "Cross-border manufacturer and supplier targeting"
+  },
+  {
+    "directory": "Global Sources",
+    "category": "Manufacturing",
+    "region": "Asia-Pac",
+    "bestUseCase": "Asia-Pacific sourcing and import/export B2B"
+  },
+  {
+    "directory": "Made-in-China",
+    "category": "Manufacturing",
+    "region": "Asia-Pac",
+    "bestUseCase": "Importing/sourcing, freight, compliance, financing"
+  },
+  {
+    "directory": "IndiaMART",
+    "category": "Manufacturing",
+    "region": "Asia-Pac",
+    "bestUseCase": "India B2B manufacturing - services, software, financing"
+  },
+  {
+    "directory": "Alibaba Supplier Directory",
+    "category": "Manufacturing",
+    "region": "Global",
+    "bestUseCase": "Global sourcing companies - freight, financing, compliance"
+  },
+  {
+    "directory": "TradeIndia",
+    "category": "Manufacturing",
+    "region": "Asia-Pac",
+    "bestUseCase": "India manufacturing and services targeting"
+  },
+  {
+    "directory": "ExportHub",
+    "category": "Manufacturing",
+    "region": "Global",
+    "bestUseCase": "Export-oriented manufacturer targeting"
+  },
+  {
+    "directory": "Engineering360 Supplier Directory",
+    "category": "Manufacturing",
+    "region": "United States",
+    "bestUseCase": "Engineering firm targeting - software, recruiting, compliance"
+  },
+  {
+    "directory": "DirectIndustry",
+    "category": "Manufacturing",
+    "region": "Global",
+    "bestUseCase": "Industrial B2B - ERP, equipment financing, automation"
+  },
+  {
+    "directory": "GlobalSpec",
+    "category": "Manufacturing",
+    "region": "United States",
+    "bestUseCase": "Engineering and industrial services targeting"
+  },
+  {
+    "directory": "MacRAEs Blue Book",
+    "category": "Manufacturing",
+    "region": "N. America",
+    "bestUseCase": "Industrial B2B - equipment financing, insurance, ERP"
+  },
+  {
+    "directory": "CBM Metalforming Member Directory",
+    "category": "Manufacturing",
+    "region": "UK",
+    "bestUseCase": "UK metalforming manufacturers and suppliers"
+  },
+  {
+    "directory": "Canadian Trade Index",
+    "category": "Manufacturing",
+    "region": "Canada",
+    "bestUseCase": "Canadian manufacturer targeting"
+  },
+  {
+    "directory": "Frasers Directory",
+    "category": "Manufacturing",
+    "region": "Canada",
+    "bestUseCase": "Canadian industrial B2B targeting"
+  },
+  {
+    "directory": "Manufacturer.com",
+    "category": "Manufacturing",
+    "region": "N. America",
+    "bestUseCase": "Manufacturing services - ERP, recruiting, financing"
+  },
+  {
+    "directory": "Packaging World Supplier Directory",
+    "category": "Manufacturing",
+    "region": "United States",
+    "bestUseCase": "Packaging company targeting - equipment, compliance, ERP"
+  },
+  {
+    "directory": "Food Processing Supplier Directories",
+    "category": "Manufacturing",
+    "region": "United States",
+    "bestUseCase": "Food manufacturer targeting - compliance, equipment, ERP"
+  },
+  {
+    "directory": "CKCA Member Directory",
+    "category": "Manufacturing",
+    "region": "Canada",
+    "bestUseCase": "Canadian kitchen cabinet manufacturers and suppliers"
+  },
+  {
+    "directory": "Processing Magazine Supplier Guide",
+    "category": "Manufacturing",
+    "region": "United States",
+    "bestUseCase": "Chemical/industrial processor targeting"
+  },
+  {
+    "directory": "Control Engineering Supplier Directories",
+    "category": "Manufacturing",
+    "region": "United States",
+    "bestUseCase": "Industrial automation targeting"
+  },
+  {
+    "directory": "SourceTool B2B Supplier Directory",
+    "category": "Manufacturing",
+    "region": "Global",
+    "bestUseCase": "Free B2B supplier search across 750k+ listed companies"
+  },
+  {
+    "directory": "B2BMAP Suppliers & Manufacturers",
+    "category": "Manufacturing",
+    "region": "Global",
+    "bestUseCase": "Global manufacturers, suppliers, wholesalers, and exporters"
+  },
+  {
+    "directory": "EC21 Company Directory",
+    "category": "Manufacturing",
+    "region": "Global",
+    "bestUseCase": "Global manufacturers, suppliers, exporters, and buyers"
+  },
+  {
+    "directory": "MFGAxis Industrial Supplier Directory",
+    "category": "Manufacturing",
+    "region": "United States",
+    "bestUseCase": "Industrial supplier and manufacturing capability profiles"
+  },
+  {
+    "directory": "Precision Metalforming Association Directory",
+    "category": "Manufacturing",
+    "region": "United States",
+    "bestUseCase": "Metalforming manufacturers and industry suppliers"
+  },
+  {
+    "directory": "EWTA Supplier Directory",
+    "category": "Manufacturing",
+    "region": "United States",
+    "bestUseCase": "Engineered wood equipment, materials, supplies, and service providers"
+  },
+  {
+    "directory": "Faktorist Wholesale Suppliers",
+    "category": "Manufacturing",
+    "region": "Global",
+    "bestUseCase": "Verified wholesale suppliers, manufacturers, distributors, and exporters"
+  },
+  {
+    "directory": "FindaSupplier Wholesale Directory",
+    "category": "Manufacturing",
+    "region": "Global",
+    "bestUseCase": "Wholesale supplier categories and supplier profiles"
+  },
+  {
+    "directory": "Map Your Show",
+    "category": "Trade Show",
+    "region": "Global",
+    "bestUseCase": "Find any industrys active exhibitors - budget + intent confirmed"
+  },
+  {
+    "directory": "ExpoFP",
+    "category": "Trade Show",
+    "region": "Global",
+    "bestUseCase": "Exhibitor lists with booth numbers and product categories"
+  },
+  {
+    "directory": "Swapcard",
+    "category": "Trade Show",
+    "region": "Global",
+    "bestUseCase": "Exhibitor profiles with contact data in some events"
+  },
+  {
+    "directory": "Brella",
+    "category": "Trade Show",
+    "region": "Global",
+    "bestUseCase": "Exhibitor and attendee targeting for B2B events"
+  },
+  {
+    "directory": "EventHub",
+    "category": "Trade Show",
+    "region": "Global",
+    "bestUseCase": "Exhibitors seeking buyers - high commercial intent"
+  },
+  {
+    "directory": "CES Exhibitor Directory",
+    "category": "Trade Show",
+    "region": "United States",
+    "bestUseCase": "Tech company targeting - AI, software, hardware"
+  },
+  {
+    "directory": "SEMA Exhibitor List",
+    "category": "Trade Show",
+    "region": "United States",
+    "bestUseCase": "Auto parts/accessories - financing, ERP, recruiting"
+  },
+  {
+    "directory": "PACK EXPO Exhibitors",
+    "category": "Trade Show",
+    "region": "United States",
+    "bestUseCase": "Packaging company targeting - equipment, compliance, ERP"
+  },
+  {
+    "directory": "IMTS Exhibitors",
+    "category": "Trade Show",
+    "region": "United States",
+    "bestUseCase": "Manufacturing tech companies - ERP, financing, AI"
+  },
+  {
+    "directory": "FABTECH Exhibitors",
+    "category": "Trade Show",
+    "region": "United States",
+    "bestUseCase": "Metal fab company targeting"
+  },
+  {
+    "directory": "BIO International Exhibitors",
+    "category": "Trade Show",
+    "region": "United States",
+    "bestUseCase": "Biotech and pharma B2B targeting"
+  },
+  {
+    "directory": "HIMSS Exhibitors",
+    "category": "Trade Show",
+    "region": "United States",
+    "bestUseCase": "Healthcare technology targeting"
+  },
+  {
+    "directory": "NRF Big Show Exhibitors",
+    "category": "Trade Show",
+    "region": "United States",
+    "bestUseCase": "Retail tech and services targeting"
+  },
+  {
+    "directory": "RSNA Exhibitors",
+    "category": "Trade Show",
+    "region": "United States",
+    "bestUseCase": "Medical imaging and radiology tech targeting"
+  },
+  {
+    "directory": "JEC World Exhibitors",
+    "category": "Trade Show",
+    "region": "Europe",
+    "bestUseCase": "Composites manufacturer targeting"
+  },
+  {
+    "directory": "Formnext Exhibitors",
+    "category": "Trade Show",
+    "region": "Europe",
+    "bestUseCase": "3D printing and advanced manufacturing targeting"
+  },
+  {
+    "directory": "SIAL Canada Exhibitors",
+    "category": "Trade Show",
+    "region": "Canada",
+    "bestUseCase": "Food company targeting - compliance, equipment, distribution"
+  },
+  {
+    "directory": "PDAC Exhibitors",
+    "category": "Trade Show",
+    "region": "Canada",
+    "bestUseCase": "Mining company targeting - financing, equipment, ERP"
+  },
+  {
+    "directory": "Analytica Exhibitors",
+    "category": "Trade Show",
+    "region": "Europe",
+    "bestUseCase": "Lab and analytical equipment company targeting"
+  },
+  {
+    "directory": "World of Quantum Exhibitors",
+    "category": "Trade Show",
+    "region": "Europe",
+    "bestUseCase": "Quantum tech B2B targeting"
+  },
+  {
+    "directory": "MODEX Exhibitors",
+    "category": "Trade Show",
+    "region": "United States",
+    "bestUseCase": "Supply chain and logistics tech targeting"
+  },
+  {
+    "directory": "NPE Plastics Exhibitors",
+    "category": "Trade Show",
+    "region": "United States",
+    "bestUseCase": "Plastics manufacturer targeting"
+  },
+  {
+    "directory": "World of Concrete Exhibitors",
+    "category": "Trade Show",
+    "region": "United States",
+    "bestUseCase": "Construction materials company targeting"
+  },
+  {
+    "directory": "AHR Expo Exhibitors",
+    "category": "Trade Show",
+    "region": "United States",
+    "bestUseCase": "HVAC and building systems targeting"
+  },
+  {
+    "directory": "Natural Products Expo West",
+    "category": "Trade Show",
+    "region": "United States",
+    "bestUseCase": "Natural/organic brand targeting - compliance, distribution"
+  },
+  {
+    "directory": "Seafood Expo Exhibitors",
+    "category": "Trade Show",
+    "region": "N. America",
+    "bestUseCase": "Seafood company targeting"
+  },
+  {
+    "directory": "CONEXPO Exhibitors",
+    "category": "Trade Show",
+    "region": "United States",
+    "bestUseCase": "Heavy construction targeting - financing, equipment, ERP"
+  },
+  {
+    "directory": "SupplySide Global",
+    "category": "Trade Show",
+    "region": "United States",
+    "bestUseCase": "Ingredient, supplement, food, beverage, packaging, formulation, and nutraceutical companies"
+  },
+  {
+    "directory": "MD&M West",
+    "category": "Trade Show",
+    "region": "United States",
+    "bestUseCase": "Medical device, design, manufacturing, automation, plastics, and packaging companies"
+  },
+  {
+    "directory": "The Battery Show North America",
+    "category": "Trade Show",
+    "region": "United States",
+    "bestUseCase": "Battery, EV, advanced materials, testing, and energy-storage suppliers"
+  },
+  {
+    "directory": "SEMICON West",
+    "category": "Trade Show",
+    "region": "United States",
+    "bestUseCase": "Semiconductor manufacturers, equipment suppliers, materials companies"
+  },
+  {
+    "directory": "Automate Show",
+    "category": "Trade Show",
+    "region": "United States",
+    "bestUseCase": "Robotics, automation, AI, motion control, vision systems"
+  },
+  {
+    "directory": "Black Hat USA",
+    "category": "Trade Show",
+    "region": "United States",
+    "bestUseCase": "Cybersecurity sponsors, exhibitors, startups, and security vendors"
+  },
+  {
+    "directory": "HLTH",
+    "category": "Trade Show",
+    "region": "United States",
+    "bestUseCase": "Healthcare innovation sponsors and exhibitors"
+  },
+  {
+    "directory": "ViVE",
+    "category": "Trade Show",
+    "region": "United States",
+    "bestUseCase": "Digital health sponsors, exhibitors, and attending companies"
+  },
+  {
+    "directory": "Shoptalk",
+    "category": "Trade Show",
+    "region": "United States",
+    "bestUseCase": "Retail, ecommerce, logistics, payments, marketing technology"
+  },
+  {
+    "directory": "Web Summit",
+    "category": "Trade Show",
+    "region": "Global",
+    "bestUseCase": "Startups, scaleups, sponsors, and technology companies"
+  },
+  {
+    "directory": "AWS Partner Directory",
+    "category": "Tech Partner",
+    "region": "Global",
+    "bestUseCase": "Cloud implementation firms - recruiting, AI ops, outbound"
+  },
+  {
+    "directory": "Microsoft Partner Directory",
+    "category": "Tech Partner",
+    "region": "Global",
+    "bestUseCase": "MSPs, cloud consultants - AI implementation, recruiting, outbound"
+  },
+  {
+    "directory": "Google Cloud Partner Directory",
+    "category": "Tech Partner",
+    "region": "Global",
+    "bestUseCase": "Cloud and data firms - outbound infrastructure, AI, recruiting"
+  },
+  {
+    "directory": "Salesforce AppExchange Consultants",
+    "category": "Tech Partner",
+    "region": "Global",
+    "bestUseCase": "CRM consultants - outbound systems, AI ops, recruiting"
+  },
+  {
+    "directory": "Shopify Partner Directory",
+    "category": "Tech Partner",
+    "region": "Global",
+    "bestUseCase": "eCommerce agency targeting - outbound, lead gen, AI"
+  },
+  {
+    "directory": "HubSpot Solutions Directory",
+    "category": "Tech Partner",
+    "region": "Global",
+    "bestUseCase": "Marketing agencies - outbound infrastructure, AI, lead gen"
+  },
+  {
+    "directory": "Stripe Partner Directory",
+    "category": "Tech Partner",
+    "region": "Global",
+    "bestUseCase": "Fintech and payment firms targeting"
+  },
+  {
+    "directory": "Webflow Experts",
+    "category": "Tech Partner",
+    "region": "Global",
+    "bestUseCase": "Web agency targeting"
+  },
+  {
+    "directory": "Bubble Experts",
+    "category": "Tech Partner",
+    "region": "Global",
+    "bestUseCase": "No-code dev agency targeting"
+  },
+  {
+    "directory": "Zapier Experts",
+    "category": "Tech Partner",
+    "region": "Global",
+    "bestUseCase": "Automation agency targeting"
+  },
+  {
+    "directory": "Make Partner Directory",
+    "category": "Tech Partner",
+    "region": "Global",
+    "bestUseCase": "Automation and integration agency targeting"
+  },
+  {
+    "directory": "Monday.com Partner Directory",
+    "category": "Tech Partner",
+    "region": "Global",
+    "bestUseCase": "PM software consultants targeting"
+  },
+  {
+    "directory": "Atlassian Partner Directory",
+    "category": "Tech Partner",
+    "region": "Global",
+    "bestUseCase": "Dev-tool consultants and MSPs"
+  },
+  {
+    "directory": "ServiceNow Partner Finder",
+    "category": "Tech Partner",
+    "region": "Global",
+    "bestUseCase": "Enterprise ITSM consultants - AI ops, recruiting"
+  },
+  {
+    "directory": "Oracle Partner Finder",
+    "category": "Tech Partner",
+    "region": "Global",
+    "bestUseCase": "Oracle ERP and cloud implementation firms"
+  },
+  {
+    "directory": "SAP Partner Finder",
+    "category": "Tech Partner",
+    "region": "Global",
+    "bestUseCase": "SAP consultants - large enterprise B2B"
+  },
+  {
+    "directory": "NetSuite Partner Directory",
+    "category": "Tech Partner",
+    "region": "Global",
+    "bestUseCase": "Mid-market ERP consultants - outbound, AI, recruiting"
+  },
+  {
+    "directory": "Snowflake Partner Network",
+    "category": "Tech Partner",
+    "region": "Global",
+    "bestUseCase": "Data engineering and analytics firms targeting"
+  },
+  {
+    "directory": "Databricks Partner Directory",
+    "category": "Tech Partner",
+    "region": "Global",
+    "bestUseCase": "AI/ML and data platform firms targeting"
+  },
+  {
+    "directory": "Adobe Solution Partners",
+    "category": "Tech Partner",
+    "region": "Global",
+    "bestUseCase": "Digital marketing agency targeting"
+  },
+  {
+    "directory": "Klaviyo Partner Directory",
+    "category": "Tech Partner",
+    "region": "Global",
+    "bestUseCase": "eCommerce email agency targeting"
+  },
+  {
+    "directory": "Braze Partners",
+    "category": "Tech Partner",
+    "region": "Global",
+    "bestUseCase": "Marketing technology agency targeting"
+  },
+  {
+    "directory": "Segment Partners",
+    "category": "Tech Partner",
+    "region": "Global",
+    "bestUseCase": "CDP and analytics firm targeting"
+  },
+  {
+    "directory": "Twilio Partner Directory",
+    "category": "Tech Partner",
+    "region": "Global",
+    "bestUseCase": "Communication technology firms targeting"
+  },
+  {
+    "directory": "Okta Partner Directory",
+    "category": "Tech Partner",
+    "region": "Global",
+    "bestUseCase": "Security and IAM consultant targeting"
+  },
+  {
+    "directory": "Workday Partner Directory",
+    "category": "Tech Partner",
+    "region": "Global",
+    "bestUseCase": "Enterprise HR/finance consultants"
+  },
+  {
+    "directory": "UiPath Partner Directory",
+    "category": "Tech Partner",
+    "region": "Global",
+    "bestUseCase": "Automation and RPA firm targeting"
+  },
+  {
+    "directory": "Clutch",
+    "category": "Agency/Software",
+    "region": "Global",
+    "bestUseCase": "Target agencies by exact service - cold email, B2B lead gen, outbound"
+  },
+  {
+    "directory": "GoodFirms",
+    "category": "Agency/Software",
+    "region": "Global",
+    "bestUseCase": "Agency and software company targeting"
+  },
+  {
+    "directory": "DesignRush",
+    "category": "Agency/Software",
+    "region": "United States",
+    "bestUseCase": "Creative and marketing agency targeting"
+  },
+  {
+    "directory": "The Manifest",
+    "category": "Agency/Software",
+    "region": "United States",
+    "bestUseCase": "Agency targeting with market research context"
+  },
+  {
+    "directory": "Sortlist",
+    "category": "Agency/Software",
+    "region": "Europe",
+    "bestUseCase": "European agency targeting"
+  },
+  {
+    "directory": "Agency Spotter",
+    "category": "Agency/Software",
+    "region": "United States",
+    "bestUseCase": "US agency targeting by specialty, size, and vertical"
+  },
+  {
+    "directory": "UpCity",
+    "category": "Agency/Software",
+    "region": "United States",
+    "bestUseCase": "Local agency and service company targeting"
+  },
+  {
+    "directory": "G2",
+    "category": "Agency/Software",
+    "region": "Global",
+    "bestUseCase": "Software company targeting - outbound tools, AI sales, integrations"
+  },
+  {
+    "directory": "Capterra",
+    "category": "Agency/Software",
+    "region": "Global",
+    "bestUseCase": "Software company targeting by exact category"
+  },
+  {
+    "directory": "GetApp",
+    "category": "Agency/Software",
+    "region": "Global",
+    "bestUseCase": "SMB software vendor targeting"
+  },
+  {
+    "directory": "Software Advice",
+    "category": "Agency/Software",
+    "region": "Global",
+    "bestUseCase": "Software vendor targeting"
+  },
+  {
+    "directory": "TrustRadius",
+    "category": "Agency/Software",
+    "region": "United States",
+    "bestUseCase": "Mid-market and enterprise software targeting"
+  },
+  {
+    "directory": "SourceForge Directory",
+    "category": "Agency/Software",
+    "region": "Global",
+    "bestUseCase": "Developer tool and open-source company targeting"
+  },
+  {
+    "directory": "Crozdesk",
+    "category": "Agency/Software",
+    "region": "Global",
+    "bestUseCase": "SaaS company targeting"
+  },
+  {
+    "directory": "SaaSworthy",
+    "category": "Agency/Software",
+    "region": "Global",
+    "bestUseCase": "SaaS founder and growth team targeting"
+  },
+  {
+    "directory": "Product Hunt",
+    "category": "Agency/Software",
+    "region": "Global",
+    "bestUseCase": "Early-stage SaaS and tech company targeting"
+  },
+  {
+    "directory": "CaseStudies.com",
+    "category": "Agency/Software",
+    "region": "Global",
+    "bestUseCase": "Companies with public case studies - customer proof, buying triggers"
+  },
+  {
+    "directory": "AlternativeTo",
+    "category": "Agency/Software",
+    "region": "Global",
+    "bestUseCase": "Software company targeting by niche"
+  },
+  {
+    "directory": "Gartner Peer Insights",
+    "category": "Agency/Software",
+    "region": "Global",
+    "bestUseCase": "Enterprise software vendor targeting"
+  },
+  {
+    "directory": "BBB Business Directory",
+    "category": "Agency/Software",
+    "region": "United States",
+    "bestUseCase": "Local and regional B2B service company targeting"
+  },
+  {
+    "directory": "Yelp Business Directory",
+    "category": "Agency/Software",
+    "region": "United States",
+    "bestUseCase": "Local service business targeting"
+  },
+  {
+    "directory": "Distrilist B2B Business Directory",
+    "category": "Agency/Software",
+    "region": "Global",
+    "bestUseCase": "Global B2B company listings by industry, country, and business segment"
+  },
+  {
+    "directory": "The Blue Book",
+    "category": "Construction & CRE",
+    "region": "United States",
+    "bestUseCase": "Commercial finance, bonding, equipment financing, software, recruiting - 800k+ listings"
+  },
+  {
+    "directory": "Procore Construction Network",
+    "category": "Construction & CRE",
+    "region": "Global",
+    "bestUseCase": "Construction software, project management tools, staffing"
+  },
+  {
+    "directory": "BuildZoom",
+    "category": "Construction & CRE",
+    "region": "United States",
+    "bestUseCase": "Contractor targeting - insurance, financing, software"
+  },
+  {
+    "directory": "Houzz Pro Directory",
+    "category": "Construction & CRE",
+    "region": "United States",
+    "bestUseCase": "High-end residential and commercial contractor targeting"
+  },
+  {
+    "directory": "BidCentral",
+    "category": "Construction & CRE",
+    "region": "Canada",
+    "bestUseCase": "Canadian construction company targeting"
+  },
+  {
+    "directory": "Dodge Construction Network",
+    "category": "Construction & CRE",
+    "region": "United States",
+    "bestUseCase": "General contractor and subcontractor targeting"
+  },
+  {
+    "directory": "ConstructConnect",
+    "category": "Construction & CRE",
+    "region": "United States",
+    "bestUseCase": "Construction company targeting - pre-bid outreach"
+  },
+  {
+    "directory": "HomeAdvisor / Angi",
+    "category": "Construction & CRE",
+    "region": "United States",
+    "bestUseCase": "Residential and light commercial contractor targeting"
+  },
+  {
+    "directory": "Thumbtack",
+    "category": "Construction & CRE",
+    "region": "United States",
+    "bestUseCase": "Local contractor and trades targeting"
+  },
+  {
+    "directory": "BCFSA Real Estate Professional Search",
+    "category": "Construction & CRE",
+    "region": "Canada",
+    "bestUseCase": "BC real estate firm targeting"
+  },
+  {
+    "directory": "CCIM Member Directory",
+    "category": "Construction & CRE",
+    "region": "United States",
+    "bestUseCase": "CRE professional targeting - financing, software, transactions"
+  },
+  {
+    "directory": "Nareit REIT Directory",
+    "category": "Construction & CRE",
+    "region": "United States",
+    "bestUseCase": "REIT and institutional real estate targeting"
+  },
+  {
+    "directory": "AIA Architect Finder",
+    "category": "Construction & CRE",
+    "region": "United States",
+    "bestUseCase": "Architecture firm targeting"
+  },
+  {
+    "directory": "NSPE PE License Search",
+    "category": "Construction & CRE",
+    "region": "United States",
+    "bestUseCase": "Engineering firm targeting"
+  },
+  {
+    "directory": "NRCA Roofing Contractor Search",
+    "category": "Construction & CRE",
+    "region": "United States",
+    "bestUseCase": "Roofing contractor targeting - insurance, financing, software"
+  },
+  {
+    "directory": "ACCA HVAC Contractor Search",
+    "category": "Construction & CRE",
+    "region": "United States",
+    "bestUseCase": "HVAC contractor targeting"
+  },
+  {
+    "directory": "NECA Electrical Contractor Search",
+    "category": "Construction & CRE",
+    "region": "United States",
+    "bestUseCase": "Electrical contractor targeting"
+  },
+  {
+    "directory": "MCAA Plumbing Contractor Search",
+    "category": "Construction & CRE",
+    "region": "United States",
+    "bestUseCase": "Plumbing contractor targeting"
+  },
+  {
+    "directory": "FMCSA SAFER Company Snapshot",
+    "category": "Logistics & Freight",
+    "region": "United States",
+    "bestUseCase": "Carrier targeting - factoring, insurance, fuel cards, dispatching software"
+  },
+  {
+    "directory": "FMCSA Licensing & Insurance Search",
+    "category": "Logistics & Freight",
+    "region": "United States",
+    "bestUseCase": "Active carrier targeting - compliance, fleet financing"
+  },
+  {
+    "directory": "FMCSA Passenger Carrier Search",
+    "category": "Logistics & Freight",
+    "region": "United States",
+    "bestUseCase": "Passenger carrier targeting"
+  },
+  {
+    "directory": "CarrierSource",
+    "category": "Logistics & Freight",
+    "region": "United States",
+    "bestUseCase": "Carrier targeting - factoring, insurance, dispatching"
+  },
+  {
+    "directory": "Zipments Trucking Directory",
+    "category": "Logistics & Freight",
+    "region": "United States",
+    "bestUseCase": "Freight carrier targeting"
+  },
+  {
+    "directory": "FreightFinder",
+    "category": "Logistics & Freight",
+    "region": "Global",
+    "bestUseCase": "Freight company targeting"
+  },
+  {
+    "directory": "Freightnet",
+    "category": "Logistics & Freight",
+    "region": "Global",
+    "bestUseCase": "International freight and logistics targeting"
+  },
+  {
+    "directory": "CBSA FAST Approved Carriers",
+    "category": "Logistics & Freight",
+    "region": "Canada",
+    "bestUseCase": "Canadian cross-border carrier targeting"
+  },
+  {
+    "directory": "eCarrierCheck",
+    "category": "Logistics & Freight",
+    "region": "United States",
+    "bestUseCase": "Carrier research and targeting"
+  },
+  {
+    "directory": "SearchMule Trucking Directory",
+    "category": "Logistics & Freight",
+    "region": "United States",
+    "bestUseCase": "Trucking company targeting"
+  },
+  {
+    "directory": "TruckDown",
+    "category": "Logistics & Freight",
+    "region": "United States",
+    "bestUseCase": "Truck service and fleet company targeting"
+  },
+  {
+    "directory": "DAT Carrier Directories",
+    "category": "Logistics & Freight",
+    "region": "United States",
+    "bestUseCase": "Active freight carrier and broker targeting"
+  },
+  {
+    "directory": "Truckstop Load Board",
+    "category": "Logistics & Freight",
+    "region": "United States",
+    "bestUseCase": "Active carrier and freight broker targeting"
+  },
+  {
+    "directory": "3PL Directories",
+    "category": "Logistics & Freight",
+    "region": "Global",
+    "bestUseCase": "3PL targeting - software, recruiting, insurance"
+  },
+  {
+    "directory": "Cold-Chain Logistics Directories",
+    "category": "Logistics & Freight",
+    "region": "Global",
+    "bestUseCase": "Cold chain operator targeting"
+  },
+  {
+    "directory": "FIATA Freight Forwarder Directory",
+    "category": "Logistics & Freight",
+    "region": "Global",
+    "bestUseCase": "Freight forwarder targeting"
+  },
+  {
+    "directory": "NCBFAA Customs Broker Directory",
+    "category": "Logistics & Freight",
+    "region": "United States",
+    "bestUseCase": "Customs broker targeting"
+  },
+  {
+    "directory": "FMC Licensed NVOCCs / OTI List",
+    "category": "Logistics & Freight",
+    "region": "United States",
+    "bestUseCase": "Freight forwarders, NVOCCs, customs, logistics tech, insurance, trade finance"
+  },
+  {
+    "directory": "CBP Permitted Customs Brokers Listing",
+    "category": "Logistics & Freight",
+    "region": "United States",
+    "bestUseCase": "Customs brokers and trade compliance firms"
+  },
+  {
+    "directory": "NPPES NPI Registry",
+    "category": "Healthcare",
+    "region": "United States",
+    "bestUseCase": "Recruiting, billing/RCM, AI documentation, intake automation - 8M+ records"
+  },
+  {
+    "directory": "Medicare Care Compare",
+    "category": "Healthcare",
+    "region": "United States",
+    "bestUseCase": "Filter by facility type, location, rating - targeted healthcare B2B"
+  },
+  {
+    "directory": "CMS Provider Data Catalog",
+    "category": "Healthcare",
+    "region": "United States",
+    "bestUseCase": "Healthcare data for outbound segmentation at scale"
+  },
+  {
+    "directory": "Hospital Compare Datasets",
+    "category": "Healthcare",
+    "region": "United States",
+    "bestUseCase": "Hospital targeting - staffing, software, compliance"
+  },
+  {
+    "directory": "Home Health Agency Datasets",
+    "category": "Healthcare",
+    "region": "United States",
+    "bestUseCase": "Home health targeting - recruiting, billing, AI documentation"
+  },
+  {
+    "directory": "Nursing Home Datasets",
+    "category": "Healthcare",
+    "region": "United States",
+    "bestUseCase": "Nursing home targeting - staffing, compliance, financing"
+  },
+  {
+    "directory": "Urgent Care Finder",
+    "category": "Healthcare",
+    "region": "United States",
+    "bestUseCase": "Urgent care targeting - billing, staffing, AI intake"
+  },
+  {
+    "directory": "NABP Pharmacy Directory",
+    "category": "Healthcare",
+    "region": "United States",
+    "bestUseCase": "Pharmacy targeting - compliance, software"
+  },
+  {
+    "directory": "SAMHSA Treatment Facility Locator",
+    "category": "Healthcare",
+    "region": "United States",
+    "bestUseCase": "Behavioral health provider targeting"
+  },
+  {
+    "directory": "NAHC Home Care Provider Search",
+    "category": "Healthcare",
+    "region": "United States",
+    "bestUseCase": "Home care company targeting"
+  },
+  {
+    "directory": "Senior Living Directory",
+    "category": "Healthcare",
+    "region": "United States",
+    "bestUseCase": "Senior care operator targeting - staffing, compliance, software"
+  },
+  {
+    "directory": "HealthPRO Canada Member Directory",
+    "category": "Healthcare",
+    "region": "Canada",
+    "bestUseCase": "Canadian healthcare operator targeting"
+  },
+  {
+    "directory": "NCES Public School Search",
+    "category": "Education",
+    "region": "United States",
+    "bestUseCase": "Public school targeting - software, fundraising, AI tools"
+  },
+  {
+    "directory": "NCES Private School Search",
+    "category": "Education",
+    "region": "United States",
+    "bestUseCase": "Private school targeting - enrollment software, fundraising"
+  },
+  {
+    "directory": "NCES College Navigator",
+    "category": "Education",
+    "region": "United States",
+    "bestUseCase": "College and university targeting - software, recruiting, AI"
+  },
+  {
+    "directory": "GreatSchools",
+    "category": "Education",
+    "region": "United States",
+    "bestUseCase": "K-12 targeting segmented by rating and location"
+  },
+  {
+    "directory": "Canada Designated Learning Institutions",
+    "category": "Education",
+    "region": "Canada",
+    "bestUseCase": "Canadian post-secondary targeting"
+  },
+  {
+    "directory": "Trade School Directories",
+    "category": "Education",
+    "region": "United States",
+    "bestUseCase": "Trade school targeting - recruiting, software, marketing"
+  },
+  {
+    "directory": "AMSHQ Montessori Directory",
+    "category": "Education",
+    "region": "United States",
+    "bestUseCase": "Montessori school targeting"
+  },
+  {
+    "directory": "National Charter Schools Directory",
+    "category": "Education",
+    "region": "United States",
+    "bestUseCase": "Charter school targeting - software, marketing, recruiting"
+  },
+  {
+    "directory": "Course Report Bootcamp Directory",
+    "category": "Education",
+    "region": "Global",
+    "bestUseCase": "Bootcamp targeting - recruiting, employer partnerships"
+  },
+  {
+    "directory": "Language Schools Abroad",
+    "category": "Education",
+    "region": "Global",
+    "bestUseCase": "Language school targeting"
+  },
+  {
+    "directory": "Charity Navigator",
+    "category": "Nonprofit & Assoc",
+    "region": "United States",
+    "bestUseCase": "Nonprofit targeting - donor CRM, accounting, fundraising, AI admin"
+  },
+  {
+    "directory": "CRA List of Charities",
+    "category": "Nonprofit & Assoc",
+    "region": "Canada",
+    "bestUseCase": "Canadian nonprofit targeting"
+  },
+  {
+    "directory": "IRS Tax Exempt Organization Search",
+    "category": "Nonprofit & Assoc",
+    "region": "United States",
+    "bestUseCase": "US nonprofit targeting - grant writing, payroll, HR, cybersecurity"
+  },
+  {
+    "directory": "GuideStar / Candid",
+    "category": "Nonprofit & Assoc",
+    "region": "United States",
+    "bestUseCase": "Nonprofit leadership targeting - software, compliance, fundraising"
+  },
+  {
+    "directory": "ProPublica Nonprofit Explorer",
+    "category": "Nonprofit & Assoc",
+    "region": "United States",
+    "bestUseCase": "Financial intelligence on nonprofits - grant writing, accounting"
+  },
+  {
+    "directory": "Foundation Center / Candid",
+    "category": "Nonprofit & Assoc",
+    "region": "United States",
+    "bestUseCase": "Foundation targeting - grant management, financial services"
+  },
+  {
+    "directory": "ReMA Member Directory",
+    "category": "Nonprofit & Assoc",
+    "region": "Global",
+    "bestUseCase": "Recycled materials companies by commodity and service"
+  },
+  {
+    "directory": "BC Chamber of Commerce",
+    "category": "Chambers & Local",
+    "region": "Canada",
+    "bestUseCase": "BC business targeting"
+  },
+  {
+    "directory": "Greater Vancouver Board of Trade",
+    "category": "Chambers & Local",
+    "region": "Canada",
+    "bestUseCase": "Vancouver B2B targeting"
+  },
+  {
+    "directory": "Maine International Trade Center Member Directory",
+    "category": "Chambers & Local",
+    "region": "United States",
+    "bestUseCase": "Export/import-oriented Maine companies by sector"
+  },
+  {
+    "directory": "BBB Local Directory",
+    "category": "Chambers & Local",
+    "region": "United States",
+    "bestUseCase": "Accredited local business targeting"
+  },
+  {
+    "directory": "Yelp Local Categories",
+    "category": "Chambers & Local",
+    "region": "United States",
+    "bestUseCase": "Local service business targeting"
+  },
+  {
+    "directory": "B Corp Directory",
+    "category": "Certification",
+    "region": "Global",
+    "bestUseCase": "ESG-positioning angle"
+  },
+  {
+    "directory": "NMSDC Certified MBE Search",
+    "category": "Certification",
+    "region": "United States",
+    "bestUseCase": "MBE procurement and supplier enablement targeting"
+  },
+  {
+    "directory": "WBENC Women Owned Directory",
+    "category": "Certification",
+    "region": "United States",
+    "bestUseCase": "WBE procurement, capital, and supplier enablement"
+  },
+  {
+    "directory": "WBE Canada",
+    "category": "Certification",
+    "region": "Canada",
+    "bestUseCase": "Canadian WBE targeting"
+  },
+  {
+    "directory": "Disability:IN Supplier Directory",
+    "category": "Certification",
+    "region": "United States",
+    "bestUseCase": "DOBE supplier enablement and procurement targeting"
+  },
+  {
+    "directory": "ISO Certification Directories",
+    "category": "Certification",
+    "region": "Global",
+    "bestUseCase": "ISO-certified company targeting - compliance, software, auditing"
+  },
+  {
+    "directory": "USGBC LEED Directory",
+    "category": "Certification",
+    "region": "Global",
+    "bestUseCase": "Green building targeting"
+  },
+  {
+    "directory": "ENERGY STAR Partner Directory",
+    "category": "Certification",
+    "region": "United States",
+    "bestUseCase": "Energy efficiency targeting"
+  },
+  {
+    "directory": "VeteranOwnedBusiness.com Search",
+    "category": "Certification",
+    "region": "United States",
+    "bestUseCase": "VOB targeting - financing, procurement, supplier enablement"
+  },
+  {
+    "directory": "NGLCC LGBTQ+ Business Directory",
+    "category": "Certification",
+    "region": "United States",
+    "bestUseCase": "LGBTQ+ owned business targeting"
+  },
+  {
+    "directory": "CCIB Member Directory",
+    "category": "Certification",
+    "region": "Canada",
+    "bestUseCase": "Indigenous business targeting"
+  },
+  {
+    "directory": "USDA Organic Integrity Database",
+    "category": "Certification",
+    "region": "United States",
+    "bestUseCase": "Organic brands, farms, processors, distributors"
+  },
+  {
+    "directory": "CALSSA Member Directory",
+    "category": "Certification",
+    "region": "United States",
+    "bestUseCase": "California solar and storage companies"
+  },
+  {
+    "directory": "California Cannabis License Search",
+    "category": "Certification",
+    "region": "United States",
+    "bestUseCase": "Cannabis retailers, manufacturers, distributors, labs, cultivators"
+  },
+  {
+    "directory": "Seattle Licensed Business Search",
+    "category": "Business Licence",
+    "region": "United States",
+    "bestUseCase": "Signal-based outbound via Seattles business licence registry"
+  },
+  {
+    "directory": "Vancouver Business Licences Open Data",
+    "category": "Business Licence",
+    "region": "Canada",
+    "bestUseCase": "Vancouver SMB targeting with NAICS filtering"
+  },
+  {
+    "directory": "Surrey Business Directory",
+    "category": "Business Licence",
+    "region": "Canada",
+    "bestUseCase": "Surrey B2B targeting"
+  },
+  {
+    "directory": "LA Active Businesses",
+    "category": "Business Licence",
+    "region": "United States",
+    "bestUseCase": "LA SMB targeting at scale"
+  },
+  {
+    "directory": "DC Basic Business Licences",
+    "category": "Business Licence",
+    "region": "United States",
+    "bestUseCase": "DC SMB targeting"
+  },
+  {
+    "directory": "Tacoma Business Licences Dataset",
+    "category": "Business Licence",
+    "region": "United States",
+    "bestUseCase": "Tacoma WA SMB targeting"
+  },
+  {
+    "directory": "Everett Licensed Businesses",
+    "category": "Business Licence",
+    "region": "United States",
+    "bestUseCase": "Everett WA SMB targeting"
+  },
+  {
+    "directory": "Buffalo Business Licences Dataset",
+    "category": "Business Licence",
+    "region": "United States",
+    "bestUseCase": "Buffalo NY SMB targeting"
+  },
+  {
+    "directory": "New Westminster Business Licences",
+    "category": "Business Licence",
+    "region": "Canada",
+    "bestUseCase": "New Westminster B2B targeting"
+  },
+  {
+    "directory": "City of Edmonton Business Licences",
+    "category": "Business Licence",
+    "region": "Canada",
+    "bestUseCase": "Edmonton SMB targeting by licence category"
+  },
+  {
+    "directory": "Calgary Business Licenses",
+    "category": "Business Licence",
+    "region": "Canada",
+    "bestUseCase": "Calgary SMB targeting by operating category"
+  },
+  {
+    "directory": "Mesa Business Licenses",
+    "category": "Business Licence",
+    "region": "United States",
+    "bestUseCase": "Phoenix/Mesa SMB targeting"
+  },
+  {
+    "directory": "Detroit Business Licenses Current",
+    "category": "Business Licence",
+    "region": "United States",
+    "bestUseCase": "Detroit active-business targeting"
+  },
+  {
+    "directory": "Santa Monica Active Business Licenses",
+    "category": "Business Licence",
+    "region": "United States",
+    "bestUseCase": "Santa Monica local-business targeting"
+  },
+  {
+    "directory": "Henderson Active Business Licenses",
+    "category": "Business Licence",
+    "region": "United States",
+    "bestUseCase": "Henderson/Las Vegas-area SMB targeting"
+  },
+  {
+    "directory": "Fayetteville AR Active Business Licenses",
+    "category": "Business Licence",
+    "region": "United States",
+    "bestUseCase": "Fayetteville active-business targeting"
+  },
+  {
+    "directory": "New Orleans Active Occupational Licenses",
+    "category": "Business Licence",
+    "region": "United States",
+    "bestUseCase": "Orleans Parish active-business targeting"
+  },
+  {
+    "directory": "Baton Rouge EBR Registered Businesses",
+    "category": "Business Licence",
+    "region": "United States",
+    "bestUseCase": "Baton Rouge business targeting by NAICS"
+  },
+  {
+    "directory": "Kansas City Business License Holders",
+    "category": "Business Licence",
+    "region": "United States",
+    "bestUseCase": "Kansas City SMB targeting"
+  },
+  {
+    "directory": "Berkeley Business Licenses",
+    "category": "Business Licence",
+    "region": "United States",
+    "bestUseCase": "Berkeley SMB and nonprofit targeting"
+  },
+  {
+    "directory": "Hartford Business Listing",
+    "category": "Business Licence",
+    "region": "United States",
+    "bestUseCase": "Hartford SMB targeting"
+  },
+  {
+    "directory": "Chattanooga Business License",
+    "category": "Business Licence",
+    "region": "United States",
+    "bestUseCase": "Chattanooga local-business targeting"
+  },
+  {
+    "directory": "NYC Legally Operating Businesses",
+    "category": "Business Licence",
+    "region": "United States",
+    "bestUseCase": "NYC regulated SMB targeting by category"
+  },
+  {
+    "directory": "NYC License Applications",
+    "category": "Business Licence",
+    "region": "United States",
+    "bestUseCase": "Newly applying or recently approved NYC businesses"
+  },
+  {
+    "directory": "San Francisco Registered Business Locations",
+    "category": "Business Licence",
+    "region": "United States",
+    "bestUseCase": "SF/Bay Area SMB targeting"
+  },
+  {
+    "directory": "Chicago Business Licenses",
+    "category": "Business Licence",
+    "region": "United States",
+    "bestUseCase": "Chicago SMB and regulated-category targeting"
+  },
+  {
+    "directory": "San Diego Business Tax Certificates",
+    "category": "Business Licence",
+    "region": "United States",
+    "bestUseCase": "San Diego business universe by NAICS"
+  },
+  {
+    "directory": "Philadelphia L&I Business Licenses",
+    "category": "Business Licence",
+    "region": "United States",
+    "bestUseCase": "Philadelphia regulated SMBs"
+  },
+  {
+    "directory": "Miami-Dade Business Tracker / Local Business Tax",
+    "category": "Business Licence",
+    "region": "United States",
+    "bestUseCase": "Miami-Dade new/closed business triggers"
+  },
+  {
+    "directory": "Miami-Dade LocalBusinessTax Feature Layer",
+    "category": "Business Licence",
+    "region": "United States",
+    "bestUseCase": "Machine-readable Miami-Dade business-location pulls"
+  },
+  {
+    "directory": "Seattle SDCI Permit Records",
+    "category": "Building Permit",
+    "region": "United States",
+    "bestUseCase": "CRE financing, construction lending, tenant improvement vendors"
+  },
+  {
+    "directory": "King County Permit Record Search",
+    "category": "Building Permit",
+    "region": "United States",
+    "bestUseCase": "County-level construction targeting"
+  },
+  {
+    "directory": "Snohomish County Permit Reports",
+    "category": "Building Permit",
+    "region": "United States",
+    "bestUseCase": "Construction and contractor targeting in Snohomish"
+  },
+  {
+    "directory": "Portland Permit Records",
+    "category": "Building Permit",
+    "region": "United States",
+    "bestUseCase": "Portland construction and renovation targeting"
+  },
+  {
+    "directory": "Salt Lake City Permit Research",
+    "category": "Building Permit",
+    "region": "United States",
+    "bestUseCase": "SLC construction and expansion targeting"
+  },
+  {
+    "directory": "NYC DOB Permit Issuance",
+    "category": "Building Permit",
+    "region": "United States",
+    "bestUseCase": "Contractors, developers, architects, construction finance"
+  },
+  {
+    "directory": "Los Angeles Building Permits Since 2012",
+    "category": "Building Permit",
+    "region": "United States",
+    "bestUseCase": "LA construction, commercial alteration, project-finance"
+  },
+  {
+    "directory": "Los Angeles Building Permit Information Data",
+    "category": "Building Permit",
+    "region": "United States",
+    "bestUseCase": "Permit-value and project-stage targeting"
+  },
+  {
+    "directory": "Philadelphia L&I Building and Zoning Permits",
+    "category": "Building Permit",
+    "region": "United States",
+    "bestUseCase": "Philadelphia project activity"
+  },
+  {
+    "directory": "California CSLB Contractor Search",
+    "category": "Contractor Licence",
+    "region": "United States",
+    "bestUseCase": "CA contractor targeting - insurance, financing, software, recruiting"
+  },
+  {
+    "directory": "CSLB Public Data Portal",
+    "category": "Contractor Licence",
+    "region": "United States",
+    "bestUseCase": "Bulk CA contractor list building"
+  },
+  {
+    "directory": "Washington L&I Contractor Verification",
+    "category": "Contractor Licence",
+    "region": "United States",
+    "bestUseCase": "WA contractor targeting"
+  },
+  {
+    "directory": "Oregon Building Codes Division",
+    "category": "Contractor Licence",
+    "region": "United States",
+    "bestUseCase": "OR contractor targeting"
+  },
+  {
+    "directory": "Georgia Licensing Board",
+    "category": "Contractor Licence",
+    "region": "United States",
+    "bestUseCase": "GA contractor targeting"
+  },
+  {
+    "directory": "Florida DBPR License Search",
+    "category": "Contractor Licence",
+    "region": "United States",
+    "bestUseCase": "Contractors, real estate, food/lodging, salons, professional services"
+  },
+  {
+    "directory": "Washington WEBS Vendor System",
+    "category": "Vendor Registry",
+    "region": "United States",
+    "bestUseCase": "WA vendor targeting - proposal writing, compliance, bonding"
+  },
+  {
+    "directory": "Illinois Procurement Gateway",
+    "category": "Vendor Registry",
+    "region": "United States",
+    "bestUseCase": "IL procurement-aware company targeting"
+  },
+  {
+    "directory": "NevadaEPro Vendor Registration",
+    "category": "Vendor Registry",
+    "region": "United States",
+    "bestUseCase": "NV vendor targeting"
+  },
+  {
+    "directory": "DuPage County Supplier Directory",
+    "category": "Vendor Registry",
+    "region": "United States",
+    "bestUseCase": "DuPage County vendor targeting"
+  },
+  {
+    "directory": "King County Supplier Portal",
+    "category": "Vendor Registry",
+    "region": "United States",
+    "bestUseCase": "King County WA vendor targeting"
+  },
+  {
+    "directory": "Prince Georges County Vendor Resources",
+    "category": "Vendor Registry",
+    "region": "United States",
+    "bestUseCase": "PG County MD contract-vendor targeting"
+  },
+  {
+    "directory": "FCC Universal Licensing System",
+    "category": "Vendor Registry",
+    "region": "United States",
+    "bestUseCase": "Companies operating radio systems"
+  },
+  {
+    "directory": "FAA National DBE/ACDBE Directory",
+    "category": "Diverse Supplier",
+    "region": "United States",
+    "bestUseCase": "DBE/ACDBE companies - procurement, bonding, compliance"
+  },
+  {
+    "directory": "U.S. DOT State DBE Directory Links",
+    "category": "Diverse Supplier",
+    "region": "United States",
+    "bestUseCase": "State-level DBE targeting"
+  },
+  {
+    "directory": "California Certified Business Registry",
+    "category": "Diverse Supplier",
+    "region": "United States",
+    "bestUseCase": "CA certified business targeting"
+  },
+  {
+    "directory": "Washington OMWBE Directory",
+    "category": "Diverse Supplier",
+    "region": "United States",
+    "bestUseCase": "WA MBE/WBE targeting"
+  },
+  {
+    "directory": "NYC Certified Business List",
+    "category": "Diverse Supplier",
+    "region": "United States",
+    "bestUseCase": "NYC certified business targeting"
+  },
+  {
+    "directory": "NMSDC MBE Search",
+    "category": "Diverse Supplier",
+    "region": "United States",
+    "bestUseCase": "National MBE targeting"
+  },
+  {
+    "directory": "USAspending Federal Award Search",
+    "category": "Grant & Award",
+    "region": "United States",
+    "bestUseCase": "Companies receiving federal money"
+  },
+  {
+    "directory": "USAspending Recipient Trend Profiles",
+    "category": "Grant & Award",
+    "region": "United States",
+    "bestUseCase": "Award trend targeting"
+  },
+  {
+    "directory": "DOE Clean-Energy Grant Recipients",
+    "category": "Grant & Award",
+    "region": "United States",
+    "bestUseCase": "Clean energy company targeting"
+  },
+  {
+    "directory": "Infrastructure Grant Recipients",
+    "category": "Grant & Award",
+    "region": "United States",
+    "bestUseCase": "Infrastructure company targeting"
+  },
+  {
+    "directory": "EPA Facility Registry Service",
+    "category": "Environmental",
+    "region": "United States",
+    "bestUseCase": "Industrial operator targeting - compliance automation, insurance"
+  },
+  {
+    "directory": "EPA FRS Advanced Query",
+    "category": "Environmental",
+    "region": "United States",
+    "bestUseCase": "Niche industrial facility targeting"
+  },
+  {
+    "directory": "EPA ECHO Facility Search",
+    "category": "Environmental",
+    "region": "United States",
+    "bestUseCase": "Regulated facility targeting with compliance burden signal"
+  },
+  {
+    "directory": "EPA Risk Management Plan Data",
+    "category": "Environmental",
+    "region": "United States",
+    "bestUseCase": "High-hazard industrial facility targeting"
+  },
+  {
+    "directory": "EPA RCRA Hazardous Waste Data",
+    "category": "Environmental",
+    "region": "United States",
+    "bestUseCase": "Waste generator targeting"
+  },
+  {
+    "directory": "OSHA Establishment Search",
+    "category": "Environmental",
+    "region": "United States",
+    "bestUseCase": "Safety consultants, HR, compliance, insurance, industrial services"
+  },
+  {
+    "directory": "MSHA Mine Data Retrieval System",
+    "category": "Environmental",
+    "region": "United States",
+    "bestUseCase": "Mining operators - equipment, safety, staffing, compliance, capital"
+  },
+  {
+    "directory": "PHMSA Hazmat Registration Company Search",
+    "category": "Environmental",
+    "region": "United States",
+    "bestUseCase": "Hazmat carriers, chemical distributors, safety/compliance"
+  },
+  {
+    "directory": "FDA Drug Establishments Current Registration Site",
+    "category": "Environmental",
+    "region": "United States",
+    "bestUseCase": "Pharma manufacturing, QA, regulatory, compliance services"
+  },
+  {
+    "directory": "FDA Medical Device Establishment Registration & Listing",
+    "category": "Environmental",
+    "region": "United States",
+    "bestUseCase": "Medical device manufacturers/importers - regulatory, quality, ISO"
+  },
+  {
+    "directory": "USDA FSIS Inspection Directory",
+    "category": "Food & Agriculture",
+    "region": "United States",
+    "bestUseCase": "Food manufacturer targeting - compliance, ERP, equipment, recruiting"
+  },
+  {
+    "directory": "ADPI Find a Supplier Directory",
+    "category": "Food & Agriculture",
+    "region": "United States",
+    "bestUseCase": "Dairy ingredient manufacturers and suppliers"
+  },
+  {
+    "directory": "CFIA Federally Registered Meat Establishments",
+    "category": "Food & Agriculture",
+    "region": "Canada",
+    "bestUseCase": "Canadian food processor targeting"
+  },
+  {
+    "directory": "CFIA Food Export Registers",
+    "category": "Food & Agriculture",
+    "region": "Canada",
+    "bestUseCase": "Export-eligible Canadian food company targeting"
+  },
+  {
+    "directory": "Alberta Agri-Processing Directory",
+    "category": "Food & Agriculture",
+    "region": "Canada",
+    "bestUseCase": "Alberta food/ag processor targeting"
+  },
+  {
+    "directory": "USDA Organic Certification Directory",
+    "category": "Food & Agriculture",
+    "region": "United States",
+    "bestUseCase": "Organic food company targeting"
+  },
+  {
+    "directory": "Food Processing Supplier Directory",
+    "category": "Food & Agriculture",
+    "region": "United States",
+    "bestUseCase": "Food manufacturer targeting - services, ERP, compliance"
+  },
+  {
+    "directory": "Seafood Expo Directories",
+    "category": "Food & Agriculture",
+    "region": "Global",
+    "bestUseCase": "Seafood company targeting - compliance, cold chain, financing"
+  },
+  {
+    "directory": "UK Food Hygiene Rating Scheme API",
+    "category": "Food & Agriculture",
+    "region": "UK",
+    "bestUseCase": "UK restaurants, cafes, takeaways, hotels, supermarkets, care homes"
+  },
+  {
+    "directory": "TABC Public Inquiry",
+    "category": "Food & Agriculture",
+    "region": "United States",
+    "bestUseCase": "Texas bars, restaurants, package stores, distributors, breweries"
+  },
+  {
+    "directory": "Texas Mixed Beverage Sales Receipts",
+    "category": "Food & Agriculture",
+    "region": "United States",
+    "bestUseCase": "High-revenue hospitality targeting"
+  },
+  {
+    "directory": "California ABC License Lookup",
+    "category": "Food & Agriculture",
+    "region": "United States",
+    "bestUseCase": "Restaurants, bars, wineries, distributors, retailers"
+  },
+  {
+    "directory": "NYS Liquor Authority Active Licenses",
+    "category": "Food & Agriculture",
+    "region": "United States",
+    "bestUseCase": "NY bars, restaurants, liquor stores, breweries, distributors"
+  },
+  {
+    "directory": "NPPES NPI Registry (Extended)",
+    "category": "Healthcare (Ext)",
+    "region": "United States",
+    "bestUseCase": "Fine-grained healthcare provider targeting by specialty"
+  },
+  {
+    "directory": "CMS Provider Data Catalog (Extended)",
+    "category": "Healthcare (Ext)",
+    "region": "United States",
+    "bestUseCase": "Bulk healthcare targeting - downloadable datasets"
+  },
+  {
+    "directory": "CMS Nursing Home Datasets",
+    "category": "Healthcare (Ext)",
+    "region": "United States",
+    "bestUseCase": "Nursing home targeting - staffing, compliance, financing"
+  },
+  {
+    "directory": "CMS Home Health Datasets",
+    "category": "Healthcare (Ext)",
+    "region": "United States",
+    "bestUseCase": "Home health targeting - recruiting, billing, AI documentation"
+  },
+  {
+    "directory": "Assisted Living Directories",
+    "category": "Healthcare (Ext)",
+    "region": "United States",
+    "bestUseCase": "AL facility targeting - staffing, technology, compliance"
+  },
+  {
+    "directory": "SAMHSA Behavioral Health Directory",
+    "category": "Healthcare (Ext)",
+    "region": "United States",
+    "bestUseCase": "BH facility targeting - EHR, staffing, billing, AI documentation"
+  },
+  {
+    "directory": "CQC Active Locations / Care Directory Data",
+    "category": "Healthcare (Ext)",
+    "region": "UK",
+    "bestUseCase": "Care homes, dentists, GPs, hospitals, home care agencies"
+  },
+  {
+    "directory": "CMS Doctors and Clinicians National Downloadable File",
+    "category": "Healthcare (Ext)",
+    "region": "United States",
+    "bestUseCase": "Healthcare practices and specialty clinics"
+  },
+  {
+    "directory": "NY Medicaid Enrolled Provider Listing",
+    "category": "Healthcare (Ext)",
+    "region": "United States",
+    "bestUseCase": "New York healthcare providers and facilities"
+  },
+  {
+    "directory": "NCES Global School Locator",
+    "category": "Education (Ext)",
+    "region": "Global",
+    "bestUseCase": "International education institution targeting"
+  },
+  {
+    "directory": "NAIS Private School Directory",
+    "category": "Education (Ext)",
+    "region": "United States",
+    "bestUseCase": "Private school targeting"
+  },
+  {
+    "directory": "Apprenticeship.gov Sponsor Finder",
+    "category": "Education (Ext)",
+    "region": "United States",
+    "bestUseCase": "Apprenticeship sponsor targeting - HR tech, recruiting, payroll"
+  },
+  {
+    "directory": "SEC IAPD Investment Adviser Search",
+    "category": "Financial & Insurance",
+    "region": "United States",
+    "bestUseCase": "RIA and investment adviser targeting - technology, compliance, lead gen"
+  },
+  {
+    "directory": "FINRA BrokerCheck",
+    "category": "Financial & Insurance",
+    "region": "United States",
+    "bestUseCase": "Broker-dealer and financial firm targeting"
+  },
+  {
+    "directory": "IBAT Find a Supplier",
+    "category": "Financial & Insurance",
+    "region": "United States",
+    "bestUseCase": "Banking vendors - fintech, payments, cybersecurity, lending, compliance"
+  },
+  {
+    "directory": "Canadian National Registration Search",
+    "category": "Financial & Insurance",
+    "region": "Canada",
+    "bestUseCase": "Canadian investment adviser and dealer targeting"
+  },
+  {
+    "directory": "CIRO Advisor/Firm Lookup",
+    "category": "Financial & Insurance",
+    "region": "Canada",
+    "bestUseCase": "Canadian investment dealer targeting"
+  },
+  {
+    "directory": "Washington Insurance Agent Lookup",
+    "category": "Financial & Insurance",
+    "region": "United States",
+    "bestUseCase": "WA insurance agent targeting"
+  },
+  {
+    "directory": "BC Insurance Council Directory",
+    "category": "Financial & Insurance",
+    "region": "Canada",
+    "bestUseCase": "BC insurance professional targeting"
+  },
+  {
+    "directory": "Ontario RIBO Brokerage Directory",
+    "category": "Financial & Insurance",
+    "region": "Canada",
+    "bestUseCase": "Ontario insurance broker targeting"
+  },
+  {
+    "directory": "NCUA Research a Credit Union",
+    "category": "Financial & Insurance",
+    "region": "United States",
+    "bestUseCase": "Credit union targeting - technology, compliance, fintech"
+  },
+  {
+    "directory": "SBA Franchise Directory",
+    "category": "Franchise",
+    "region": "United States",
+    "bestUseCase": "Franchisee targeting - financing, SBA loan facilitation, ERP"
+  },
+  {
+    "directory": "CFA LookForAFranchise Directory",
+    "category": "Franchise",
+    "region": "Canada",
+    "bestUseCase": "Canadian franchise targeting"
+  },
+  {
+    "directory": "Franchise Registry",
+    "category": "Franchise",
+    "region": "United States",
+    "bestUseCase": "Franchisee financing targeting"
+  },
+  {
+    "directory": "Franchise Gator Opportunities",
+    "category": "Franchise",
+    "region": "United States",
+    "bestUseCase": "Active franchise expansion targeting"
+  },
+  {
+    "directory": "IFE Franchise Expo Exhibitors",
+    "category": "Franchise",
+    "region": "United States",
+    "bestUseCase": "Actively growing franchise brands"
+  },
+  {
+    "directory": "Apprenticeship.gov Partner Finder",
+    "category": "Workforce",
+    "region": "United States",
+    "bestUseCase": "Sponsor targeting - HR tech, recruiting, payroll, training"
+  },
+  {
+    "directory": "SkilledTradesBC Sponsor Employers",
+    "category": "Workforce",
+    "region": "Canada",
+    "bestUseCase": "BC employer targeting - HR, payroll, recruiting"
+  },
+  {
+    "directory": "LMIA-Approved Employer Lists",
+    "category": "Workforce",
+    "region": "Canada",
+    "bestUseCase": "Employers hiring internationally - immigration, HR, recruiting"
+  },
+  {
+    "directory": "E-Verify Employer Search",
+    "category": "Workforce",
+    "region": "United States",
+    "bestUseCase": "Employers with compliance-heavy hiring"
+  },
+  {
+    "directory": "DOL OFLC Performance Disclosure Data",
+    "category": "Workforce",
+    "region": "United States",
+    "bestUseCase": "Visa-sponsoring employers - recruiting, immigration, HR ops"
+  },
+  {
+    "directory": "USCIS H-2A Employer Data Hub",
+    "category": "Workforce",
+    "region": "United States",
+    "bestUseCase": "Agriculture employers with seasonal labor pressure"
+  }
+]

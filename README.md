@@ -15,6 +15,7 @@ It can help you:
 - monitor active PlusVibe campaigns that are running low on untouched leads;
 - review interested replies, score prospect fit, summarize the company, and draft the next response;
 - research and score timely public intent signals;
+- design new intent-signal campaigns using an included 368-source public directory bank (JSON and CSV) and source-scoring methodology;
 - use the same operating system with ChatGPT Work, Claude, or Codex.
 
 **New here? Open [START-HERE.md](START-HERE.md).** If you have ChatGPT Work Local, Claude Code, or Codex, you can paste one instruction and let the AI handle the technical setup. GitHub Desktop is optional. You do not need Railway, Slack, OAuth, or API keys to begin.
@@ -56,6 +57,7 @@ The onboarding agent will ask about your agency, offers, clients, sequencer, dat
 - **Run the campaign monitor**
 - **Review this interested reply**
 - **Check intent signals**
+- **Give me intent-signal ideas for this offer**
 
 The first two use live PlusVibe data when the API key is connected. The reply and intent workflows can also be used manually by pasting a conversation or describing the market. Local mode runs when you ask; Railway is only needed when you want webhooks, schedules, or work that continues while your computer is off.
 

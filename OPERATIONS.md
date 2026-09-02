@@ -9,6 +9,8 @@ These are permanent phrases students can use. The AI assistant should handle the
 | **Review this interested reply** | Classifies the reply, gives a two-sentence company synopsis, scores fit, and drafts the next response | Paste the conversation; website link recommended | Optional PlusVibe webhook, Slack approval, and audit history |
 | **Check intent signals** | Finds and scores sourced public events that may create a timely reason to contact a company | Target market, offer, and signal definition | Optional recurring source monitors |
 
+Students can also say **Give me intent-signal ideas for this offer**. The assistant will work backward from the offer, search the included public source bank, propose several observable events and sources, explain what each signal proves, identify likely false positives, and recommend a small pilot before any paid or large-scale collection.
+
 ## Local versus phone
 
 In ChatGPT Work Local, Claude Code/Desktop, or Codex, the assistant can run the included scripts from this folder. In ChatGPT Work cloud or on a phone, reply review and public research can still be performed conversationally, but live PlusVibe reports require the optional CCS cloud connector.

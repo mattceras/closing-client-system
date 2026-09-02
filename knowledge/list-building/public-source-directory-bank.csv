@@ -1,0 +1,369 @@
+directory,category,region,bestUseCase
+Canada Business Registries,Company Registry,Canada,Seed list for any B2B offer targeting Canadian companies
+Federal Corporation Search Canada,Company Registry,Canada,Target federally incorporated Canadian entities by industry
+Canadian Importers Database,Company Registry,Canada,"Equipment financing, freight, customs brokerage, compliance"
+BC OrgBook,Company Registry,Canada,"BC-based B2B services, financing, software, recruiting"
+OpenCorporates Canada,Company Registry,Canada,Cross-province company research and seed list building
+SEC EDGAR Company Search,Company Registry,United States,Targeting public companies and their subsidiaries
+GLEIF LEI Search,Company Registry,Global,Cross-border company identification and enrichment
+USA State Secretary of State Searches,Company Registry,United States,State-level B2B seed lists by industry or entity type
+SAM.gov Entity Search,Company Registry,United States,"Procurement-aware companies - compliance, bonding, insurance, ERP"
+SBA Small Business Search,Company Registry,United States,"Government contracting support, financing, recruiting"
+USAspending Recipient Profiles,Company Registry,United States,"Companies that already receive federal money - financing, growth services"
+UK Companies House,Company Registry,UK,UK B2B seed lists; filter by SIC code and geography
+Companies House Advanced Search,Company Registry,UK,Niche UK targeting by industry and company age
+OpenCorporates,Company Registry,Global,Multi-country company research and seed lists across 140+ jurisdictions
+EU BRIS Find a Company,Company Registry,Europe,EU company targeting across member states
+Netherlands KVK Business Register,Company Registry,Europe,"Netherlands B2B targeting - finance, software, services"
+Germany Unternehmensregister,Company Registry,Europe,"German B2B - manufacturing, engineering, finance"
+France SIRENE / INSEE,Company Registry,Europe,French B2B targeting by sector and geography
+Ireland CRO Search,Company Registry,Europe,Irish B2B seed lists
+Belgium Crossroads Bank,Company Registry,Europe,Belgian B2B targeting
+Denmark CVR,Company Registry,Europe,Danish company seed lists
+Sweden Bolagsverket,Company Registry,Europe,Swedish B2B targeting
+Norway Bronnøysund Register,Company Registry,Europe,Norwegian B2B seed lists
+Spain Registro Mercantil,Company Registry,Europe,Spanish company targeting
+Italy Registro Imprese,Company Registry,Europe,"Italian B2B - manufacturing, food, fashion supply chain"
+ABN Lookup,Company Registry,Asia-Pac,Australian B2B seed lists; filter by state and business type
+ASIC Connect,Company Registry,Asia-Pac,Australian company research and verification
+New Zealand Companies Register,Company Registry,Asia-Pac,NZ B2B targeting
+Singapore ACRA Bizfile,Company Registry,Asia-Pac,"Singapore B2B - finance, tech, manufacturing"
+Hong Kong Companies Registry,Company Registry,Asia-Pac,"HK B2B targeting - finance, logistics, trade"
+Japan NTA Corporate Number,Company Registry,Asia-Pac,Japan B2B seed lists
+India MCA Company Master Data,Company Registry,Asia-Pac,"India B2B - manufacturing, IT, services"
+Malaysia SSM e-Search,Company Registry,Asia-Pac,Malaysia B2B targeting
+Philippines SEC Company Search,Company Registry,Asia-Pac,Philippines B2B seed lists
+New York Active Corporations,Company Registry,United States,"New York company seed lists, new-entity campaigns, local B2B services"
+New York Corporations and Other Entities - All Filings,Company Registry,United States,"Trigger-based outreach around new filings, amendments, entity changes"
+SAM.gov Entity Registration,Gov Procurement,United States,"Compliance, bonding, insurance, ERP, staffing, proposal writing, fractional CFO"
+SAM.gov Disaster Response Registry,Gov Procurement,United States,"Insurance, compliance, emergency services vendors"
+GSA eLibrary Contractor Directory,Gov Procurement,United States,"IT, professional services, products sold to the US government"
+USAspending Recipient Search,Gov Procurement,United States,"Companies receiving federal money - growth services, financing, ERP"
+CanadaBuys Tender Awards / Contract History,Gov Procurement,Canada,Canadian government awardee and contractor-history targeting
+MERX Supplier/Award Data,Gov Procurement,Canada,Canadian procurement-aware companies
+EU TED eTendering,Gov Procurement,Europe,EU procurement-focused companies
+UK Contracts Finder,Gov Procurement,UK,"UK government vendors - compliance, proposal writing, finance"
+Find a Tender UK,Gov Procurement,UK,UK tender-active companies
+Australian AusTender,Gov Procurement,Asia-Pac,Australian procurement vendors
+New Zealand GETS,Gov Procurement,Asia-Pac,NZ procurement-active companies
+Thomasnet Supplier Directory,Manufacturing,N. America,"Equipment financing, ERP, automation, industrial AI, recruiting, factoring"
+IndustryNet,Manufacturing,United States,"B2B services for manufacturers - insurance, ERP, outbound sales"
+IQS Directory,Manufacturing,United States,Industrial B2B targeting by product category
+MFG.com,Manufacturing,Global,"Manufacturing services - recruiting, ERP, financing, AI implementation"
+Europages,Manufacturing,Europe,"European manufacturer targeting - ERP, compliance, logistics"
+Kompass,Manufacturing,Global,Cross-border manufacturer and supplier targeting
+Global Sources,Manufacturing,Asia-Pac,Asia-Pacific sourcing and import/export B2B
+Made-in-China,Manufacturing,Asia-Pac,"Importing/sourcing, freight, compliance, financing"
+IndiaMART,Manufacturing,Asia-Pac,"India B2B manufacturing - services, software, financing"
+Alibaba Supplier Directory,Manufacturing,Global,"Global sourcing companies - freight, financing, compliance"
+TradeIndia,Manufacturing,Asia-Pac,India manufacturing and services targeting
+ExportHub,Manufacturing,Global,Export-oriented manufacturer targeting
+Engineering360 Supplier Directory,Manufacturing,United States,"Engineering firm targeting - software, recruiting, compliance"
+DirectIndustry,Manufacturing,Global,"Industrial B2B - ERP, equipment financing, automation"
+GlobalSpec,Manufacturing,United States,Engineering and industrial services targeting
+MacRAEs Blue Book,Manufacturing,N. America,"Industrial B2B - equipment financing, insurance, ERP"
+CBM Metalforming Member Directory,Manufacturing,UK,UK metalforming manufacturers and suppliers
+Canadian Trade Index,Manufacturing,Canada,Canadian manufacturer targeting
+Frasers Directory,Manufacturing,Canada,Canadian industrial B2B targeting
+Manufacturer.com,Manufacturing,N. America,"Manufacturing services - ERP, recruiting, financing"
+Packaging World Supplier Directory,Manufacturing,United States,"Packaging company targeting - equipment, compliance, ERP"
+Food Processing Supplier Directories,Manufacturing,United States,"Food manufacturer targeting - compliance, equipment, ERP"
+CKCA Member Directory,Manufacturing,Canada,Canadian kitchen cabinet manufacturers and suppliers
+Processing Magazine Supplier Guide,Manufacturing,United States,Chemical/industrial processor targeting
+Control Engineering Supplier Directories,Manufacturing,United States,Industrial automation targeting
+SourceTool B2B Supplier Directory,Manufacturing,Global,Free B2B supplier search across 750k+ listed companies
+B2BMAP Suppliers & Manufacturers,Manufacturing,Global,"Global manufacturers, suppliers, wholesalers, and exporters"
+EC21 Company Directory,Manufacturing,Global,"Global manufacturers, suppliers, exporters, and buyers"
+MFGAxis Industrial Supplier Directory,Manufacturing,United States,Industrial supplier and manufacturing capability profiles
+Precision Metalforming Association Directory,Manufacturing,United States,Metalforming manufacturers and industry suppliers
+EWTA Supplier Directory,Manufacturing,United States,"Engineered wood equipment, materials, supplies, and service providers"
+Faktorist Wholesale Suppliers,Manufacturing,Global,"Verified wholesale suppliers, manufacturers, distributors, and exporters"
+FindaSupplier Wholesale Directory,Manufacturing,Global,Wholesale supplier categories and supplier profiles
+Map Your Show,Trade Show,Global,Find any industrys active exhibitors - budget + intent confirmed
+ExpoFP,Trade Show,Global,Exhibitor lists with booth numbers and product categories
+Swapcard,Trade Show,Global,Exhibitor profiles with contact data in some events
+Brella,Trade Show,Global,Exhibitor and attendee targeting for B2B events
+EventHub,Trade Show,Global,Exhibitors seeking buyers - high commercial intent
+CES Exhibitor Directory,Trade Show,United States,"Tech company targeting - AI, software, hardware"
+SEMA Exhibitor List,Trade Show,United States,"Auto parts/accessories - financing, ERP, recruiting"
+PACK EXPO Exhibitors,Trade Show,United States,"Packaging company targeting - equipment, compliance, ERP"
+IMTS Exhibitors,Trade Show,United States,"Manufacturing tech companies - ERP, financing, AI"
+FABTECH Exhibitors,Trade Show,United States,Metal fab company targeting
+BIO International Exhibitors,Trade Show,United States,Biotech and pharma B2B targeting
+HIMSS Exhibitors,Trade Show,United States,Healthcare technology targeting
+NRF Big Show Exhibitors,Trade Show,United States,Retail tech and services targeting
+RSNA Exhibitors,Trade Show,United States,Medical imaging and radiology tech targeting
+JEC World Exhibitors,Trade Show,Europe,Composites manufacturer targeting
+Formnext Exhibitors,Trade Show,Europe,3D printing and advanced manufacturing targeting
+SIAL Canada Exhibitors,Trade Show,Canada,"Food company targeting - compliance, equipment, distribution"
+PDAC Exhibitors,Trade Show,Canada,"Mining company targeting - financing, equipment, ERP"
+Analytica Exhibitors,Trade Show,Europe,Lab and analytical equipment company targeting
+World of Quantum Exhibitors,Trade Show,Europe,Quantum tech B2B targeting
+MODEX Exhibitors,Trade Show,United States,Supply chain and logistics tech targeting
+NPE Plastics Exhibitors,Trade Show,United States,Plastics manufacturer targeting
+World of Concrete Exhibitors,Trade Show,United States,Construction materials company targeting
+AHR Expo Exhibitors,Trade Show,United States,HVAC and building systems targeting
+Natural Products Expo West,Trade Show,United States,"Natural/organic brand targeting - compliance, distribution"
+Seafood Expo Exhibitors,Trade Show,N. America,Seafood company targeting
+CONEXPO Exhibitors,Trade Show,United States,"Heavy construction targeting - financing, equipment, ERP"
+SupplySide Global,Trade Show,United States,"Ingredient, supplement, food, beverage, packaging, formulation, and nutraceutical companies"
+MD&M West,Trade Show,United States,"Medical device, design, manufacturing, automation, plastics, and packaging companies"
+The Battery Show North America,Trade Show,United States,"Battery, EV, advanced materials, testing, and energy-storage suppliers"
+SEMICON West,Trade Show,United States,"Semiconductor manufacturers, equipment suppliers, materials companies"
+Automate Show,Trade Show,United States,"Robotics, automation, AI, motion control, vision systems"
+Black Hat USA,Trade Show,United States,"Cybersecurity sponsors, exhibitors, startups, and security vendors"
+HLTH,Trade Show,United States,Healthcare innovation sponsors and exhibitors
+ViVE,Trade Show,United States,"Digital health sponsors, exhibitors, and attending companies"
+Shoptalk,Trade Show,United States,"Retail, ecommerce, logistics, payments, marketing technology"
+Web Summit,Trade Show,Global,"Startups, scaleups, sponsors, and technology companies"
+AWS Partner Directory,Tech Partner,Global,"Cloud implementation firms - recruiting, AI ops, outbound"
+Microsoft Partner Directory,Tech Partner,Global,"MSPs, cloud consultants - AI implementation, recruiting, outbound"
+Google Cloud Partner Directory,Tech Partner,Global,"Cloud and data firms - outbound infrastructure, AI, recruiting"
+Salesforce AppExchange Consultants,Tech Partner,Global,"CRM consultants - outbound systems, AI ops, recruiting"
+Shopify Partner Directory,Tech Partner,Global,"eCommerce agency targeting - outbound, lead gen, AI"
+HubSpot Solutions Directory,Tech Partner,Global,"Marketing agencies - outbound infrastructure, AI, lead gen"
+Stripe Partner Directory,Tech Partner,Global,Fintech and payment firms targeting
+Webflow Experts,Tech Partner,Global,Web agency targeting
+Bubble Experts,Tech Partner,Global,No-code dev agency targeting
+Zapier Experts,Tech Partner,Global,Automation agency targeting
+Make Partner Directory,Tech Partner,Global,Automation and integration agency targeting
+Monday.com Partner Directory,Tech Partner,Global,PM software consultants targeting
+Atlassian Partner Directory,Tech Partner,Global,Dev-tool consultants and MSPs
+ServiceNow Partner Finder,Tech Partner,Global,"Enterprise ITSM consultants - AI ops, recruiting"
+Oracle Partner Finder,Tech Partner,Global,Oracle ERP and cloud implementation firms
+SAP Partner Finder,Tech Partner,Global,SAP consultants - large enterprise B2B
+NetSuite Partner Directory,Tech Partner,Global,"Mid-market ERP consultants - outbound, AI, recruiting"
+Snowflake Partner Network,Tech Partner,Global,Data engineering and analytics firms targeting
+Databricks Partner Directory,Tech Partner,Global,AI/ML and data platform firms targeting
+Adobe Solution Partners,Tech Partner,Global,Digital marketing agency targeting
+Klaviyo Partner Directory,Tech Partner,Global,eCommerce email agency targeting
+Braze Partners,Tech Partner,Global,Marketing technology agency targeting
+Segment Partners,Tech Partner,Global,CDP and analytics firm targeting
+Twilio Partner Directory,Tech Partner,Global,Communication technology firms targeting
+Okta Partner Directory,Tech Partner,Global,Security and IAM consultant targeting
+Workday Partner Directory,Tech Partner,Global,Enterprise HR/finance consultants
+UiPath Partner Directory,Tech Partner,Global,Automation and RPA firm targeting
+Clutch,Agency/Software,Global,"Target agencies by exact service - cold email, B2B lead gen, outbound"
+GoodFirms,Agency/Software,Global,Agency and software company targeting
+DesignRush,Agency/Software,United States,Creative and marketing agency targeting
+The Manifest,Agency/Software,United States,Agency targeting with market research context
+Sortlist,Agency/Software,Europe,European agency targeting
+Agency Spotter,Agency/Software,United States,"US agency targeting by specialty, size, and vertical"
+UpCity,Agency/Software,United States,Local agency and service company targeting
+G2,Agency/Software,Global,"Software company targeting - outbound tools, AI sales, integrations"
+Capterra,Agency/Software,Global,Software company targeting by exact category
+GetApp,Agency/Software,Global,SMB software vendor targeting
+Software Advice,Agency/Software,Global,Software vendor targeting
+TrustRadius,Agency/Software,United States,Mid-market and enterprise software targeting
+SourceForge Directory,Agency/Software,Global,Developer tool and open-source company targeting
+Crozdesk,Agency/Software,Global,SaaS company targeting
+SaaSworthy,Agency/Software,Global,SaaS founder and growth team targeting
+Product Hunt,Agency/Software,Global,Early-stage SaaS and tech company targeting
+CaseStudies.com,Agency/Software,Global,"Companies with public case studies - customer proof, buying triggers"
+AlternativeTo,Agency/Software,Global,Software company targeting by niche
+Gartner Peer Insights,Agency/Software,Global,Enterprise software vendor targeting
+BBB Business Directory,Agency/Software,United States,Local and regional B2B service company targeting
+Yelp Business Directory,Agency/Software,United States,Local service business targeting
+Distrilist B2B Business Directory,Agency/Software,Global,"Global B2B company listings by industry, country, and business segment"
+The Blue Book,Construction & CRE,United States,"Commercial finance, bonding, equipment financing, software, recruiting - 800k+ listings"
+Procore Construction Network,Construction & CRE,Global,"Construction software, project management tools, staffing"
+BuildZoom,Construction & CRE,United States,"Contractor targeting - insurance, financing, software"
+Houzz Pro Directory,Construction & CRE,United States,High-end residential and commercial contractor targeting
+BidCentral,Construction & CRE,Canada,Canadian construction company targeting
+Dodge Construction Network,Construction & CRE,United States,General contractor and subcontractor targeting
+ConstructConnect,Construction & CRE,United States,Construction company targeting - pre-bid outreach
+HomeAdvisor / Angi,Construction & CRE,United States,Residential and light commercial contractor targeting
+Thumbtack,Construction & CRE,United States,Local contractor and trades targeting
+BCFSA Real Estate Professional Search,Construction & CRE,Canada,BC real estate firm targeting
+CCIM Member Directory,Construction & CRE,United States,"CRE professional targeting - financing, software, transactions"
+Nareit REIT Directory,Construction & CRE,United States,REIT and institutional real estate targeting
+AIA Architect Finder,Construction & CRE,United States,Architecture firm targeting
+NSPE PE License Search,Construction & CRE,United States,Engineering firm targeting
+NRCA Roofing Contractor Search,Construction & CRE,United States,"Roofing contractor targeting - insurance, financing, software"
+ACCA HVAC Contractor Search,Construction & CRE,United States,HVAC contractor targeting
+NECA Electrical Contractor Search,Construction & CRE,United States,Electrical contractor targeting
+MCAA Plumbing Contractor Search,Construction & CRE,United States,Plumbing contractor targeting
+FMCSA SAFER Company Snapshot,Logistics & Freight,United States,"Carrier targeting - factoring, insurance, fuel cards, dispatching software"
+FMCSA Licensing & Insurance Search,Logistics & Freight,United States,"Active carrier targeting - compliance, fleet financing"
+FMCSA Passenger Carrier Search,Logistics & Freight,United States,Passenger carrier targeting
+CarrierSource,Logistics & Freight,United States,"Carrier targeting - factoring, insurance, dispatching"
+Zipments Trucking Directory,Logistics & Freight,United States,Freight carrier targeting
+FreightFinder,Logistics & Freight,Global,Freight company targeting
+Freightnet,Logistics & Freight,Global,International freight and logistics targeting
+CBSA FAST Approved Carriers,Logistics & Freight,Canada,Canadian cross-border carrier targeting
+eCarrierCheck,Logistics & Freight,United States,Carrier research and targeting
+SearchMule Trucking Directory,Logistics & Freight,United States,Trucking company targeting
+TruckDown,Logistics & Freight,United States,Truck service and fleet company targeting
+DAT Carrier Directories,Logistics & Freight,United States,Active freight carrier and broker targeting
+Truckstop Load Board,Logistics & Freight,United States,Active carrier and freight broker targeting
+3PL Directories,Logistics & Freight,Global,"3PL targeting - software, recruiting, insurance"
+Cold-Chain Logistics Directories,Logistics & Freight,Global,Cold chain operator targeting
+FIATA Freight Forwarder Directory,Logistics & Freight,Global,Freight forwarder targeting
+NCBFAA Customs Broker Directory,Logistics & Freight,United States,Customs broker targeting
+FMC Licensed NVOCCs / OTI List,Logistics & Freight,United States,"Freight forwarders, NVOCCs, customs, logistics tech, insurance, trade finance"
+CBP Permitted Customs Brokers Listing,Logistics & Freight,United States,Customs brokers and trade compliance firms
+NPPES NPI Registry,Healthcare,United States,"Recruiting, billing/RCM, AI documentation, intake automation - 8M+ records"
+Medicare Care Compare,Healthcare,United States,"Filter by facility type, location, rating - targeted healthcare B2B"
+CMS Provider Data Catalog,Healthcare,United States,Healthcare data for outbound segmentation at scale
+Hospital Compare Datasets,Healthcare,United States,"Hospital targeting - staffing, software, compliance"
+Home Health Agency Datasets,Healthcare,United States,"Home health targeting - recruiting, billing, AI documentation"
+Nursing Home Datasets,Healthcare,United States,"Nursing home targeting - staffing, compliance, financing"
+Urgent Care Finder,Healthcare,United States,"Urgent care targeting - billing, staffing, AI intake"
+NABP Pharmacy Directory,Healthcare,United States,"Pharmacy targeting - compliance, software"
+SAMHSA Treatment Facility Locator,Healthcare,United States,Behavioral health provider targeting
+NAHC Home Care Provider Search,Healthcare,United States,Home care company targeting
+Senior Living Directory,Healthcare,United States,"Senior care operator targeting - staffing, compliance, software"
+HealthPRO Canada Member Directory,Healthcare,Canada,Canadian healthcare operator targeting
+NCES Public School Search,Education,United States,"Public school targeting - software, fundraising, AI tools"
+NCES Private School Search,Education,United States,"Private school targeting - enrollment software, fundraising"
+NCES College Navigator,Education,United States,"College and university targeting - software, recruiting, AI"
+GreatSchools,Education,United States,K-12 targeting segmented by rating and location
+Canada Designated Learning Institutions,Education,Canada,Canadian post-secondary targeting
+Trade School Directories,Education,United States,"Trade school targeting - recruiting, software, marketing"
+AMSHQ Montessori Directory,Education,United States,Montessori school targeting
+National Charter Schools Directory,Education,United States,"Charter school targeting - software, marketing, recruiting"
+Course Report Bootcamp Directory,Education,Global,"Bootcamp targeting - recruiting, employer partnerships"
+Language Schools Abroad,Education,Global,Language school targeting
+Charity Navigator,Nonprofit & Assoc,United States,"Nonprofit targeting - donor CRM, accounting, fundraising, AI admin"
+CRA List of Charities,Nonprofit & Assoc,Canada,Canadian nonprofit targeting
+IRS Tax Exempt Organization Search,Nonprofit & Assoc,United States,"US nonprofit targeting - grant writing, payroll, HR, cybersecurity"
+GuideStar / Candid,Nonprofit & Assoc,United States,"Nonprofit leadership targeting - software, compliance, fundraising"
+ProPublica Nonprofit Explorer,Nonprofit & Assoc,United States,"Financial intelligence on nonprofits - grant writing, accounting"
+Foundation Center / Candid,Nonprofit & Assoc,United States,"Foundation targeting - grant management, financial services"
+ReMA Member Directory,Nonprofit & Assoc,Global,Recycled materials companies by commodity and service
+BC Chamber of Commerce,Chambers & Local,Canada,BC business targeting
+Greater Vancouver Board of Trade,Chambers & Local,Canada,Vancouver B2B targeting
+Maine International Trade Center Member Directory,Chambers & Local,United States,Export/import-oriented Maine companies by sector
+BBB Local Directory,Chambers & Local,United States,Accredited local business targeting
+Yelp Local Categories,Chambers & Local,United States,Local service business targeting
+B Corp Directory,Certification,Global,ESG-positioning angle
+NMSDC Certified MBE Search,Certification,United States,MBE procurement and supplier enablement targeting
+WBENC Women Owned Directory,Certification,United States,"WBE procurement, capital, and supplier enablement"
+WBE Canada,Certification,Canada,Canadian WBE targeting
+Disability:IN Supplier Directory,Certification,United States,DOBE supplier enablement and procurement targeting
+ISO Certification Directories,Certification,Global,"ISO-certified company targeting - compliance, software, auditing"
+USGBC LEED Directory,Certification,Global,Green building targeting
+ENERGY STAR Partner Directory,Certification,United States,Energy efficiency targeting
+VeteranOwnedBusiness.com Search,Certification,United States,"VOB targeting - financing, procurement, supplier enablement"
+NGLCC LGBTQ+ Business Directory,Certification,United States,LGBTQ+ owned business targeting
+CCIB Member Directory,Certification,Canada,Indigenous business targeting
+USDA Organic Integrity Database,Certification,United States,"Organic brands, farms, processors, distributors"
+CALSSA Member Directory,Certification,United States,California solar and storage companies
+California Cannabis License Search,Certification,United States,"Cannabis retailers, manufacturers, distributors, labs, cultivators"
+Seattle Licensed Business Search,Business Licence,United States,Signal-based outbound via Seattles business licence registry
+Vancouver Business Licences Open Data,Business Licence,Canada,Vancouver SMB targeting with NAICS filtering
+Surrey Business Directory,Business Licence,Canada,Surrey B2B targeting
+LA Active Businesses,Business Licence,United States,LA SMB targeting at scale
+DC Basic Business Licences,Business Licence,United States,DC SMB targeting
+Tacoma Business Licences Dataset,Business Licence,United States,Tacoma WA SMB targeting
+Everett Licensed Businesses,Business Licence,United States,Everett WA SMB targeting
+Buffalo Business Licences Dataset,Business Licence,United States,Buffalo NY SMB targeting
+New Westminster Business Licences,Business Licence,Canada,New Westminster B2B targeting
+City of Edmonton Business Licences,Business Licence,Canada,Edmonton SMB targeting by licence category
+Calgary Business Licenses,Business Licence,Canada,Calgary SMB targeting by operating category
+Mesa Business Licenses,Business Licence,United States,Phoenix/Mesa SMB targeting
+Detroit Business Licenses Current,Business Licence,United States,Detroit active-business targeting
+Santa Monica Active Business Licenses,Business Licence,United States,Santa Monica local-business targeting
+Henderson Active Business Licenses,Business Licence,United States,Henderson/Las Vegas-area SMB targeting
+Fayetteville AR Active Business Licenses,Business Licence,United States,Fayetteville active-business targeting
+New Orleans Active Occupational Licenses,Business Licence,United States,Orleans Parish active-business targeting
+Baton Rouge EBR Registered Businesses,Business Licence,United States,Baton Rouge business targeting by NAICS
+Kansas City Business License Holders,Business Licence,United States,Kansas City SMB targeting
+Berkeley Business Licenses,Business Licence,United States,Berkeley SMB and nonprofit targeting
+Hartford Business Listing,Business Licence,United States,Hartford SMB targeting
+Chattanooga Business License,Business Licence,United States,Chattanooga local-business targeting
+NYC Legally Operating Businesses,Business Licence,United States,NYC regulated SMB targeting by category
+NYC License Applications,Business Licence,United States,Newly applying or recently approved NYC businesses
+San Francisco Registered Business Locations,Business Licence,United States,SF/Bay Area SMB targeting
+Chicago Business Licenses,Business Licence,United States,Chicago SMB and regulated-category targeting
+San Diego Business Tax Certificates,Business Licence,United States,San Diego business universe by NAICS
+Philadelphia L&I Business Licenses,Business Licence,United States,Philadelphia regulated SMBs
+Miami-Dade Business Tracker / Local Business Tax,Business Licence,United States,Miami-Dade new/closed business triggers
+Miami-Dade LocalBusinessTax Feature Layer,Business Licence,United States,Machine-readable Miami-Dade business-location pulls
+Seattle SDCI Permit Records,Building Permit,United States,"CRE financing, construction lending, tenant improvement vendors"
+King County Permit Record Search,Building Permit,United States,County-level construction targeting
+Snohomish County Permit Reports,Building Permit,United States,Construction and contractor targeting in Snohomish
+Portland Permit Records,Building Permit,United States,Portland construction and renovation targeting
+Salt Lake City Permit Research,Building Permit,United States,SLC construction and expansion targeting
+NYC DOB Permit Issuance,Building Permit,United States,"Contractors, developers, architects, construction finance"
+Los Angeles Building Permits Since 2012,Building Permit,United States,"LA construction, commercial alteration, project-finance"
+Los Angeles Building Permit Information Data,Building Permit,United States,Permit-value and project-stage targeting
+Philadelphia L&I Building and Zoning Permits,Building Permit,United States,Philadelphia project activity
+California CSLB Contractor Search,Contractor Licence,United States,"CA contractor targeting - insurance, financing, software, recruiting"
+CSLB Public Data Portal,Contractor Licence,United States,Bulk CA contractor list building
+Washington L&I Contractor Verification,Contractor Licence,United States,WA contractor targeting
+Oregon Building Codes Division,Contractor Licence,United States,OR contractor targeting
+Georgia Licensing Board,Contractor Licence,United States,GA contractor targeting
+Florida DBPR License Search,Contractor Licence,United States,"Contractors, real estate, food/lodging, salons, professional services"
+Washington WEBS Vendor System,Vendor Registry,United States,"WA vendor targeting - proposal writing, compliance, bonding"
+Illinois Procurement Gateway,Vendor Registry,United States,IL procurement-aware company targeting
+NevadaEPro Vendor Registration,Vendor Registry,United States,NV vendor targeting
+DuPage County Supplier Directory,Vendor Registry,United States,DuPage County vendor targeting
+King County Supplier Portal,Vendor Registry,United States,King County WA vendor targeting
+Prince Georges County Vendor Resources,Vendor Registry,United States,PG County MD contract-vendor targeting
+FCC Universal Licensing System,Vendor Registry,United States,Companies operating radio systems
+FAA National DBE/ACDBE Directory,Diverse Supplier,United States,"DBE/ACDBE companies - procurement, bonding, compliance"
+U.S. DOT State DBE Directory Links,Diverse Supplier,United States,State-level DBE targeting
+California Certified Business Registry,Diverse Supplier,United States,CA certified business targeting
+Washington OMWBE Directory,Diverse Supplier,United States,WA MBE/WBE targeting
+NYC Certified Business List,Diverse Supplier,United States,NYC certified business targeting
+NMSDC MBE Search,Diverse Supplier,United States,National MBE targeting
+USAspending Federal Award Search,Grant & Award,United States,Companies receiving federal money
+USAspending Recipient Trend Profiles,Grant & Award,United States,Award trend targeting
+DOE Clean-Energy Grant Recipients,Grant & Award,United States,Clean energy company targeting
+Infrastructure Grant Recipients,Grant & Award,United States,Infrastructure company targeting
+EPA Facility Registry Service,Environmental,United States,"Industrial operator targeting - compliance automation, insurance"
+EPA FRS Advanced Query,Environmental,United States,Niche industrial facility targeting
+EPA ECHO Facility Search,Environmental,United States,Regulated facility targeting with compliance burden signal
+EPA Risk Management Plan Data,Environmental,United States,High-hazard industrial facility targeting
+EPA RCRA Hazardous Waste Data,Environmental,United States,Waste generator targeting
+OSHA Establishment Search,Environmental,United States,"Safety consultants, HR, compliance, insurance, industrial services"
+MSHA Mine Data Retrieval System,Environmental,United States,"Mining operators - equipment, safety, staffing, compliance, capital"
+PHMSA Hazmat Registration Company Search,Environmental,United States,"Hazmat carriers, chemical distributors, safety/compliance"
+FDA Drug Establishments Current Registration Site,Environmental,United States,"Pharma manufacturing, QA, regulatory, compliance services"
+FDA Medical Device Establishment Registration & Listing,Environmental,United States,"Medical device manufacturers/importers - regulatory, quality, ISO"
+USDA FSIS Inspection Directory,Food & Agriculture,United States,"Food manufacturer targeting - compliance, ERP, equipment, recruiting"
+ADPI Find a Supplier Directory,Food & Agriculture,United States,Dairy ingredient manufacturers and suppliers
+CFIA Federally Registered Meat Establishments,Food & Agriculture,Canada,Canadian food processor targeting
+CFIA Food Export Registers,Food & Agriculture,Canada,Export-eligible Canadian food company targeting
+Alberta Agri-Processing Directory,Food & Agriculture,Canada,Alberta food/ag processor targeting
+USDA Organic Certification Directory,Food & Agriculture,United States,Organic food company targeting
+Food Processing Supplier Directory,Food & Agriculture,United States,"Food manufacturer targeting - services, ERP, compliance"
+Seafood Expo Directories,Food & Agriculture,Global,"Seafood company targeting - compliance, cold chain, financing"
+UK Food Hygiene Rating Scheme API,Food & Agriculture,UK,"UK restaurants, cafes, takeaways, hotels, supermarkets, care homes"
+TABC Public Inquiry,Food & Agriculture,United States,"Texas bars, restaurants, package stores, distributors, breweries"
+Texas Mixed Beverage Sales Receipts,Food & Agriculture,United States,High-revenue hospitality targeting
+California ABC License Lookup,Food & Agriculture,United States,"Restaurants, bars, wineries, distributors, retailers"
+NYS Liquor Authority Active Licenses,Food & Agriculture,United States,"NY bars, restaurants, liquor stores, breweries, distributors"
+NPPES NPI Registry (Extended),Healthcare (Ext),United States,Fine-grained healthcare provider targeting by specialty
+CMS Provider Data Catalog (Extended),Healthcare (Ext),United States,Bulk healthcare targeting - downloadable datasets
+CMS Nursing Home Datasets,Healthcare (Ext),United States,"Nursing home targeting - staffing, compliance, financing"
+CMS Home Health Datasets,Healthcare (Ext),United States,"Home health targeting - recruiting, billing, AI documentation"
+Assisted Living Directories,Healthcare (Ext),United States,"AL facility targeting - staffing, technology, compliance"
+SAMHSA Behavioral Health Directory,Healthcare (Ext),United States,"BH facility targeting - EHR, staffing, billing, AI documentation"
+CQC Active Locations / Care Directory Data,Healthcare (Ext),UK,"Care homes, dentists, GPs, hospitals, home care agencies"
+CMS Doctors and Clinicians National Downloadable File,Healthcare (Ext),United States,Healthcare practices and specialty clinics
+NY Medicaid Enrolled Provider Listing,Healthcare (Ext),United States,New York healthcare providers and facilities
+NCES Global School Locator,Education (Ext),Global,International education institution targeting
+NAIS Private School Directory,Education (Ext),United States,Private school targeting
+Apprenticeship.gov Sponsor Finder,Education (Ext),United States,"Apprenticeship sponsor targeting - HR tech, recruiting, payroll"
+SEC IAPD Investment Adviser Search,Financial & Insurance,United States,"RIA and investment adviser targeting - technology, compliance, lead gen"
+FINRA BrokerCheck,Financial & Insurance,United States,Broker-dealer and financial firm targeting
+IBAT Find a Supplier,Financial & Insurance,United States,"Banking vendors - fintech, payments, cybersecurity, lending, compliance"
+Canadian National Registration Search,Financial & Insurance,Canada,Canadian investment adviser and dealer targeting
+CIRO Advisor/Firm Lookup,Financial & Insurance,Canada,Canadian investment dealer targeting
+Washington Insurance Agent Lookup,Financial & Insurance,United States,WA insurance agent targeting
+BC Insurance Council Directory,Financial & Insurance,Canada,BC insurance professional targeting
+Ontario RIBO Brokerage Directory,Financial & Insurance,Canada,Ontario insurance broker targeting
+NCUA Research a Credit Union,Financial & Insurance,United States,"Credit union targeting - technology, compliance, fintech"
+SBA Franchise Directory,Franchise,United States,"Franchisee targeting - financing, SBA loan facilitation, ERP"
+CFA LookForAFranchise Directory,Franchise,Canada,Canadian franchise targeting
+Franchise Registry,Franchise,United States,Franchisee financing targeting
+Franchise Gator Opportunities,Franchise,United States,Active franchise expansion targeting
+IFE Franchise Expo Exhibitors,Franchise,United States,Actively growing franchise brands
+Apprenticeship.gov Partner Finder,Workforce,United States,"Sponsor targeting - HR tech, recruiting, payroll, training"
+SkilledTradesBC Sponsor Employers,Workforce,Canada,"BC employer targeting - HR, payroll, recruiting"
+LMIA-Approved Employer Lists,Workforce,Canada,"Employers hiring internationally - immigration, HR, recruiting"
+E-Verify Employer Search,Workforce,United States,Employers with compliance-heavy hiring
+DOL OFLC Performance Disclosure Data,Workforce,United States,"Visa-sponsoring employers - recruiting, immigration, HR ops"
+USCIS H-2A Employer Data Hub,Workforce,United States,Agriculture employers with seasonal labor pressure

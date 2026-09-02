@@ -1,5 +1,9 @@
 # Version History
 
+## 1.2.1 — Signal-led sourcing library
+
+Added the full 368-source public directory bank in JSON and CSV plus the complete signal-led list-building methodology under neutral CCS names. Expanded the intent-signal agent with a repeatable workflow for inventing, evaluating, and piloting signal concepts from any offer.
+
 ## 1.2.0 — On-demand operations agents
 
 Added four plain-English operational commands for local use: domain health, campaign monitoring, interested-reply review, and intent-signal research. The PlusVibe domain report now combines URIBL/SURBL results with 7, 14, and 30-day human and total reply rates; the campaign monitor flags low untouched-lead inventory without changing campaigns. Onboarding now teaches every student the command menu and clearly separates on-demand local use from optional Railway webhooks and schedules. Removed legacy embedded research credentials and standardized private runtime credential loading.
