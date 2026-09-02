@@ -1,5 +1,9 @@
 # Version History
 
+## 1.3.0 — Campaign learning loop
+
+Added the on-demand campaign optimizer. It retrieves PlusVibe variation statistics, compares positive-reply performance within the same campaign step, separates confirmed winners from directional or inconclusive results, preserves the winner as the control, drafts one focused challenger, and records reusable learnings in private campaign memory. No variation is edited, uploaded, disabled, or activated automatically.
+
 ## 1.2.1 — Signal-led sourcing library
 
 Added the full 368-source public directory bank in JSON and CSV plus the complete signal-led list-building methodology under neutral CCS names. Expanded the intent-signal agent with a repeatable workflow for inventing, evaluating, and piloting signal concepts from any offer.

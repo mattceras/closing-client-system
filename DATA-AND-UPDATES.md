@@ -27,6 +27,7 @@ These paths belong to the student and are excluded by `.gitignore`:
 - `config/.env`
 - every real folder under `clients/`
 - `self-campaign/`
+- `campaign-intelligence/`
 - every real `.env` file anywhere in the workspace.
 
 The only tracked client folder is `clients/_template/`, which is an empty starting point.

@@ -193,6 +193,7 @@ Then teach the student the permanent on-demand command menu:
 
 - `Run the domain health check`
 - `Run the campaign monitor`
+- `Run the campaign optimizer`
 - `Review this interested reply`
 - `Check intent signals`
 

@@ -13,6 +13,7 @@ It can help you:
 - prepare for sales calls, proposals, and agreements;
 - run a sending-domain blacklist and 7/14/30-day reply-performance check on demand;
 - monitor active PlusVibe campaigns that are running low on untouched leads;
+- compare campaign variations and turn credible winners into the next controlled copy test;
 - review interested replies, score prospect fit, summarize the company, and draft the next response;
 - research and score timely public intent signals;
 - design new intent-signal campaigns using an included 368-source public directory bank (JSON and CSV) and source-scoring methodology;
@@ -28,7 +29,7 @@ You use the maintained Closing Client System repository, but your business infor
 |---|---|
 | Skills and agents | `agency-profile.md` |
 | Setup instructions | Your real `clients/` folders |
-| Scripts and templates | `self-campaign/` |
+| Scripts and templates | `self-campaign/` and `campaign-intelligence/` |
 | Research methodologies | API keys in `config/.env` |
 | Product improvements | Client-specific credential files |
 
@@ -55,6 +56,7 @@ The onboarding agent will ask about your agency, offers, clients, sequencer, dat
 
 - **Run the domain health check**
 - **Run the campaign monitor**
+- **Run the campaign optimizer**
 - **Review this interested reply**
 - **Check intent signals**
 - **Give me intent-signal ideas for this offer**

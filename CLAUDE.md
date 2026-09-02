@@ -37,6 +37,7 @@ Students do not need to remember script names. Route these phrases to the matchi
 
 - **Run the domain health check** → `CCS-domain-health`. For PlusVibe, checks URIBL/SURBL and 7/14/30-day reply performance. Local execution requires the local folder and PlusVibe credentials; scheduling is optional.
 - **Run the campaign monitor** → `CCS-campaign-monitor`. For PlusVibe, reports active campaigns that are running low on untouched leads. It is read-only.
+- **Run the campaign optimizer** → `CCS-campaign-optimizer`. Compares variations within each step, identifies confirmed or directional leaders, preserves a winner as the control, and proposes one focused challenger. It never edits or activates campaigns automatically.
 - **Review this interested reply** → `CCS-reply-agent`. Reviews a pasted or retrieved conversation, summarizes the company, scores fit, and drafts a response. Local mode never sends.
 - **Check intent signals** → `CCS-intent-signals`. Runs sourced public research for timely company events. Paid data-provider runs and outreach require separate approval.
 
@@ -61,7 +62,7 @@ Never hardcode a key into a skill file or a script you generate — always read 
 
 ## Student data and product updates
 
-`agency-profile.md`, real `clients/` folders, `self-campaign/`, and real `.env` files belong to the student and are ignored by Git. Never move their contents into a tracked system file. Skills, agents, setup instructions, scripts, and templates are maintained product files. Read `DATA-AND-UPDATES.md` before helping with an update or resolving a Git conflict.
+`agency-profile.md`, real `clients/` folders, `self-campaign/`, `campaign-intelligence/`, and real `.env` files belong to the student and are ignored by Git. Never move their contents into a tracked system file. Skills, agents, setup instructions, scripts, and templates are maintained product files. Read `DATA-AND-UPDATES.md` before helping with an update or resolving a Git conflict.
 
 ## Things to never do
 

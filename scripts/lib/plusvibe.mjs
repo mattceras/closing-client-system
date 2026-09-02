@@ -25,6 +25,7 @@ export async function loadCredentials(clientName = "") {
 const knownKeys = [
   "PLUSVIBE_API_KEY", "PLUSVIBE_WORKSPACE_ID", "PLUSVIBE_WORKSPACE_IDS",
   "CAMPAIGN_LOW_LEAD_THRESHOLD", "CAMPAIGN_CRITICAL_LEAD_THRESHOLD",
+  "CAMPAIGN_VARIATION_MIN_SENT", "CAMPAIGN_VARIATION_MIN_LIFT_PERCENTAGE_POINTS",
   "SMARTLEAD_API_KEY", "EMAILBISON_API_KEY", "INSTANTLY_API_KEY",
   "AI_ARK_API_KEY", "JINA_API_KEY", "BRAVE_SEARCH_API_KEY", "EXA_API_KEY",
   "X_BEARER_TOKEN", "GOOGLE_CUSTOM_SEARCH_API_KEY", "GOOGLE_CUSTOM_SEARCH_ENGINE_ID",
@@ -95,6 +96,15 @@ export async function getLeadCounts(apiKey, workspaceId, campaignId) {
     campaign_id: campaignId
   });
   return arrayFrom(response, ["data", "counts"]);
+}
+
+export async function getCampaignVariationStats(apiKey, workspaceId, campaignId, startDate = "", endDate = "") {
+  const response = await requestJson(apiKey, "/campaign/get/variation-stats", {
+    workspace_id: workspaceId,
+    campaign_id: campaignId,
+    ...(startDate && endDate ? { start_date: startDate, end_date: endDate } : {})
+  });
+  return arrayFrom(response, ["data", "steps", "results"]);
 }
 
 export function requirePlusVibe(credentials) {

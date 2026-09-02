@@ -6,7 +6,7 @@ Local mode is the recommended starting point.
 
 Choose it if you want to build lists, research markets, write campaigns, manage clients, and prepare uploads while working from your computer.
 
-Local mode also includes four on-demand operational agents: domain health, campaign monitoring, interested-reply review, and intent-signal research. They run when you ask; they are not scheduled.
+Local mode also includes five on-demand operational agents: domain health, campaign monitoring, campaign optimization, interested-reply review, and intent-signal research. They run when you ask; they are not scheduled.
 
 You need:
 

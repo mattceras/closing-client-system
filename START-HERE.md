@@ -52,6 +52,7 @@ After onboarding, you can say any of these without remembering technical command
 
 - **Run the domain health check** — checks PlusVibe sending domains against URIBL/SURBL and shows 7, 14, and 30-day reply performance.
 - **Run the campaign monitor** — shows active PlusVibe campaigns that are low on untouched leads.
+- **Run the campaign optimizer** — compares variations, identifies defensible winners, and proposes the next focused challenger without changing the campaign.
 - **Review this interested reply** — evaluates the conversation and prospect, then drafts a reply without sending it.
 - **Check intent signals** — researches timely public events that may create a reason to contact a company.
 
