@@ -33,6 +33,14 @@ The only tracked client folder is `clients/_template/`, which is an empty starti
 
 ## How students receive updates
 
+### Ask the AI assistant
+
+Inside the CCS workspace, say:
+
+> Update my Closing Client System without changing my agency profile, clients, campaigns, or credentials.
+
+Claude Code or Codex should run the included safe updater and explain any issue in plain language. The student does not need GitHub Desktop or a memorized command.
+
 ### GitHub Desktop
 
 1. Open the Closing Client System repository in GitHub Desktop.

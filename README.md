@@ -13,7 +13,7 @@ It can help you:
 - prepare for sales calls, proposals, and agreements;
 - use the same operating system with Claude or ChatGPT/Codex.
 
-**New here? Open [SETUP.md](SETUP.md).** It starts with the simplest local setup. You do not need Railway, Slack, OAuth, or API keys to begin.
+**New here? Open [START-HERE.md](START-HERE.md).** If you have Claude Code or Codex, you can paste one instruction and let the AI handle the technical setup. GitHub Desktop is optional. You do not need Railway, Slack, OAuth, or API keys to begin.
 
 ## How this repository works
 
@@ -48,7 +48,11 @@ The onboarding agent will ask about your agency, offers, clients, sequencer, dat
 
 ## Updating
 
-If you cloned the repository, run the updater:
+The easiest update command is to tell Claude Code or Codex:
+
+> Update my Closing Client System without changing my agency profile, clients, campaigns, or credentials.
+
+You can also run the updater directly:
 
 - Windows: right-click `scripts/update.ps1` and choose **Run with PowerShell**
 - Mac/Linux: run `bash scripts/update.sh`

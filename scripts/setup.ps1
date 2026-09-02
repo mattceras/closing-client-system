@@ -14,20 +14,17 @@ Write-Host ""
 # --- Check Node.js ---
 $node = Get-Command node -ErrorAction SilentlyContinue
 if (-not $node) {
-    Write-Host "Node.js is not installed (or not on your PATH)."
-    Write-Host "This system needs Node.js 18 or later to run the cleaning/upload/scraper scripts."
-    Write-Host "Install it from: https://nodejs.org (choose the LTS version), then run this script again."
-    exit 1
+    Write-Host "Node.js is not installed. Core CCS onboarding, research, and writing still work."
+    Write-Host "Install Node.js LTS later when you need the cleaning, enrichment, or upload utilities."
+} else {
+    $nodeVersion = (node --version).TrimStart("v")
+    $nodeMajor = [int]($nodeVersion.Split(".")[0])
+    if ($nodeMajor -lt 18) {
+        Write-Host "Found Node.js v$nodeVersion. Core CCS work still functions, but utilities need version 18 or later."
+    } else {
+        Write-Host "Node.js v$nodeVersion found. Optional utilities are available."
+    }
 }
-
-$nodeVersion = (node --version).TrimStart("v")
-$nodeMajor = [int]($nodeVersion.Split(".")[0])
-if ($nodeMajor -lt 18) {
-    Write-Host "Found Node.js v$nodeVersion, but this system needs 18 or later."
-    Write-Host "Update at: https://nodejs.org"
-    exit 1
-}
-Write-Host "Node.js v$nodeVersion found."
 
 # --- Detect supported AI applications ---
 $claude = Get-Command claude -ErrorAction SilentlyContinue

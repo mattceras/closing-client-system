@@ -4,30 +4,32 @@ You are setting up an AI workspace, not installing a traditional software applic
 
 Start locally. Railway and the always-on cloud features are optional and can be added later.
 
-## Step 1: Get the folder
+## Step 1: Let the AI install it
 
-### Recommended: GitHub Desktop
+GitHub Desktop is not required.
 
-Using GitHub Desktop makes future updates much easier.
+1. Accept the private GitHub invitation supplied by Closing Client System.
+2. Open Claude Code or Codex.
+3. Paste:
 
-1. Install GitHub Desktop from `desktop.github.com`.
-2. Accept the private-repository invitation supplied by Closing Client System.
-3. In GitHub Desktop, choose **File**, then **Clone repository**.
-4. Select `closing-client-system`.
-5. Choose an easy location such as Documents.
-6. Click **Clone**.
+> Set up the Closing Client System for me from https://github.com/mattceras/closing-client-system. Handle the technical setup yourself. If GitHub needs me to sign in, pause and show me exactly what to click. Put the system in an easy-to-find folder, run its setup check, read its instructions, and then onboard me conversationally. Do not ask me to type terminal commands.
 
-### Simpler fallback: Download ZIP
+The assistant should download the repository, run the setup checker, read the CCS instructions, and begin onboarding. If GitHub authentication is required, it should stop only long enough for you to complete the browser sign-in.
 
-You can choose **Code**, then **Download ZIP** on GitHub and unzip the folder. The system works normally, but future updates require downloading a fresh release because the folder is not connected to GitHub.
+### Manual alternatives
 
-## Step 2: Install Node.js
+- **GitHub Desktop:** accept the invitation, choose **File**, **Clone repository**, select `closing-client-system`, and click **Clone**.
+- **ZIP download:** choose **Code**, then **Download ZIP** on GitHub and unzip it. This works, but it is not connected to automatic Git updates.
 
-Install the current LTS version from `nodejs.org`.
+Read [START-HERE.md](START-HERE.md) for the regular ChatGPT-only route.
 
-Node.js runs the included CSV-cleaning, enrichment, and sequencer-upload utilities. Restart your AI application after installing it.
+## Step 2: Optional utility support
 
-## Step 3: Choose your AI application
+You can complete onboarding and use the writing, research, campaign-planning, and sales skills without installing anything else.
+
+Some CSV-cleaning, enrichment, and sequencer-upload utilities use Node.js. If one of those tools is needed and Node.js is missing, ask the AI assistant to install the current LTS version after explaining the change and receiving permission.
+
+## Step 3: Open the installed workspace
 
 The same system supports either option.
 
@@ -72,7 +74,7 @@ Open Terminal in the folder and run:
 bash scripts/setup.sh
 ```
 
-The checker confirms Node.js is available and creates the private credential file. It does not require API keys.
+The checker reports whether the optional utilities are available and creates the private credential file. It does not require API keys.
 
 ## Step 5: Start onboarding
 
@@ -104,6 +106,10 @@ A correct installation should mention your saved agency profile and recommend th
 
 Your private information is protected from updates. See [DATA-AND-UPDATES.md](DATA-AND-UPDATES.md).
 
+The simplest option is to say:
+
+> Update my Closing Client System without changing my agency profile, clients, campaigns, or credentials.
+
 - GitHub Desktop: click **Fetch origin**, then **Pull origin**.
 - Windows: run `scripts/update.ps1`.
 - Mac/Linux: run `bash scripts/update.sh`.
@@ -112,7 +118,7 @@ Your private information is protected from updates. See [DATA-AND-UPDATES.md](DA
 
 ### Node is not recognized
 
-Install Node.js from `nodejs.org`, then completely close and reopen your terminal and AI application.
+Core CCS work still functions. Ask the AI assistant to install the current Node.js LTS version when you need CSV-cleaning, enrichment, or upload utilities, then completely close and reopen the AI application.
 
 ### Claude or ChatGPT gives generic answers
 

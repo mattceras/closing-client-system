@@ -13,19 +13,16 @@ echo ""
 
 # --- Check Node.js ---
 if ! command -v node >/dev/null 2>&1; then
-  echo "Node.js is not installed (or not on your PATH)."
-  echo "This system needs Node.js 18 or later to run the cleaning/upload/scraper scripts."
-  echo "Install it from: https://nodejs.org (choose the LTS version), then run this script again."
-  exit 1
+  echo "Node.js is not installed. Core CCS onboarding, research, and writing still work."
+  echo "Install Node.js LTS later when you need the cleaning, enrichment, or upload utilities."
+else
+  NODE_MAJOR=$(node -e "console.log(process.versions.node.split('.')[0])")
+  if [ "$NODE_MAJOR" -lt 18 ]; then
+    echo "Found Node.js $(node --version). Core CCS work still functions, but utilities need version 18 or later."
+  else
+    echo "Node.js $(node --version) found. Optional utilities are available."
+  fi
 fi
-
-NODE_MAJOR=$(node -e "console.log(process.versions.node.split('.')[0])")
-if [ "$NODE_MAJOR" -lt 18 ]; then
-  echo "Found Node.js $(node --version), but this system needs 18 or later."
-  echo "Update at: https://nodejs.org"
-  exit 1
-fi
-echo "Node.js $(node --version) found."
 
 # --- Detect supported AI applications ---
 AI_CLI_FOUND=0

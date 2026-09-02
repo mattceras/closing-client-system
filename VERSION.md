@@ -1,5 +1,9 @@
 # Version History
 
+## 1.1.1 — AI-guided installation
+
+Changed the default beginner path so Claude Code or Codex can install and update CCS from one conversational instruction. GitHub Desktop is now an optional manual alternative. Added a separate explanation for students using regular ChatGPT without a local coding environment.
+
 ## 1.1.0 — Student workspace foundation
 
 Added:
