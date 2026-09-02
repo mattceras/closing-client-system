@@ -28,8 +28,12 @@ Run this before other CCS work when `agency-profile.md` does not exist.
 Confirm which AI application they are currently using:
 
 - Claude Desktop or Claude Code;
-- ChatGPT/Codex local project;
-- regular ChatGPT Work with the GitHub plugin.
+- ChatGPT Work with a Local project;
+- Codex with a Local project;
+- ChatGPT Work in the cloud or on a phone with the GitHub plugin;
+- ordinary ChatGPT Chat.
+
+Explain that ChatGPT Work Local, Claude Code, and Codex can operate the local CCS folder. Work cloud/phone can use the GitHub knowledge and connected cloud tools but cannot directly access the student's computer files. Ordinary Chat is intended for shorter conversational work; recommend Work for CCS workflows that need tools or multiple steps.
 
 Then ask them to choose an operating mode:
 
@@ -129,7 +133,7 @@ Write `agency-profile.md` in the repository root:
 agency_name: [name]
 created: [date]
 solo_or_agency: [solo | agency | both]
-ai_platform: [Claude | ChatGPT/Codex | ChatGPT Work]
+ai_platform: [Claude | ChatGPT Work Local | ChatGPT Work Cloud | Codex | ChatGPT Chat]
 operating_mode: [local | cloud-later | cloud-requested]
 ---
 

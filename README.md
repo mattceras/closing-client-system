@@ -11,9 +11,9 @@ It can help you:
 - prepare campaigns for PlusVibe, SmartLead, Instantly, or Email Bison;
 - organize client context so you do not have to explain the business every session;
 - prepare for sales calls, proposals, and agreements;
-- use the same operating system with Claude or ChatGPT/Codex.
+- use the same operating system with ChatGPT Work, Claude, or Codex.
 
-**New here? Open [START-HERE.md](START-HERE.md).** If you have Claude Code or Codex, you can paste one instruction and let the AI handle the technical setup. GitHub Desktop is optional. You do not need Railway, Slack, OAuth, or API keys to begin.
+**New here? Open [START-HERE.md](START-HERE.md).** If you have ChatGPT Work Local, Claude Code, or Codex, you can paste one instruction and let the AI handle the technical setup. GitHub Desktop is optional. You do not need Railway, Slack, OAuth, or API keys to begin.
 
 ## How this repository works
 
@@ -33,14 +33,14 @@ When you update the system, Git retrieves improvements to the left-hand column a
 
 Start locally unless you already know you need an always-on agent.
 
-- **Local:** simplest setup. Work from the folder on your computer with Claude or ChatGPT/Codex.
+- **Local:** simplest setup. Work from the folder on your computer with ChatGPT Work Local, Claude Code, or Codex.
 - **Cloud:** optional Railway deployment for webhooks, Slack, scheduled tasks, a reply agent, and use across devices while your computer is off.
 
 The cloud layer is an extension of the same workspace, not a different product. See [LOCAL-OR-CLOUD.md](LOCAL-OR-CLOUD.md).
 
 ## First conversation
 
-After selecting this folder in Claude or ChatGPT/Codex, say:
+After selecting this folder in ChatGPT Work Local, Claude, or Codex, say:
 
 > Help me set up my Closing Client System
 
@@ -48,7 +48,7 @@ The onboarding agent will ask about your agency, offers, clients, sequencer, dat
 
 ## Updating
 
-The easiest update command is to tell Claude Code or Codex:
+The easiest update command is to tell ChatGPT Work Local, Claude Code, or Codex:
 
 > Update my Closing Client System without changing my agency profile, clients, campaigns, or credentials.
 

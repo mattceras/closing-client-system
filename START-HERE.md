@@ -2,10 +2,10 @@
 
 You do not need GitHub Desktop and you do not need to type terminal commands.
 
-## If you use Claude Code or Codex
+## If you use ChatGPT Work, Claude Code, or Codex locally
 
 1. Accept the private GitHub invitation sent by Closing Client System.
-2. Open Claude Code or Codex.
+2. Open Claude Code, Codex, or the ChatGPT desktop app in **Work** mode with a **Local** project.
 3. Paste this message:
 
 > Set up the Closing Client System for me from https://github.com/mattceras/closing-client-system. Handle the technical setup yourself. If GitHub needs me to sign in, pause and show me exactly what to click. Put the system in an easy-to-find folder, run its setup check, read its instructions, and then onboard me conversationally. Do not ask me to type terminal commands, and do not ask for API keys until you have explained why they are optional.
@@ -22,11 +22,11 @@ The AI assistant should:
 
 If the assistant cannot connect to the private repository, it should help you complete GitHub's browser sign-in. Downloading a ZIP is the fallback, not the default.
 
-## If you use regular ChatGPT only
+## If you use ChatGPT Work in the cloud or on a phone
 
-Regular ChatGPT cannot install or run a folder on your computer. Use the GitHub connector to read the private repository inside a ChatGPT Project.
+Cloud Work cannot directly install or run a folder on your computer. Use the GitHub connector to read the private repository inside a ChatGPT Project.
 
-This is suitable for research, planning, writing, and using the CCS knowledge. Local scripts and direct file operations require Codex or Claude Code. Always-on webhooks, scheduled tasks, and integrations require the optional cloud setup.
+This is suitable for research, planning, writing, and using the CCS knowledge. Local scripts and direct computer-file operations require ChatGPT Work Local, Codex, or Claude Code. Always-on webhooks, scheduled tasks, and integrations use the optional CCS cloud setup.
 
 After connecting the repository, say:
 
@@ -34,10 +34,14 @@ After connecting the repository, say:
 
 ChatGPT should create a private agency profile after the interview. Add that file to the ChatGPT Project's private sources so new chats retain the business context. Do not add it to the shared GitHub repository.
 
+## If you use ordinary ChatGPT Chat
+
+Chat is best for questions, brainstorming, and short writing tasks. Switch the conversation to **Work** when you want ChatGPT to use tools, work through multiple steps, create files, or carry a task through to a completed result.
+
 ## Updating later
 
 Inside the installed CCS workspace, say:
 
 > Update my Closing Client System without changing my agency profile, clients, campaigns, or credentials.
 
-The assistant will run the safe updater. It stops rather than overwriting a managed file that was changed locally.
+The assistant will run the safe updater. It stops rather than overwriting a managed file that was changed locally. Cloud-only projects read the current repository through the GitHub connector instead.

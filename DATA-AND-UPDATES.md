@@ -39,14 +39,14 @@ Inside the CCS workspace, say:
 
 > Update my Closing Client System without changing my agency profile, clients, campaigns, or credentials.
 
-Claude Code or Codex should run the included safe updater and explain any issue in plain language. The student does not need GitHub Desktop or a memorized command.
+ChatGPT Work Local, Claude Code, or Codex should run the included safe updater and explain any issue in plain language. The student does not need GitHub Desktop or a memorized command.
 
 ### GitHub Desktop
 
 1. Open the Closing Client System repository in GitHub Desktop.
 2. Click **Fetch origin**.
 3. If an update is available, click **Pull origin**.
-4. Reopen the folder in Claude or ChatGPT/Codex.
+4. Reopen the folder in ChatGPT Work Local, Claude Code, or Codex.
 
 ### Windows updater
 

@@ -9,7 +9,7 @@ Choose it if you want to build lists, research markets, write campaigns, manage 
 You need:
 
 - this folder;
-- Claude Code/Desktop or ChatGPT/Codex;
+- ChatGPT Work Local, Claude Code/Desktop, or Codex;
 - Node.js for the included list-cleaning and upload utilities.
 
 Local mode can call APIs when you provide credentials, but it only runs while your computer and AI session are active.

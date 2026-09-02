@@ -1,6 +1,6 @@
 # Setup
 
-You are setting up an AI workspace, not installing a traditional software application. The folder contains the instructions and skills that teach Claude or ChatGPT/Codex how to help operate your agency.
+You are setting up an AI workspace, not installing a traditional software application. The folder contains the instructions and skills that teach ChatGPT Work, Claude, or Codex how to help operate your agency.
 
 Start locally. Railway and the always-on cloud features are optional and can be added later.
 
@@ -9,7 +9,7 @@ Start locally. Railway and the always-on cloud features are optional and can be 
 GitHub Desktop is not required.
 
 1. Accept the private GitHub invitation supplied by Closing Client System.
-2. Open Claude Code or Codex.
+2. Open Claude Code, Codex, or the ChatGPT desktop app in **Work** mode with a **Local** project.
 3. Paste:
 
 > Set up the Closing Client System for me from https://github.com/mattceras/closing-client-system. Handle the technical setup yourself. If GitHub needs me to sign in, pause and show me exactly what to click. Put the system in an easy-to-find folder, run its setup check, read its instructions, and then onboard me conversationally. Do not ask me to type terminal commands.
@@ -21,7 +21,7 @@ The assistant should download the repository, run the setup checker, read the CC
 - **GitHub Desktop:** accept the invitation, choose **File**, **Clone repository**, select `closing-client-system`, and click **Clone**.
 - **ZIP download:** choose **Code**, then **Download ZIP** on GitHub and unzip it. This works, but it is not connected to automatic Git updates.
 
-Read [START-HERE.md](START-HERE.md) for the regular ChatGPT-only route.
+Read [START-HERE.md](START-HERE.md) for ChatGPT Work cloud, phone, and ordinary Chat alternatives.
 
 ## Step 2: Optional utility support
 
@@ -43,16 +43,16 @@ The same system supports either option.
 
 Claude reads `CLAUDE.md` and the skills under `.claude/skills/`.
 
-### ChatGPT/Codex
+### ChatGPT Work Local or Codex
 
-1. Open Codex on your computer.
-2. Create or open a Local project.
+1. Open the ChatGPT desktop application.
+2. For Work, select **ChatGPT**, switch to **Work**, and create or open a **Local** project. For Codex, select **Codex** and create or open a Local project.
 3. Select the exact `closing-client-system` folder.
 4. Start a new task inside that project.
 
-ChatGPT/Codex reads `AGENTS.md` and the skills under `.agents/skills/`.
+ChatGPT Work Local and Codex read `AGENTS.md` and the skills under `.agents/skills/`.
 
-If you are using regular ChatGPT Work rather than a local Codex project, connect the private GitHub repository with the GitHub plugin. Regular ChatGPT cannot run files stored only on your computer.
+If you are using ChatGPT Work in the cloud or on a phone, connect the private GitHub repository with the GitHub plugin. Cloud Work cannot directly use files stored only on your computer.
 
 ## Step 4: Run the local setup checker
 
@@ -78,7 +78,7 @@ The checker reports whether the optional utilities are available and creates the
 
 ## Step 5: Start onboarding
 
-In Claude or ChatGPT/Codex, say:
+In ChatGPT Work Local, Claude, or Codex, say:
 
 > Help me set up my Closing Client System
 
@@ -137,6 +137,6 @@ Stay local. Railway is only necessary for webhooks, scheduled tasks, Slack, and 
 Post in the CCS support channel with:
 
 - Windows or Mac;
-- Claude or ChatGPT/Codex;
+- ChatGPT Work, Claude, or Codex;
 - the exact error or screenshot;
 - the version shown at the top of `VERSION.md`.

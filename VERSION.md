@@ -1,5 +1,9 @@
 # Version History
 
+## 1.1.2 — ChatGPT Work clarification
+
+Added ChatGPT Work Local as a full local operating path alongside Claude Code and Codex. Distinguished ordinary Chat, Work Local, and Work cloud/phone so students choose the correct setup without assuming the ChatGPT product is limited to ordinary chat.
+
 ## 1.1.1 — AI-guided installation
 
 Changed the default beginner path so Claude Code or Codex can install and update CCS from one conversational instruction. GitHub Desktop is now an optional manual alternative. Added a separate explanation for students using regular ChatGPT without a local coding environment.
