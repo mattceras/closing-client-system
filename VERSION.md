@@ -1,5 +1,19 @@
 # Version History
 
+## 1.1.0 — Student workspace foundation
+
+Added:
+
+- Claude and ChatGPT/Codex discovery files and mirrored skills
+- beginner-first setup instructions for both AI platforms
+- local-first and optional-cloud operating modes
+- expanded onboarding for agency type, clients, sequencer, data providers, credentials, and operating mode
+- documented separation between maintained CCS product files and private student data
+- safe Git-based update scripts for Windows, Mac, and Linux
+- update checks that stop instead of overwriting modified managed files
+
+Private student paths remain ignored and are not replaced during updates: `agency-profile.md`, real `clients/` folders, `self-campaign/`, `config/.env`, and all real credential files.
+
 ## 1.0.0 — Initial release
 First curated build of the Closing Client System, replacing the general-purpose Claude Toolkit distribution for cold email work.
 
@@ -12,9 +26,4 @@ Included:
 
 ---
 
-**Updating from a previous version:** unzip the new version into a **new** folder — don't unzip on top of an old install. Then copy these three items over from your old folder into the new one:
-- `config/.env`
-- `agency-profile.md`
-- `clients/` (your actual client folders, not `_template`)
-
-Then start running `claude` from the new folder. See [SETUP.md](SETUP.md) for details.
+**Updating:** cloned installations can use GitHub Desktop or the safe scripts in `scripts/`. ZIP installations still require a fresh download. See [DATA-AND-UPDATES.md](DATA-AND-UPDATES.md).

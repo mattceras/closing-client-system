@@ -8,6 +8,8 @@ If `agency-profile.md` does not exist yet in this folder's root, this is a new i
 
 If `agency-profile.md` already exists, read it at the start of the session and use it as background context — the user shouldn't have to re-explain who they are or what they charge every time.
 
+The profile also records whether the student chose local or cloud mode. Never assume Railway, Slack, webhooks, scheduled tasks, or a reply agent are configured merely because the repository documents them. Local is the safe default until a completed cloud setup says otherwise.
+
 If asked "what version is this" (or something like it), read the top of `VERSION.md` and answer with just the version number — this is how support requests in Slack get triaged, so don't skip it or guess.
 
 ## The core workflow (in order — don't skip steps)
@@ -44,6 +46,10 @@ For anything needing an API key or workspace ID (PlusVibe, SmartLead, Email Biso
 3. If neither has it, ask the user once and tell them where to save it (don't just ask again next time).
 
 Never hardcode a key into a skill file or a script you generate — always read it from these config files.
+
+## Student data and product updates
+
+`agency-profile.md`, real `clients/` folders, `self-campaign/`, and real `.env` files belong to the student and are ignored by Git. Never move their contents into a tracked system file. Skills, agents, setup instructions, scripts, and templates are maintained product files. Read `DATA-AND-UPDATES.md` before helping with an update or resolving a Git conflict.
 
 ## Things to never do
 

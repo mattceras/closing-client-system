@@ -29,15 +29,16 @@ if ($nodeMajor -lt 18) {
 }
 Write-Host "Node.js v$nodeVersion found."
 
-# --- Check Claude Code CLI ---
+# --- Detect supported AI applications ---
 $claude = Get-Command claude -ErrorAction SilentlyContinue
-if (-not $claude) {
+$codex = Get-Command codex -ErrorAction SilentlyContinue
+if ($claude) { Write-Host "Claude Code CLI found." }
+if ($codex) { Write-Host "Codex CLI found." }
+if (-not $claude -and -not $codex) {
     Write-Host ""
-    Write-Host "Claude Code CLI not found on your PATH."
-    Write-Host "Install it from: https://claude.ai/code, then run this script again."
-    exit 1
+    Write-Host "No Claude or Codex command-line tool was found. That is okay if you use a desktop app."
+    Write-Host "Open Claude Desktop or Codex, choose a Local project, and select this exact folder."
 }
-Write-Host "Claude Code CLI found."
 
 # --- Set up config\.env if it doesn't exist yet ---
 $envPath = Join-Path $RootDir "config\.env"
@@ -46,7 +47,7 @@ if (-not (Test-Path $envPath)) {
     Copy-Item $envExamplePath $envPath
     Write-Host ""
     Write-Host "Created config\.env from the template. You don't need to fill it in by hand -"
-    Write-Host "the onboarding step inside Claude Code will help you fill in whatever you have."
+    Write-Host "the onboarding step inside your AI application will help you fill in whatever you have."
 } else {
     Write-Host "config\.env already exists - leaving it as is."
 }
@@ -55,8 +56,7 @@ Write-Host ""
 Write-Host "Setup complete."
 Write-Host ""
 Write-Host "Next steps:"
-Write-Host "  1. Stay in this folder (or cd into it if you're not already here)."
-Write-Host "  2. Run: claude"
-Write-Host "  3. Just start talking - e.g. `"I want to build a lead list for a roofing company.`""
-Write-Host "     First run will walk you through a short setup (your business, your deal terms)."
+Write-Host "  1. Open this exact folder as a Local project in Claude or ChatGPT/Codex."
+Write-Host "  2. Say: Help me set up my Closing Client System"
+Write-Host "  3. The onboarding agent will save your agency, client, tool, and setup preferences."
 Write-Host ""

@@ -1,110 +1,136 @@
 # Setup
 
-## What you need first
+You are setting up an AI workspace, not installing a traditional software application. The folder contains the instructions and skills that teach Claude or ChatGPT/Codex how to help operate your agency.
 
-- **Node.js 18 or later** — [nodejs.org](https://nodejs.org), download the LTS version. This runs the CSV cleaning, PlusVibe upload, and optional Jina scraping scripts.
-- **Claude Code** — [claude.ai/code](https://claude.ai/code). This is what you actually talk to.
+Start locally. Railway and the always-on cloud features are optional and can be added later.
 
-You do **not** need any API keys to get started — the core workflow (list building → cleaning → enrichment → copy) works with zero keys. You'll only need a PlusVibe key when you're ready to upload a campaign.
+## Step 1: Get the folder
 
----
+### Recommended: GitHub Desktop
 
-## Fresh install
+Using GitHub Desktop makes future updates much easier.
+
+1. Install GitHub Desktop from `desktop.github.com`.
+2. Accept the private-repository invitation supplied by Closing Client System.
+3. In GitHub Desktop, choose **File**, then **Clone repository**.
+4. Select `closing-client-system`.
+5. Choose an easy location such as Documents.
+6. Click **Clone**.
+
+### Simpler fallback: Download ZIP
+
+You can choose **Code**, then **Download ZIP** on GitHub and unzip the folder. The system works normally, but future updates require downloading a fresh release because the folder is not connected to GitHub.
+
+## Step 2: Install Node.js
+
+Install the current LTS version from `nodejs.org`.
+
+Node.js runs the included CSV-cleaning, enrichment, and sequencer-upload utilities. Restart your AI application after installing it.
+
+## Step 3: Choose your AI application
+
+The same system supports either option.
+
+### Claude Desktop or Claude Code
+
+1. Open Claude.
+2. Choose the Code environment.
+3. Choose **Local**.
+4. Select the exact `closing-client-system` folder.
+5. Do not select its parent folder or a folder inside it.
+
+Claude reads `CLAUDE.md` and the skills under `.claude/skills/`.
+
+### ChatGPT/Codex
+
+1. Open Codex on your computer.
+2. Create or open a Local project.
+3. Select the exact `closing-client-system` folder.
+4. Start a new task inside that project.
+
+ChatGPT/Codex reads `AGENTS.md` and the skills under `.agents/skills/`.
+
+If you are using regular ChatGPT Work rather than a local Codex project, connect the private GitHub repository with the GitHub plugin. Regular ChatGPT cannot run files stored only on your computer.
+
+## Step 4: Run the local setup checker
 
 ### Windows
 
-1. Unzip this folder anywhere (Desktop, Documents, wherever).
-2. Open the folder, right-click `scripts\setup.ps1` → **Run with PowerShell**.
-   - If you get a red permissions error, open PowerShell yourself, `cd` into this folder, and run:
-     ```
-     powershell -ExecutionPolicy Bypass -File scripts\setup.ps1
-     ```
-3. Once it says "Setup complete," stay in this folder and run `claude`.
+Right-click `scripts/setup.ps1` and choose **Run with PowerShell**.
 
-### Mac / Linux
+If Windows blocks it, open PowerShell in the folder and run:
 
-1. Unzip this folder anywhere.
-2. Open Terminal and `cd` into the unzipped folder.
-3. Run:
-   ```bash
-   bash scripts/setup.sh
-   ```
-   (Running it with `bash` directly like this avoids needing to `chmod +x` anything or fight macOS Gatekeeper over an unsigned script — you don't need to double-click it.)
-4. Once it says "Setup complete," run `claude` from the same terminal, still inside this folder.
+```powershell
+powershell -ExecutionPolicy Bypass -File scripts/setup.ps1
+```
 
-### Claude Desktop app (most people — no terminal needed)
+### Mac/Linux
 
-If you use the Claude Desktop app instead of a terminal, the setup script doesn't apply to you — skip it entirely. Just make sure Node.js is installed first (see above), then:
+Open Terminal in the folder and run:
 
-1. Unzip this folder anywhere on your computer.
-2. Open Claude Desktop and click the **Code** tab at the top.
-3. Select **Local** as the environment.
-4. Click **Select folder** and, in the picker that opens, navigate to and select the folder you just unzipped — it should be named `closing-client-system`.
-   - **Select that exact folder, not the Downloads folder it's sitting in, and not a folder inside it.** Picking the wrong level is the single most common setup mistake — see "Make sure it worked" below to catch it early if you're not sure.
-5. Pick a model, then just start typing.
+```bash
+bash scripts/setup.sh
+```
 
-### Either way, once `claude` is running (or the Desktop app is set up)
+The checker confirms Node.js is available and creates the private credential file. It does not require API keys.
 
-Just start talking. Something like:
+## Step 5: Start onboarding
 
-> "I want to build a lead list for a roofing company client."
+In Claude or ChatGPT/Codex, say:
 
-The first time, it'll walk you through a short setup — what your business does, your deal terms, any API keys you already have. After that it remembers, and you can just get to work.
+> Help me set up my Closing Client System
 
-### Make sure it worked
+The onboarding agent will ask about:
 
-Before you get into real work, send one throwaway message to confirm Claude actually loaded this system: ask **"what skills do you have access to, and what should we set up first?"**
+- your agency and offers;
+- whether you have clients;
+- your standard pricing and deal structure;
+- your sequencer;
+- your list-building and enrichment tools;
+- any API keys you already have;
+- whether you want local mode or the optional cloud setup.
 
-- **Working correctly:** it should mention onboarding, your agency profile, or one of the `CCS-` skills by name.
-- **Not working:** if it responds like a completely generic assistant with no idea what any of this is, you're very likely pointed at the wrong folder. Close it out, re-check that you selected the exact unzipped `closing-client-system` folder (not its parent, not a folder inside it), and try again.
+You can skip anything. Missing information is recorded as **Not set yet** rather than blocking you.
 
----
+## Step 6: Confirm it worked
 
-## Updating to a new version
+Ask:
 
-Every new version is a fresh, self-contained zip — never unzip a new version on top of an old install.
+> What do you know about my agency, what CCS skills can you use, and what should we do first?
 
-1. Unzip the new version into a **new** folder (don't overwrite the old one).
-2. From your **old** folder, copy these three things into the **new** folder:
-   - `config/.env`
-   - `agency-profile.md`
-   - `clients/` (your actual client folders — not `_template`, that's already in the new zip)
-3. Run the setup script in the new folder (same as a fresh install — it'll see your `config/.env` already exists and leave it alone).
-4. From now on, run `claude` from the new folder. You can delete the old one once you've confirmed everything carried over.
+A correct installation should mention your saved agency profile and recommend the appropriate CCS workflow. A generic answer usually means the wrong folder was selected.
 
-Check `VERSION.md` in each release to see what changed.
+## Updating later
 
----
+Your private information is protected from updates. See [DATA-AND-UPDATES.md](DATA-AND-UPDATES.md).
 
-## If you already used the old Claude Toolkit
-
-If you previously ran the old installer that copies hundreds of generic skills into your global `~/.claude` folder, you don't have to remove anything for this to work — this package is self-contained and doesn't depend on what is or isn't installed globally. But if you want to avoid overlap or confusion (e.g. an old skill firing instead of the one in this package), you can clean out your global skills folder:
-
-- **Windows:** delete the contents of `C:\Users\<you>\.claude\skills\`
-- **Mac/Linux:** delete the contents of `~/.claude/skills/`
-
-This is optional and only affects skills available *outside* this folder — it won't touch anything in here.
-
----
+- GitHub Desktop: click **Fetch origin**, then **Pull origin**.
+- Windows: run `scripts/update.ps1`.
+- Mac/Linux: run `bash scripts/update.sh`.
 
 ## Troubleshooting
 
-**"node: command not found" / "'node' is not recognized"**
-Node.js isn't installed, or your terminal needs restarting after installing it. Reinstall from [nodejs.org](https://nodejs.org), then open a brand new terminal window and try again.
+### Node is not recognized
 
-**"claude: command not found"**
-Claude Code isn't installed, or your terminal's PATH doesn't see it yet. Follow the install steps at [claude.ai/code](https://claude.ai/code), then open a new terminal window.
+Install Node.js from `nodejs.org`, then completely close and reopen your terminal and AI application.
 
-**Mac: "cannot be opened because it is from an unidentified developer"**
-This happens if you try to double-click a script instead of running it through Terminal. Use the `bash scripts/setup.sh` command shown above instead of double-clicking anything.
+### Claude or ChatGPT gives generic answers
 
-**PlusVibe/SmartLead/Email Bison/AI Ark/Jina isn't working**
-Check `config/.env` (or `clients/<name>/credentials.env` if it's client-specific) has the right value saved. You can always say "update my API key" in Claude Code and it'll walk you through it again via `CCS-onboarding`.
+Close the project and select the exact `closing-client-system` folder. Selecting Downloads, Documents, or a subfolder prevents the system instructions from loading correctly.
 
-**Claude seems stuck after you send a message**
-It's probably not stuck — it's waiting for you to approve a file it wants to create or edit (you'll see something like a diff with an "Accept" option). This is normal, expected behavior, not an error. Review it and click Accept to let it continue. You'll see this the first time it writes `agency-profile.md`, `config/.env`, and any new client folder.
+### An API integration does not work
 
-**You never need to manually open or edit any file yourself** — not `config/.env`, not `agency-profile.md`, nothing. Everything happens by talking to Claude. If you're being told to hand-edit a file, something's off — ask Claude to do it for you instead.
+Tell the assistant which integration you want to connect. It should help save the key into `config/.env` or the relevant client's private credential file without repeating the full key in chat.
 
-**Still stuck?**
-Post in Slack with: your OS (Windows/Mac), the exact error message or what happened, and which version this is (check `VERSION.md`, or just ask Claude "what version is this?").
+### You are unsure whether to use Railway
+
+Stay local. Railway is only necessary for webhooks, scheduled tasks, Slack, and agents that must continue running while your computer is off.
+
+### You are still stuck
+
+Post in the CCS support channel with:
+
+- Windows or Mac;
+- Claude or ChatGPT/Codex;
+- the exact error or screenshot;
+- the version shown at the top of `VERSION.md`.

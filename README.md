@@ -1,25 +1,60 @@
 # Closing Client System
 
-A Claude Code setup for running cold email outreach end-to-end — list building, cleaning, enrichment, copy, campaign upload, and the sales process that follows. Works with PlusVibe, SmartLead, or Email Bison as your sequencer — you pick which one during setup.
+Your AI workspace for building and operating cold-email campaigns from start to finish.
 
-**New here? Start with [SETUP.md](SETUP.md).**
+It can help you:
 
-## What's in this folder
+- understand and improve an offer before sending;
+- build, clean, and enrich lead lists;
+- research markets, companies, and competitors;
+- write cold-email campaigns and follow-ups;
+- prepare campaigns for PlusVibe, SmartLead, Instantly, or Email Bison;
+- organize client context so you do not have to explain the business every session;
+- prepare for sales calls, proposals, and agreements;
+- use the same operating system with Claude or ChatGPT/Codex.
 
-| Folder | Contents |
+**New here? Open [SETUP.md](SETUP.md).** It starts with the simplest local setup. You do not need Railway, Slack, OAuth, or API keys to begin.
+
+## How this repository works
+
+You use the maintained Closing Client System repository, but your business information stays private on your computer.
+
+| Maintained by CCS | Private to you |
 |---|---|
-| `.claude/skills/` | The skills that do the actual work (all prefixed `CCS-`) |
-| `config/` | Your API keys and workspace IDs (never shared/committed) |
-| `clients/` | One folder per client you run campaigns for (optional — skip if you don't have clients) |
-| `agency-profile.md` | Your business info and deal terms, created on first run |
-| `scripts/` | Setup/update scripts |
+| Skills and agents | `agency-profile.md` |
+| Setup instructions | Your real `clients/` folders |
+| Scripts and templates | `self-campaign/` |
+| Research methodologies | API keys in `config/.env` |
+| Product improvements | Client-specific credential files |
 
-## Quick start
+When you update the system, Git retrieves improvements to the left-hand column and leaves the right-hand column alone. Read [DATA-AND-UPDATES.md](DATA-AND-UPDATES.md) for the exact rules.
 
-1. Read [SETUP.md](SETUP.md) and run the setup script for your OS.
-2. Open a terminal in this folder and run `claude`.
-3. Just start talking — e.g. "I want to build a lead list for a roofing company client." The system will walk you through onboarding the first time, then the rest of the workflow.
+## Local or cloud
 
-## What this replaces
+Start locally unless you already know you need an always-on agent.
 
-If you previously installed the old Claude Toolkit (the one that copies 380+ generic skills into your global `~/.claude` folder), this package is meant to replace it for cold email work — it's a small, curated set built specifically for this workflow instead of a general-purpose dump. You don't need to uninstall the old one for this to work, but if you want to avoid overlap/confusion, you can remove `parkmont-sales` and `parkmont-deck` from your global `~/.claude/skills` — those were client-specific and shouldn't have been in general circulation.
+- **Local:** simplest setup. Work from the folder on your computer with Claude or ChatGPT/Codex.
+- **Cloud:** optional Railway deployment for webhooks, Slack, scheduled tasks, a reply agent, and use across devices while your computer is off.
+
+The cloud layer is an extension of the same workspace, not a different product. See [LOCAL-OR-CLOUD.md](LOCAL-OR-CLOUD.md).
+
+## First conversation
+
+After selecting this folder in Claude or ChatGPT/Codex, say:
+
+> Help me set up my Closing Client System
+
+The onboarding agent will ask about your agency, offers, clients, sequencer, data providers, credentials, and whether you want local or cloud mode. It saves your answers so future sessions start with the right context.
+
+## Updating
+
+If you cloned the repository, run the updater:
+
+- Windows: right-click `scripts/update.ps1` and choose **Run with PowerShell**
+- Mac/Linux: run `bash scripts/update.sh`
+
+You can also use GitHub Desktop and click **Fetch origin**, followed by **Pull origin**. Your private workspace is intentionally excluded from system updates.
+
+## Important safety rule
+
+Never put real API keys, client data, or campaign exports into the shared CCS repository. The included private workspace paths are ignored by Git for this reason.
